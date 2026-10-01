@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Banking & Fintech Competitive Intelligence</title>
+<meta name="description" content="Competitive analysis of Indonesian banking and fintech app ratings and user reviews, benchmarked against Allo Bank.">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="page">
+<header class="topbar">
+  <div class="brand">
+    <div class="brand-icon">◒</div>
+    <div><div class="eyebrow">Competitive Intelligence</div><h1>Banking &amp; Fintech App Analysis</h1><p>Customer voice benchmark with <strong>Allo Bank</strong> as the main reference.</p></div>
+  </div>
+  <div class="top-actions"><span id="dataMode" class="mode-badge">Checking data...</span><div class="lang-switch"><button id="langEN" class="lang-btn active">EN</button><span>|</span><button id="langID" class="lang-btn">ID</button></div></div>
+</header>
+<section class="filter-panel">
+  <div class="filter"><label for="industryFilter">Industry</label><select id="industryFilter"><option value="All">All industries</option><option value="Digital Banks">Digital Banks</option><option value="Conventional Banking Apps">Conventional Banking Apps</option><option value="Non-bank Fintech">Non-bank Fintech</option></select></div>
+  <div class="filter"><label for="platformFilter">Platform</label><select id="platformFilter"><option value="All">All platforms</option><option value="Google Play">Google Play</option><option value="App Store">App Store</option></select></div>
+  <div class="filter"><label for="appFilter">App</label><select id="appFilter"><option value="All">All apps</option></select></div>
+  <button id="resetFilters" class="reset-btn">Reset</button>
+</section>
+<main>
+<section class="section-header"><div><div class="section-kicker">Executive snapshot</div><h2>App experience at a glance</h2></div><div id="updatedAt" class="muted"></div></section>
+<section class="kpi-grid">
+  <article class="kpi-card accent"><div class="kpi-label">Allo Bank review rating</div><div class="kpi-value" id="kpiAlloRating">—</div><div class="kpi-meta" id="kpiAlloReviews">— written reviews in this dataset</div></article>
+  <article class="kpi-card"><div class="kpi-label">Reviews analysed</div><div class="kpi-value" id="kpiReviews">—</div><div class="kpi-meta">Collected across selected apps</div></article>
+  <article class="kpi-card"><div class="kpi-label">Negative share</div><div class="kpi-value" id="kpiNegative">—</div><div class="kpi-meta">Based on review rating + text baseline</div></article>
+  <article class="kpi-card"><div class="kpi-label">Actionable reviews</div><div class="kpi-value" id="kpiActionable">—</div><div class="kpi-meta">Reviews with enough text for issue analysis</div></article>
+</section>
+<section class="grid-2">
+<article class="panel"><div class="panel-head"><div><div class="panel-kicker">Benchmark</div><h3>Average rating from collected reviews</h3></div><span class="info">Not a store-wide rating snapshot</span></div><div class="chart-wrap tall"><canvas id="ratingChart"></canvas></div></article>
+<article class="panel"><div class="panel-head"><div><div class="panel-kicker">Customer voice</div><h3>Sentiment by industry</h3></div></div><div class="chart-wrap tall"><canvas id="sentimentChart"></canvas></div></article>
+</section>
+<section class="panel"><div class="panel-head"><div><div class="panel-kicker">Pain points</div><h3>Top negative issues</h3></div><span class="info">Negative reviews only</span></div><div class="chart-wrap medium"><canvas id="issueChart"></canvas></div></section>
+<section class="grid-2">
+<article class="panel"><div class="panel-head"><div><div class="panel-kicker">What users discuss</div><h3>Review topics</h3></div></div><div class="chart-wrap tall"><canvas id="topicChart"></canvas></div></article>
+<article class="panel"><div class="panel-head"><div><div class="panel-kicker">Time series</div><h3>Review volume &amp; average rating</h3></div></div><div class="chart-wrap tall"><canvas id="trendChart"></canvas></div></article>
+</section>
+<section class="panel"><div class="panel-head"><div><div class="panel-kicker">App comparison</div><h3>Detailed app metrics</h3></div><span id="tableNote" class="info"></span></div><div class="table-scroll"><table id="appTable"><thead><tr><th>App</th><th>Industry</th><th>Reviews</th><th>Avg. rating</th><th>Positive</th><th>Negative</th><th>1–2★</th></tr></thead><tbody></tbody></table></div></section>
+<section class="grid-2">
+<article class="panel"><div class="panel-head"><div><div class="panel-kicker">Review explorer</div><h3>Recent negative feedback</h3></div></div><div id="reviewList" class="review-list"></div></article>
+<article class="panel"><div class="panel-head"><div><div class="panel-kicker">Methodology</div><h3>How the analysis works</h3></div></div>
+<div class="method"><div class="method-row"><span>1</span><p>Discover or load target app IDs by keyword, then validate the match before collection.</p></div><div class="method-row"><span>2</span><p>Collect recent written reviews from Google Play and the Indonesia App Store storefront.</p></div><div class="method-row"><span>3</span><p>Deduplicate by review ID and retain platform, date, version and source metadata.</p></div><div class="method-row"><span>4</span><p>Apply deterministic sentiment, topic and issue classification as a transparent baseline.</p></div><div class="method-row"><span>5</span><p>Use the resulting dataset for trend, pain-point and cross-industry comparison.</p></div></div>
+<div class="note-box"><strong>Important:</strong> collected written reviews are not the same as the total number of store ratings. Public review feeds also have coverage limits, so this dashboard is designed as a comparative sample rather than a census.</div>
+</article></section>
+</main>
+<footer><div><strong>Banking &amp; Fintech Competitive Intelligence Dashboard</strong></div><div>Data analysis &amp; dashboard by Kelvin Irawan</div><div>Built with HTML, CSS, JavaScript, Chart.js, and Python</div><div>Data compiled from publicly available app-store listings and review feeds for analytical and educational purposes.</div></footer>
+</div>
+<script src="js/dashboard.js"></script>
+</body>
+</html>

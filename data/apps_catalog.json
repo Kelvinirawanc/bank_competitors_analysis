@@ -1,0 +1,30 @@
+{
+  "generated_at": null,
+  "apps": [
+    {"app_key":"allo_bank","app_name":"Allo Bank","company":"Allo Bank Indonesia","industry":"Digital Banks","role":"Main","search_term":"Allo Bank","required_terms":["allo","bank"],"google_play_id":"com.alloapp.yump","google_play_url":"https://play.google.com/store/apps/details?id=com.alloapp.yump&hl=id","apple_app_id":"1591223632","apple_url":"https://apps.apple.com/id/app/allo-bank/id1591223632"},
+    {"app_key":"bank_jago","app_name":"Jago","company":"Bank Jago","industry":"Digital Banks","role":"Peer","search_term":"Bank Jago Jago Syariah","required_terms":["jago"]},
+    {"app_key":"seabank","app_name":"SeaBank Indonesia","company":"SeaBank Indonesia","industry":"Digital Banks","role":"Peer","search_term":"SeaBank Indonesia","required_terms":["seabank"]},
+    {"app_key":"blu_bca","app_name":"blu by BCA Digital","company":"BCA Digital","industry":"Digital Banks","role":"Peer","search_term":"blu by BCA Digital","required_terms":["blu","bca"]},
+    {"app_key":"neobank","app_name":"neobank","company":"Bank Neo Commerce","industry":"Digital Banks","role":"Peer","search_term":"neobank BNC Digital","required_terms":["neobank"]},
+    {"app_key":"bank_aladin","app_name":"Bank Aladin Syariah","company":"Bank Aladin Syariah","industry":"Digital Banks","role":"Peer","search_term":"Aladin Bank Syariah","required_terms":["aladin"]},
+    {"app_key":"superbank","app_name":"Superbank","company":"Superbank","industry":"Digital Banks","role":"Peer","search_term":"Superbank Tabungan Pinjaman","required_terms":["superbank"]},
+    {"app_key":"krom_bank","app_name":"Krom Bank","company":"Krom Bank Indonesia","industry":"Digital Banks","role":"Peer","search_term":"Krom Bank Digital","required_terms":["krom"]},
+    {"app_key":"hibank","app_name":"hi by hibank","company":"hibank Indonesia","industry":"Digital Banks","role":"Peer","search_term":"hi by hibank","required_terms":["hibank"]},
+    {"app_key":"bank_raya","app_name":"Bank Raya","company":"Bank Raya","industry":"Digital Banks","role":"Closest peer","search_term":"Raya Digital Bank Indonesia","required_terms":["raya"]},
+    {"app_key":"motionbank","app_name":"MotionBank","company":"MNC Bank","industry":"Digital Banks","role":"Closest peer","search_term":"MotionBank MNC Bank","required_terms":["motion"]},
+    {"app_key":"mybca","app_name":"myBCA","company":"BCA","industry":"Conventional Banking Apps","role":"Large-bank comparator","search_term":"myBCA BCA Banking","required_terms":["mybca"]},
+    {"app_key":"bca_mobile","app_name":"BCA mobile","company":"BCA","industry":"Conventional Banking Apps","role":"Large-bank comparator","search_term":"BCA mobile","required_terms":["bca","mobile"]},
+    {"app_key":"livin_mandiri","app_name":"Livin' by Mandiri","company":"Bank Mandiri","industry":"Conventional Banking Apps","role":"Large-bank comparator","search_term":"Livin by Mandiri","required_terms":["livin","mandiri"]},
+    {"app_key":"brimo","app_name":"BRImo","company":"Bank BRI","industry":"Conventional Banking Apps","role":"Large-bank comparator","search_term":"BRImo BRI","required_terms":["brimo"]},
+    {"app_key":"wondr_bni","app_name":"wondr by BNI","company":"Bank BNI","industry":"Conventional Banking Apps","role":"Large-bank comparator","search_term":"wondr by BNI","required_terms":["wondr","bni"]},
+    {"app_key":"octo_mobile","app_name":"OCTO Mobile","company":"CIMB Niaga","industry":"Conventional Banking Apps","role":"Comparator","search_term":"OCTO by CIMB Niaga","required_terms":["octo","cimb"]},
+    {"app_key":"permatabank","app_name":"PermataX","company":"Bank Permata","industry":"Conventional Banking Apps","role":"Comparator","search_term":"PermataX","required_terms":["permata"]},
+    {"app_key":"dbank_pro","app_name":"D-Bank PRO","company":"Bank Danamon","industry":"Conventional Banking Apps","role":"Comparator","search_term":"D-Bank PRO Danamon","required_terms":["dbank","danamon"]},
+    {"app_key":"ocbc_mobile","app_name":"OCBC Mobile","company":"OCBC Indonesia","industry":"Conventional Banking Apps","role":"Comparator","search_term":"OCBC mobile Indonesia","required_terms":["ocbc","mobile"]},
+    {"app_key":"gopay","app_name":"GoPay","company":"GoTo","industry":"Non-bank Fintech","role":"Payments comparator","search_term":"GoPay Indonesia","required_terms":["gopay"]},
+    {"app_key":"ovo","app_name":"OVO","company":"OVO","industry":"Non-bank Fintech","role":"Payments comparator","search_term":"OVO Indonesia","required_terms":["ovo"]},
+    {"app_key":"dana","app_name":"DANA","company":"DANA Indonesia","industry":"Non-bank Fintech","role":"Payments comparator","search_term":"DANA Indonesia Digital Wallet","required_terms":["dana"]},
+    {"app_key":"shopeepay","app_name":"ShopeePay","company":"Sea / Shopee","industry":"Non-bank Fintech","role":"Payments ecosystem","search_term":"ShopeePay Indonesia","required_terms":["shopeepay"]},
+    {"app_key":"linkaja","app_name":"LinkAja","company":"LinkAja","industry":"Non-bank Fintech","role":"Payments comparator","search_term":"LinkAja Indonesia","required_terms":["linkaja"]}
+  ]
+}
