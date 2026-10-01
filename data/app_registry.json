@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T12:11:55.268965+07:00",
+  "generated_at": "2026-10-01T05:49:44.204249+00:00",
   "apps": [
     {
       "app_key": "allo_bank",
@@ -19,9 +19,9 @@
       "google_play_metadata": {
         "title": "Allo Bank",
         "developer": "PT. ALLO BANK INDONESIA Tbk",
-        "score": 4.1553288,
-        "ratings": 69597,
-        "reviews": 46039,
+        "score": 4.1549964,
+        "ratings": 69599,
+        "reviews": 46048,
         "installs": "10.000.000+",
         "updated": 1790170390,
         "url": "https://play.google.com/store/apps/details?id=com.alloapp.yump&hl=id&gl=id"
@@ -66,7 +66,6 @@
         "features": [
           "iosUniversal"
         ],
-        "advisories": [],
         "supportedDevices": [
           "iPhone5s-iPhone5s",
           "iPadAir-iPadAir",
@@ -199,14 +198,24 @@
           "iPhone18ProMax-iPhone18ProMax",
           "iPhoneDuo-iPhoneDuo"
         ],
+        "advisories": [],
         "kind": "software",
+        "minimumOsVersion": "15.6",
         "trackCensoredName": "Allo Bank",
         "trackViewUrl": "https://apps.apple.com/id/app/allo-bank/id1591223632?uo=4",
         "contentAdvisoryRating": "4+",
         "averageUserRating": 3.8748,
-        "minimumOsVersion": "15.6",
-        "averageUserRatingForCurrentVersion": 3.8748,
+        "releaseNotes": "Higher Rates with Allo Deposito!\nSave with Allo Deposito and enjoy interest rates of up to 9% p.a. to make more of your savings.\n\nA Fresh New Look!\nEnjoy a refreshed Allo Bank look for a smoother banking experience.\n\nUpdate now!",
         "sellerUrl": "https://www.allobank.com",
+        "averageUserRatingForCurrentVersion": 3.8748,
+        "price": 0.0,
+        "genres": [
+          "Finance"
+        ],
+        "artistId": 1591223634,
+        "artistName": "allobank",
+        "releaseDate": "2022-03-22T07:00:00Z",
+        "bundleId": "com.allo.allobank",
         "languageCodesISO2A": [
           "EN"
         ],
@@ -214,29 +223,20 @@
         "formattedPrice": "Free",
         "userRatingCountForCurrentVersion": 4960,
         "trackContentRating": "4+",
-        "releaseNotes": "Higher Rates with Allo Deposito!\nSave with Allo Deposito and enjoy interest rates of up to 9% p.a. to make more of your savings.\n\nA Fresh New Look!\nEnjoy a refreshed Allo Bank look for a smoother banking experience.\n\nUpdate now!",
-        "artistId": 1591223634,
-        "artistName": "allobank",
-        "genres": [
-          "Finance"
-        ],
-        "bundleId": "com.allo.allobank",
-        "price": 0.0,
-        "sellerName": "PT Allo Bank Indonesia Tbk",
         "trackId": 1591223632,
         "trackName": "Allo Bank",
+        "genreIds": [
+          "6015"
+        ],
+        "primaryGenreName": "Finance",
+        "primaryGenreId": 6015,
+        "sellerName": "PT Allo Bank Indonesia Tbk",
+        "isVppDeviceBasedLicensingEnabled": true,
         "currentVersionReleaseDate": "2026-09-25T02:14:36Z",
         "version": "1.54.31",
         "wrapperType": "software",
         "currency": "IDR",
         "description": "Build your financial future with Allo Bank, Indonesia’s digital banking app that makes transactions, savings, and installments easier than ever. Enjoy high interest rates, instant withdrawals, 0% installments, and daily cashback. All your financial needs: secure, fast, and supervised by OJK, all in one app.\n\nENJOY THESE BENEFITS WITH ALLO BANK\n- Savings interest up to 9% p.a.\n- Allo PayLater: flexible installments, high limit, and 0% interest for the first month\n- QRIS payments with Allo Prime & Allo PayLater at thousands of merchants\n- Unlimited free interbank transfers via BI-FAST\n- Instant withdrawals in real time\n- Virtual Debit Card & Virtual Account for online transactions anywhere\n\nFLEXIBLE & TERM SAVINGS IN ONE APP\nGrow your money with Allo Grow: earn up to 6.5% p.a., interest paid daily, no lock-in period, and withdraw anytime without losing interest.\n\nSecure your future with Allo Deposito: earn up to 8% p.a. with fixed returns for maximum savings growth.\n\nALLO PAYLATER: EASY INSTALLMENTS & HIGH LIMITS\nA fast, flexible, collateral-free installment solution.\n- Limit up to Rp100 million\n- 0% installments for the first month\n- Tenors from 90 days to 36 months\n- Monthly fees from 0.1% (APR 1.2%–76%)*\n- Instant Cash Withdrawals anytime, anywhere\n- Shop with QRIS Allo PayLater and enjoy hundreds of promos\n- Perfect for daily needs, emergencies, and big purchases\n\nQRIS Simulation – Rp1,000,000\n- 3 months: Rp349,798\n- 6 months: Rp181,247\n- 12 months: Rp97,192\n\nInstant Withdrawal Simulation – Rp3,000,000\n- 3 months: Rp1,039,251\n- 6 months: Rp534,674\n- 12 months: Rp282,808\n- 24 months: Rp157,716\n\n*Estimated; may vary based on credit history, customer profile, and bank policy.\n\nEASILY INCREASE YOUR LIMIT\nThe Limit Up feature helps you grow your Allo PayLater limit through routine transactions and on-time payments. Build your credit profile more easily: useful for future financing needs like vehicle loans or mortgages.\n\nCASHBACK, DISCOUNTS & DAILY PROMOS\nSave more at top merchants such as:\nIndomaret, VIVO, Metro, Transmart, Wendy’s, Baskin Robbins, The Coffee Bean & Tea Leaf, and many more.\n\nPopular promos:\n- Rabu Serbu: Deposito up to 9% p.a.\n- Allo Grow Bonus Rp100K\n\nSAFE, TRUSTED, SUPERVISED BY OJK\nAllo Bank is operated by PT Allo Bank Indonesia Tbk, a licensed digital bank supervised by the Financial Services Authority (OJK) and a member of LPS deposit insurance. Your transactions, data, and funds are protected.\n\nSHOP ONLINE EASILY\nWith the Virtual Debit Card, you can:\n- Shop online from anywhere in the world\n- Access global streaming & subscription services\n- Transact securely with extra protection\n- Enjoy cashback & discounts on e-commerce, transport, and travel\n\nAllo Bank always has exciting promos to boost your savings and benefits!\n\n\nCONTACT US\nPT Allo Bank Indonesia Tbk\nMenara Bank Mega Lt. 5 & 6\nJl. Kapten P. Tendean No. Kav. 12–14A\nSouth Jakarta, DKI Jakarta 12790\n\nAllo Care: 080 4110 4110\nWhatsApp: 0822 0822 4110\n\nFollow us:\nInstagram: @AlloBank\nX: @AlloBankID\nYouTube: @AlloBankIndonesia\nTikTok: @AlloBankID",
-        "genreIds": [
-          "6015"
-        ],
-        "releaseDate": "2022-03-22T07:00:00Z",
-        "isVppDeviceBasedLicensingEnabled": true,
-        "primaryGenreName": "Finance",
-        "primaryGenreId": 6015,
         "userRatingCount": 4960
       },
       "apple_discovery": {
@@ -263,9 +263,9 @@
       "google_play_metadata": {
         "title": "Bank Jago/Jago Syariah",
         "developer": "PT Bank Jago, Tbk",
-        "score": 4.7170587,
-        "ratings": 280922,
-        "reviews": 83082,
+        "score": 4.717165,
+        "ratings": 280936,
+        "reviews": 83083,
         "installs": "10.000.000+",
         "updated": 1790680118,
         "url": "https://play.google.com/store/apps/details?id=com.jago.digitalBanking&hl=id&gl=id"
@@ -281,13 +281,6 @@
       "apple_app_id": "1539402234",
       "apple_url": "https://apps.apple.com/id/app/bank-jago-jago-syariah/id1539402234?uo=4",
       "apple_metadata": {
-        "isGameCenterEnabled": false,
-        "artistViewUrl": "https://apps.apple.com/id/developer/bank-artos/id1511167377?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/e3/a6/9be3a656-f4b6-c5cf-625c-158ca3f15282/AppIconBrand-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-85-220.png/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/e3/a6/9be3a656-f4b6-c5cf-625c-158ca3f15282/AppIconBrand-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-85-220.png/100x100bb.jpg",
-        "features": [],
-        "advisories": [],
-        "kind": "software",
         "screenshotUrls": [
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/34/3a/37/343a372b-aad6-591f-4382-463491bf51e7/b96804df-e8b5-4b19-ab5b-6f95e85a8599_F13-EN-_U005bLFS_U0026SFS_U005d_App-Store_JUL24_Main_1242x2208.jpg/392x696bb.jpg",
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/10/56/0d/10560da5-6d8d-0275-6834-b926e36b3e0a/140cc005-478a-4a2e-9e12-ddb5ba3c37e3_F6-EN-_U005bLFS_U0026SFS_U005d_App-Store_JUL24_Main_1242x2208.jpg/392x696bb.jpg",
@@ -303,6 +296,7 @@
         "ipadScreenshotUrls": [],
         "appletvScreenshotUrls": [],
         "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/e3/a6/9be3a656-f4b6-c5cf-625c-158ca3f15282/AppIconBrand-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+        "isGameCenterEnabled": false,
         "supportedDevices": [
           "iPhone5s-iPhone5s",
           "iPadAir-iPadAir",
@@ -435,33 +429,13 @@
           "iPhone18ProMax-iPhone18ProMax",
           "iPhoneDuo-iPhoneDuo"
         ],
+        "advisories": [],
+        "kind": "software",
+        "features": [],
+        "artistViewUrl": "https://apps.apple.com/id/developer/bank-artos/id1511167377?uo=4",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/e3/a6/9be3a656-f4b6-c5cf-625c-158ca3f15282/AppIconBrand-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/e3/a6/9be3a656-f4b6-c5cf-625c-158ca3f15282/AppIconBrand-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-85-220.png/100x100bb.jpg",
         "minimumOsVersion": "15.0",
-        "sellerName": "PT. Bank Artos Indonesia Tbk",
-        "trackCensoredName": "Bank Jago/Jago Syariah",
-        "trackViewUrl": "https://apps.apple.com/id/app/bank-jago-jago-syariah/id1539402234?uo=4",
-        "contentAdvisoryRating": "4+",
-        "averageUserRating": 4.79409,
-        "genres": [
-          "Finance",
-          "Shopping"
-        ],
-        "price": 0.0,
-        "artistId": 1511167377,
-        "artistName": "Bank Artos",
-        "bundleId": "com.jago.digitalBanking",
-        "primaryGenreName": "Finance",
-        "primaryGenreId": 6015,
-        "genreIds": [
-          "6015",
-          "6024"
-        ],
-        "isVppDeviceBasedLicensingEnabled": true,
-        "currentVersionReleaseDate": "2026-09-30T19:51:18Z",
-        "releaseDate": "2021-04-14T07:00:00Z",
-        "version": "8.96.0",
-        "wrapperType": "software",
-        "currency": "IDR",
-        "description": "Save your way, for what matters to you\n- Create up to 60 different bank accounts in one app, with no monthly admin fees\n- Grow your savings with a Term Deposit offering competitive interest rates. Withdraw anytime with no early withdrawal penalty\n- Save together with loved ones in one shared account with Kantong Bersama\n- Enjoy seamless access to Bibit, GoPay, Stockbit, and BFI Finance for simpler everyday transactions and investments.\n\nEnjoy hassle-free transactions, wherever you go\n- Send money in seconds with affordable BI-FAST transfers\n- Shop online or in-store, and withdraw cash worldwide with your Jago Visa Card\n- Enjoy easy payments and cash withdrawals across Indonesia with your Jago GPN Card\n- Scan Jago QRIS to make cashless payments directly from the Pocket of your choice\n- From monthly bills to credit card payments and zakat, take care of it all in the app\n- Top up your GoPay e-Wallet for free\n- Get up to 150 free transfers to other banks and 10 free ATM withdrawals\n- Need a hand? Our customer support team is available 24/7\n\nHandle your funding needs with more flexibility through Jago Loans\nDana Cepat - Instant funds, with the full amount disbursed and no deductions. Get up to IDR 100 million with flexible 1–24 month terms, and no extra fees for early repayment.\nDana Cepat Loan Simulation\nBorrow Rp10.000.000 at a flat interest 1.39% flat/month:\n4 months → around IDR 2,639,000/month\n10 months → around IDR 1,139,000/month\n17 months → around IDR 727,235/month\nChoose a repayment plan that works for you.\n\nDana Siaga -  Shop now with QRIS or your Jago Debit Card and pay later with Dana Siaga. Pay in full at the end of the month or spread your payments over a flexible repayment period. No additional fee for early repayment.\n\nRapor Kredit - Keep track of your credit health right from the Jago app. See your total loans, active loans, and credit status based on data from SLIK OJK.\n\n*Loan limits, interest rates, repayment terms, installments, and feature availability may vary by user based on the offers available in the Jago app. Installment simulations are for illustration purposes only.\n\nPT Bank Jago Tbk is licensed and supervised by the Financial Service Authority (OJK), Bank Indonesia, and is also a member of the LPS deposit insurance program. Jago Syariah abides by the rulings of the DSN MUI & is monitored by the Sharia Supervisory Board, offering a trusted option for managing finances according to Islamic guidelines.\n\nPT Bank Jago Tbk\nMenara SMBC Lt. 46\nJl. Dr. Ide Anak Agung Gde Agung Kav.5.5–5.6\nJakarta Selatan\nE-mail: tanya@jago.com\nCustomer service: 1500 746 / 021 30000746",
         "languageCodesISO2A": [
           "EN",
           "ID"
@@ -472,9 +446,35 @@
         "trackContentRating": "4+",
         "averageUserRatingForCurrentVersion": 4.79409,
         "sellerUrl": "https://jago.com/",
-        "trackId": 1539402234,
+        "genres": [
+          "Finance",
+          "Shopping"
+        ],
+        "sellerName": "PT. Bank Artos Indonesia Tbk",
         "trackName": "Bank Jago/Jago Syariah",
+        "trackId": 1539402234,
         "releaseNotes": "Hi Jagoan,\nNo major changes in this version the app, we just bashed a bunch of bugs to make sure you have a pleasant experience with Jago. Update your app to make sure that all will run well :)",
+        "releaseDate": "2021-04-14T07:00:00Z",
+        "primaryGenreName": "Finance",
+        "primaryGenreId": 6015,
+        "currentVersionReleaseDate": "2026-09-30T19:51:18Z",
+        "version": "8.96.0",
+        "wrapperType": "software",
+        "currency": "IDR",
+        "description": "Save your way, for what matters to you\n- Create up to 60 different bank accounts in one app, with no monthly admin fees\n- Grow your savings with a Term Deposit offering competitive interest rates. Withdraw anytime with no early withdrawal penalty\n- Save together with loved ones in one shared account with Kantong Bersama\n- Enjoy seamless access to Bibit, GoPay, Stockbit, and BFI Finance for simpler everyday transactions and investments.\n\nEnjoy hassle-free transactions, wherever you go\n- Send money in seconds with affordable BI-FAST transfers\n- Shop online or in-store, and withdraw cash worldwide with your Jago Visa Card\n- Enjoy easy payments and cash withdrawals across Indonesia with your Jago GPN Card\n- Scan Jago QRIS to make cashless payments directly from the Pocket of your choice\n- From monthly bills to credit card payments and zakat, take care of it all in the app\n- Top up your GoPay e-Wallet for free\n- Get up to 150 free transfers to other banks and 10 free ATM withdrawals\n- Need a hand? Our customer support team is available 24/7\n\nHandle your funding needs with more flexibility through Jago Loans\nDana Cepat - Instant funds, with the full amount disbursed and no deductions. Get up to IDR 100 million with flexible 1–24 month terms, and no extra fees for early repayment.\nDana Cepat Loan Simulation\nBorrow Rp10.000.000 at a flat interest 1.39% flat/month:\n4 months → around IDR 2,639,000/month\n10 months → around IDR 1,139,000/month\n17 months → around IDR 727,235/month\nChoose a repayment plan that works for you.\n\nDana Siaga -  Shop now with QRIS or your Jago Debit Card and pay later with Dana Siaga. Pay in full at the end of the month or spread your payments over a flexible repayment period. No additional fee for early repayment.\n\nRapor Kredit - Keep track of your credit health right from the Jago app. See your total loans, active loans, and credit status based on data from SLIK OJK.\n\n*Loan limits, interest rates, repayment terms, installments, and feature availability may vary by user based on the offers available in the Jago app. Installment simulations are for illustration purposes only.\n\nPT Bank Jago Tbk is licensed and supervised by the Financial Service Authority (OJK), Bank Indonesia, and is also a member of the LPS deposit insurance program. Jago Syariah abides by the rulings of the DSN MUI & is monitored by the Sharia Supervisory Board, offering a trusted option for managing finances according to Islamic guidelines.\n\nPT Bank Jago Tbk\nMenara SMBC Lt. 46\nJl. Dr. Ide Anak Agung Gde Agung Kav.5.5–5.6\nJakarta Selatan\nE-mail: tanya@jago.com\nCustomer service: 1500 746 / 021 30000746",
+        "bundleId": "com.jago.digitalBanking",
+        "averageUserRating": 4.79409,
+        "trackCensoredName": "Bank Jago/Jago Syariah",
+        "trackViewUrl": "https://apps.apple.com/id/app/bank-jago-jago-syariah/id1539402234?uo=4",
+        "contentAdvisoryRating": "4+",
+        "artistId": 1511167377,
+        "artistName": "Bank Artos",
+        "price": 0.0,
+        "isVppDeviceBasedLicensingEnabled": true,
+        "genreIds": [
+          "6015",
+          "6024"
+        ],
         "userRatingCount": 50609
       },
       "apple_discovery": {
@@ -511,7 +511,6 @@
         "artistViewUrl": "https://apps.apple.com/id/developer/pt-bank-seabank-indonesia/id1402527194?uo=4",
         "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/d4/b9/b9d4b99b-4b6d-843b-08f2-4a8adbe840df/AppIcon-ID-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
         "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/d4/b9/b9d4b99b-4b6d-843b-08f2-4a8adbe840df/AppIcon-ID-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-        "isGameCenterEnabled": false,
         "screenshotUrls": [
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/e3/be/bee3be20-9d33-d240-dc4a-69d280236071/703044ac-a373-4774-a40e-17c1a028d04f_5.5-1.png/392x696bb.png",
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3a/a9/99/3aa99957-7422-4585-1c77-7330bad22db4/353ea567-d817-44ba-9751-95194fde45b0_19_APR_Card_Asset_5.5_.png/392x696bb.png",
@@ -530,10 +529,7 @@
         ],
         "appletvScreenshotUrls": [],
         "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/d4/b9/b9d4b99b-4b6d-843b-08f2-4a8adbe840df/AppIcon-ID-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        "features": [
-          "iosUniversal"
-        ],
-        "advisories": [],
+        "isGameCenterEnabled": false,
         "supportedDevices": [
           "iPhone5s-iPhone5s",
           "iPadAir-iPadAir",
@@ -666,12 +662,14 @@
           "iPhone18ProMax-iPhone18ProMax",
           "iPhoneDuo-iPhoneDuo"
         ],
+        "advisories": [],
         "kind": "software",
-        "trackCensoredName": "SeaBank",
-        "trackViewUrl": "https://apps.apple.com/id/app/seabank/id1525477806?uo=4",
+        "features": [
+          "iosUniversal"
+        ],
         "contentAdvisoryRating": "4+",
         "averageUserRating": 4.88827,
-        "averageUserRatingForCurrentVersion": 4.88827,
+        "minimumOsVersion": "15.0",
         "languageCodesISO2A": [
           "EN",
           "ID"
@@ -680,31 +678,33 @@
         "formattedPrice": "Free",
         "userRatingCountForCurrentVersion": 343052,
         "trackContentRating": "4+",
-        "minimumOsVersion": "15.0",
+        "averageUserRatingForCurrentVersion": 4.88827,
         "sellerUrl": "https://www.seabank.co.id/",
-        "artistName": "PT.Bank Seabank Indonesia",
+        "releaseNotes": "Versi terbaru kini tersedia:\n1. Kini, jadi lebih simpel Tarik Tunai pakai SeaBank bisa di Alfamart, Alfamidi, & Dan+Dan\n2. Perbaikan bug dan peningkatan keamanan.",
+        "price": 0.0,
         "artistId": 1402527194,
+        "artistName": "PT.Bank Seabank Indonesia",
         "genres": [
           "Finance"
         ],
-        "price": 0.0,
-        "bundleId": "id.co.bankbkemobile.digitalbank",
-        "isVppDeviceBasedLicensingEnabled": true,
-        "primaryGenreName": "Finance",
-        "primaryGenreId": 6015,
         "genreIds": [
           "6015"
         ],
+        "bundleId": "id.co.bankbkemobile.digitalbank",
         "releaseDate": "2021-06-30T07:00:00Z",
-        "sellerName": "PT.Bank Seabank Indonesia",
-        "trackName": "SeaBank",
         "trackId": 1525477806,
+        "trackName": "SeaBank",
+        "primaryGenreName": "Finance",
+        "primaryGenreId": 6015,
+        "sellerName": "PT.Bank Seabank Indonesia",
+        "isVppDeviceBasedLicensingEnabled": true,
         "currentVersionReleaseDate": "2026-09-14T16:13:25Z",
         "version": "3.52.0",
         "wrapperType": "software",
         "currency": "IDR",
         "description": "Simpel, Untung, untuk Semua!\n\nBuka rekening SeaBank praktis, hanya butuh 3 menit. Kamu langsung bisa menikmati:\n1. Transaksi Digital Mudah dan Cepat dengan QRIS\nSukses bayar apa pun dan kapan pun hanya dengan sekali scan.\n\n2. Tanpa Biaya Admin\nBebas biaya admin & biaya transfer 100x per bulan ke semua bank.\n\n3. Bunga Tabungan Tinggi s.d. 6% p.a.\nMakin untung dengan SeaBank, nikmati bunga Deposito s.d. 6% p.a.\n\nSeaBank adalah aplikasi untuk layanan perbankan digital yang membantu kamu dalam melakukan aktivitas finansial. Mulai dari menabung hingga bertransaksi, melalui handphone kapan pun dan di mana pun.\n\nNikmati kemudahan lainnya seperti:\n1. Top up e-wallet ShopeePay bebas biaya tanpa batas\n2. Transfer pakai No. HP ke sesama SeaBank dengan limit tinggi pakai BI-FAST\n3. Bayar belanjaan di Shopee dengan Virtual Account (tanpa biaya admin)\n4. Pakai SeaBank Bayar Instan agar checkout lebih simpel dan gratis ongkir\n5. Mudahnya Setor dan Tarik Tunai di Minimarket pakai SeaBank\n\nKini, tersedia juga dana instan dengan SeaBank Pinjam*. Berikut keuntungannya:\n1. Limit pinjaman s.d. Rp30.000.000\n2. Bebas biaya admin dengan bunga pinjaman kompetitif 2% per bulan\n3. Tenor pembayaran 3, 6, 12 bulan\n\nSimulasi pinjaman:\nNominal pinjaman: Rp500.000\nTenor pembayaran: 3 bulan\nBunga cicilan: 2% per bulan\nBiaya admin: GRATIS\n\n*Fitur ini masih bersifat terbatas hanya untuk Nasabah terpilih.\n\nPerhatikan tingkat bunga penjaminan yang ditetapkan LPS. Tabungan dengan bunga melebihi tingkat bunga penjaminan tidak dijamin oleh LPS.\n\nPT Bank SeaBank Indonesia berizin dan diawasi oleh Otoritas Jasa Keuangan (OJK) dan Bank Indonesia (BI) serta merupakan bank peserta penjaminan Lembaga Penjamin Simpanan (LPS).\n\nPT. Bank Seabank Indonesia\nGama Tower lantai 35\nJI. H.R. Rasuna Said Kav. 22, Karet Kuningan\nJakarta Selatan, 12940\n\nHubungi tim Customer Service SeaBank (24/7):\n1. Telepon: 1500 130\n2. Email: cs@seabank.co.id\n\nCari tahu tentang SeaBank lebih lanjut di media sosial kami:\nwww.seabank.co.id\nInstagram: @SeaBank.ID\nFacebook: SeaBank Indonesia\nTikTok: @SeaBank.ID\nLinkedin: SeaBank Indonesia\nTwitter: @SeaBankID",
-        "releaseNotes": "Versi terbaru kini tersedia:\n1. Kini, jadi lebih simpel Tarik Tunai pakai SeaBank bisa di Alfamart, Alfamidi, & Dan+Dan\n2. Perbaikan bug dan peningkatan keamanan.",
+        "trackCensoredName": "SeaBank",
+        "trackViewUrl": "https://apps.apple.com/id/app/seabank/id1525477806?uo=4",
         "userRatingCount": 343052
       },
       "apple_discovery": {
@@ -733,7 +733,7 @@
         "title": "blu by BCA Digital",
         "developer": "BCA Digital",
         "score": 4.7894735,
-        "ratings": 142336,
+        "ratings": 142342,
         "reviews": 36197,
         "installs": "5.000.000+",
         "updated": 1788863561,
@@ -750,27 +750,7 @@
       "apple_app_id": "1550237185",
       "apple_url": "https://apps.apple.com/id/app/blu-by-bca-digital/id1550237185?uo=4",
       "apple_metadata": {
-        "screenshotUrls": [
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/40/2b/08402b36-4c36-870b-1db6-e0ef67a231ec/5.5_01.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/bc/c6/f1bcc6c1-6c28-e8e0-35e4-d0a8c9525ba4/5.5_02.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a9/57/a4/a957a43c-a692-894e-6e88-67177fb734ba/5.5_03.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/32/c6/cc32c643-746f-62f9-425f-f3ae69b6ca8e/5.5_04.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/54/38/a2/5438a2d3-c86e-3458-bc86-59b1d62bd8bc/5.5_08.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d3/52/fd/d352fdb5-8cc5-6698-eb27-a2a315134511/5.5_05.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/54/94/89/549489db-108b-3ed3-630c-f71143cab335/5.5_06.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/ca/e6/06cae6c7-027b-c3a1-f378-e9fb757b7e97/5.5_07.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e3/c1/fd/e3c1fdd9-31aa-b8ca-1252-a1698367bf69/5.5_09.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/65/bf/e865bfad-d9c7-fb81-99fe-f101cb13891f/5.5_10.jpg/392x696bb.jpg"
-        ],
-        "ipadScreenshotUrls": [],
-        "appletvScreenshotUrls": [],
-        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/18/22/d11822b4-2a42-d156-73b1-b284209db151/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        "artistViewUrl": "https://apps.apple.com/id/developer/pt-bank-digital-bca/id1549630938?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/18/22/d11822b4-2a42-d156-73b1-b284209db151/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/18/22/d11822b4-2a42-d156-73b1-b284209db151/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
         "isGameCenterEnabled": false,
-        "features": [],
-        "advisories": [],
         "supportedDevices": [
           "iPhone5s-iPhone5s",
           "iPadAir-iPadAir",
@@ -903,8 +883,50 @@
           "iPhone18ProMax-iPhone18ProMax",
           "iPhoneDuo-iPhoneDuo"
         ],
+        "advisories": [],
         "kind": "software",
+        "artistViewUrl": "https://apps.apple.com/id/developer/pt-bank-digital-bca/id1549630938?uo=4",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/18/22/d11822b4-2a42-d156-73b1-b284209db151/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/18/22/d11822b4-2a42-d156-73b1-b284209db151/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+        "features": [],
+        "screenshotUrls": [
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/40/2b/08402b36-4c36-870b-1db6-e0ef67a231ec/5.5_01.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/bc/c6/f1bcc6c1-6c28-e8e0-35e4-d0a8c9525ba4/5.5_02.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a9/57/a4/a957a43c-a692-894e-6e88-67177fb734ba/5.5_03.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/32/c6/cc32c643-746f-62f9-425f-f3ae69b6ca8e/5.5_04.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/54/38/a2/5438a2d3-c86e-3458-bc86-59b1d62bd8bc/5.5_08.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d3/52/fd/d352fdb5-8cc5-6698-eb27-a2a315134511/5.5_05.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/54/94/89/549489db-108b-3ed3-630c-f71143cab335/5.5_06.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/ca/e6/06cae6c7-027b-c3a1-f378-e9fb757b7e97/5.5_07.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e3/c1/fd/e3c1fdd9-31aa-b8ca-1252-a1698367bf69/5.5_09.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/65/bf/e865bfad-d9c7-fb81-99fe-f101cb13891f/5.5_10.jpg/392x696bb.jpg"
+        ],
+        "ipadScreenshotUrls": [],
+        "appletvScreenshotUrls": [],
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/18/22/d11822b4-2a42-d156-73b1-b284209db151/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
         "minimumOsVersion": "15.0",
+        "artistId": 1549630938,
+        "artistName": "PT. Bank Digital BCA",
+        "genres": [
+          "Finance"
+        ],
+        "bundleId": "com.bcadigital.blu",
+        "trackId": 1550237185,
+        "trackName": "blu by BCA Digital",
+        "isVppDeviceBasedLicensingEnabled": true,
+        "sellerName": "PT. Bank Digital BCA",
+        "releaseDate": "2021-07-08T07:00:00Z",
+        "currentVersionReleaseDate": "2026-09-29T10:43:08Z",
+        "releaseNotes": "Privasi tetap on, walaupun lagi telepon\n \nIya, sekarang blu kasih proteksi pas kamu lagi telepon, video call, atau share screen. Jadi, aplikasi blu tidak akan terbuka selama kegiatan ini masih berlangsung~\n \nYuk, apdet blu ke versi 2.18.0 sekarang!",
+        "version": "2.18.0",
+        "wrapperType": "software",
+        "currency": "IDR",
+        "description": "blu Siap Jadi Pegangan Finansialmu!\n \nblu menjawab kebutuhan finansial kamu dengan cara baru agar kamu bisa wujudkan apa pun yang kamu tuju. blu adalah aplikasi mobile banking dari BCA Digital, anak perusahaan BCA\n \nblu punya layanan seamless yang bisa bikin kamu tenang dengan:\n• Koneksi ke sistem BCA\n• Sistem keamanan transaksi menggunakan PIN, Password, CVC, dan biometrik.\n• Customer care haloblu yang selalu ada buat kamu\n \nAda Untukmu, Apa Pun Tujuanmu\n \nPengen nabung buat sepatu baru? Gadget baru? Rumah? Mobil? Sekolah? Apa pun tujuanmu, we’ve got your back! blu punya akses layanan perbankan digital yang mudah dengan pengalaman yang seru. Kamu bisa:\n \n• Punya 20 tabungan dalam 1 rekening\n• Patungan online bisa sampai 50 orang\n• Buka deposito mulai dari Rp 1 juta, pencairan sebelum jatuh tempo gak kena penalti\n• Bayar/beli dalam satu aplikasi\n• Bayar pakai QRIS\n• bluVirtual Card dan bluDebit Card yang terkoneksi dengan Mastercard, memudahkan transaksimu di dalam maupun luar negeri.\n• Tarik dan Setor Tunai di ATM BCA\n• Investasi di bluInvest bekerjasama dengan partner terpercaya\n \n \nEits, belum selesai! Pakai blu bebas biaya admin bulanan, bebas biaya transfer via BI-FAST dari dan ke BCA unlimited,\n \nSo...tunggu apa lagi? Download blu sekarang!\n \nPerlu bantuan? Haloblu siap bantu kamu 24/7 via telepon 1500 668/ WhatsApp 0811-6500-668\n \nPT Bank Digital BCA\nMenara blu, The City Tower Lantai 11 Jl. M.H. Thamrin No.81, Menteng, 10310, Jakarta, Indonesia 10310\nhttps://www.blubybcadigital.id/",
+        "contentAdvisoryRating": "12+",
+        "averageUserRating": 4.7721,
+        "trackCensoredName": "blu by BCA Digital",
+        "trackViewUrl": "https://apps.apple.com/id/app/blu-by-bca-digital/id1550237185?uo=4",
+        "averageUserRatingForCurrentVersion": 4.7721,
         "sellerUrl": "https://blubybcadigital.id",
         "languageCodesISO2A": [
           "EN"
@@ -913,34 +935,12 @@
         "formattedPrice": "Free",
         "userRatingCountForCurrentVersion": 53127,
         "trackContentRating": "12+",
-        "averageUserRatingForCurrentVersion": 4.7721,
-        "averageUserRating": 4.7721,
-        "releaseNotes": "Privasi tetap on, walaupun lagi telepon\n \nIya, sekarang blu kasih proteksi pas kamu lagi telepon, video call, atau share screen. Jadi, aplikasi blu tidak akan terbuka selama kegiatan ini masih berlangsung~\n \nYuk, apdet blu ke versi 2.18.0 sekarang!",
-        "trackCensoredName": "blu by BCA Digital",
-        "trackViewUrl": "https://apps.apple.com/id/app/blu-by-bca-digital/id1550237185?uo=4",
-        "contentAdvisoryRating": "12+",
-        "genres": [
-          "Finance"
-        ],
-        "artistId": 1549630938,
-        "artistName": "PT. Bank Digital BCA",
-        "price": 0.0,
-        "bundleId": "com.bcadigital.blu",
+        "primaryGenreName": "Finance",
+        "primaryGenreId": 6015,
         "genreIds": [
           "6015"
         ],
-        "sellerName": "PT. Bank Digital BCA",
-        "isVppDeviceBasedLicensingEnabled": true,
-        "primaryGenreName": "Finance",
-        "primaryGenreId": 6015,
-        "releaseDate": "2021-07-08T07:00:00Z",
-        "trackId": 1550237185,
-        "trackName": "blu by BCA Digital",
-        "currentVersionReleaseDate": "2026-09-29T10:43:08Z",
-        "version": "2.18.0",
-        "wrapperType": "software",
-        "currency": "IDR",
-        "description": "blu Siap Jadi Pegangan Finansialmu!\n \nblu menjawab kebutuhan finansial kamu dengan cara baru agar kamu bisa wujudkan apa pun yang kamu tuju. blu adalah aplikasi mobile banking dari BCA Digital, anak perusahaan BCA\n \nblu punya layanan seamless yang bisa bikin kamu tenang dengan:\n• Koneksi ke sistem BCA\n• Sistem keamanan transaksi menggunakan PIN, Password, CVC, dan biometrik.\n• Customer care haloblu yang selalu ada buat kamu\n \nAda Untukmu, Apa Pun Tujuanmu\n \nPengen nabung buat sepatu baru? Gadget baru? Rumah? Mobil? Sekolah? Apa pun tujuanmu, we’ve got your back! blu punya akses layanan perbankan digital yang mudah dengan pengalaman yang seru. Kamu bisa:\n \n• Punya 20 tabungan dalam 1 rekening\n• Patungan online bisa sampai 50 orang\n• Buka deposito mulai dari Rp 1 juta, pencairan sebelum jatuh tempo gak kena penalti\n• Bayar/beli dalam satu aplikasi\n• Bayar pakai QRIS\n• bluVirtual Card dan bluDebit Card yang terkoneksi dengan Mastercard, memudahkan transaksimu di dalam maupun luar negeri.\n• Tarik dan Setor Tunai di ATM BCA\n• Investasi di bluInvest bekerjasama dengan partner terpercaya\n \n \nEits, belum selesai! Pakai blu bebas biaya admin bulanan, bebas biaya transfer via BI-FAST dari dan ke BCA unlimited,\n \nSo...tunggu apa lagi? Download blu sekarang!\n \nPerlu bantuan? Haloblu siap bantu kamu 24/7 via telepon 1500 668/ WhatsApp 0811-6500-668\n \nPT Bank Digital BCA\nMenara blu, The City Tower Lantai 11 Jl. M.H. Thamrin No.81, Menteng, 10310, Jakarta, Indonesia 10310\nhttps://www.blubybcadigital.id/",
+        "price": 0.0,
         "userRatingCount": 53127
       },
       "apple_discovery": {
@@ -967,9 +967,9 @@
       "google_play_metadata": {
         "title": "neobank dari BNC Digital",
         "developer": "PT. BANK NEO COMMERCE TBK",
-        "score": 4.7540936,
-        "ratings": 368395,
-        "reviews": 179000,
+        "score": 4.7539997,
+        "ratings": 368393,
+        "reviews": 178986,
         "installs": "10.000.000+",
         "updated": 1790241276,
         "url": "https://play.google.com/store/apps/details?id=com.bnc.finance&hl=id&gl=id"
@@ -985,11 +985,26 @@
       "apple_app_id": "1519178181",
       "apple_url": "https://apps.apple.com/id/app/neobank-by-bnc-digital/id1519178181?uo=4",
       "apple_metadata": {
-        "isGameCenterEnabled": false,
         "artistViewUrl": "https://apps.apple.com/id/developer/pt-bank-neo-commerce-tbk/id1519178183?uo=4",
         "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/6f/f8/546ff80f-d506-a936-d79e-dd28eee4fd4e/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/60x60bb.jpg",
         "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/6f/f8/546ff80f-d506-a936-d79e-dd28eee4fd4e/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.jpg",
+        "isGameCenterEnabled": false,
+        "features": [],
         "advisories": [],
+        "kind": "software",
+        "screenshotUrls": [
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/56/3b/6d/563b6d38-cbc3-ab99-be81-41d837d2556e/1_StoreImage_apple_02.jpg/320x480bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/05/e5/3b/05e53b51-18d2-3057-55a0-925e679903aa/2_StoreImage_apple_31Des2026.png/320x480bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8e/d0/06/8ed006c9-84f4-3d0a-4c46-744a41635287/3_StoreImage_apple_Sep2026_1.jpg/320x480bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/a7/2b/55a72bb9-7bdb-2249-83e2-06f3b8000d84/4_StoreImage_apple-100jt.jpg/320x480bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/b5/eb/a3b5ebe3-14e6-53c8-5416-0f84385abc3a/5_StoreImage_apple.jpg/320x480bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ae/c9/d4/aec9d4d3-f514-f169-bcc3-64ac9a3f48a3/6_StoreImage_apple_31Des2026.png/320x480bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/21/bc/d7/21bcd70e-1131-2613-d1cb-fd942b8fbfb7/7_StoreImage_apple.jpg/320x480bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d6/c5/da/d6c5daf1-24c0-0c68-2b05-f2d043b1411e/8_StoreImage_apple.jpg/320x480bb.jpg"
+        ],
+        "ipadScreenshotUrls": [],
+        "appletvScreenshotUrls": [],
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/6f/f8/546ff80f-d506-a936-d79e-dd28eee4fd4e/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
         "supportedDevices": [
           "iPhone5s-iPhone5s",
           "iPadAir-iPadAir",
@@ -1122,48 +1137,32 @@
           "iPhone18ProMax-iPhone18ProMax",
           "iPhoneDuo-iPhoneDuo"
         ],
-        "kind": "software",
-        "screenshotUrls": [
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/56/3b/6d/563b6d38-cbc3-ab99-be81-41d837d2556e/1_StoreImage_apple_02.jpg/320x480bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/05/e5/3b/05e53b51-18d2-3057-55a0-925e679903aa/2_StoreImage_apple_31Des2026.png/320x480bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8e/d0/06/8ed006c9-84f4-3d0a-4c46-744a41635287/3_StoreImage_apple_Sep2026_1.jpg/320x480bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/a7/2b/55a72bb9-7bdb-2249-83e2-06f3b8000d84/4_StoreImage_apple-100jt.jpg/320x480bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/b5/eb/a3b5ebe3-14e6-53c8-5416-0f84385abc3a/5_StoreImage_apple.jpg/320x480bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ae/c9/d4/aec9d4d3-f514-f169-bcc3-64ac9a3f48a3/6_StoreImage_apple_31Des2026.png/320x480bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/21/bc/d7/21bcd70e-1131-2613-d1cb-fd942b8fbfb7/7_StoreImage_apple.jpg/320x480bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d6/c5/da/d6c5daf1-24c0-0c68-2b05-f2d043b1411e/8_StoreImage_apple.jpg/320x480bb.jpg"
-        ],
-        "ipadScreenshotUrls": [],
-        "appletvScreenshotUrls": [],
-        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/6f/f8/546ff80f-d506-a936-d79e-dd28eee4fd4e/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
-        "features": [],
-        "releaseNotes": "We optimized some features to give you a better experience.",
-        "averageUserRating": 3.92689,
         "trackCensoredName": "neobank by BNC Digital",
         "trackViewUrl": "https://apps.apple.com/id/app/neobank-by-bnc-digital/id1519178181?uo=4",
         "contentAdvisoryRating": "17+",
+        "averageUserRating": 3.92689,
+        "releaseNotes": "We optimized some features to give you a better experience.",
+        "minimumOsVersion": "14.0",
         "artistId": 1519178183,
         "artistName": "PT. Bank Neo Commerce Tbk",
         "genres": [
           "Finance"
         ],
         "price": 0.0,
-        "sellerName": "PT. Bank Neo Commerce Tbk",
-        "isVppDeviceBasedLicensingEnabled": true,
-        "primaryGenreName": "Finance",
-        "primaryGenreId": 6015,
         "genreIds": [
           "6015"
         ],
+        "bundleId": "com.bank.neo",
         "releaseDate": "2021-03-23T07:00:00Z",
-        "trackId": 1519178181,
-        "trackName": "neobank by BNC Digital",
+        "primaryGenreName": "Finance",
+        "primaryGenreId": 6015,
+        "sellerName": "PT. Bank Neo Commerce Tbk",
+        "isVppDeviceBasedLicensingEnabled": true,
         "currentVersionReleaseDate": "2026-09-28T03:46:23Z",
         "version": "3.7.10",
         "wrapperType": "software",
         "currency": "IDR",
         "description": "Introducing neobank, a banking service in the form of a digital application offered by Bank Neo Commerce which has served more than 30 million users.\n\n\n\nWith a user-friendly appearance, neobank comes with many interesting features that make it easier, safer and more enjoyable for you to manage your finances.\n\n\n\nTake advantage of various cool features at neobank:\n\n\n\nSavings NOW\nSavings with interest paid every day! Free to open an online account with any initial deposit amount, and get interest of 4.25% p.a.\n\n\n\nWOW deposits\nLike saving with higher interest, up to 7.5% p.a. The initial deposit is light, you can start from IDR 100 thousand. Flexible tenor, from 7 days to 1 year!\n\n\n\nMembership Levels\nEnjoy more advantages as you successfully increase your level. Starting from exclusive coupons, credit and bill discount coupons, to increasing the FREE interbank transfer quota!\n\n\n\nFree Transfers\nLevel up your membership level and get free transfers up to 30x/month!\n\n\n\nNeo Loan\nDo you need a loan that is transparent, definitely safe, and won't be a burden? Neo Loan is the solution. The application is easy, the limit is high, and it is approved quickly.\n\n\n\nLoan tenor: up to 24 months\nLoan limit: up to IDR 100,000,000\nInterest: Mulai dari 0,06% flat perhari\n\n\n\nPayment & Digital Product Purchase\nIt is easier and more practical to pay and purchase digital products via the neobank application. Also enjoy cashback from every transaction you make.\n\n\n\nsavepay\nGet instant discounts for payments via Virtual Account and QRIS at selected merchants\n\n\n\nNeo Gold\nBuy and invest gold at selected merchants, get attractive offers using the neobank application.\n\n\n\nNeo Business\nDevelop your business through Neo Bisnis. Make your business more known to millions of other neobank users. You can also find the business location closest to the area you are in.\n\n\n\nNeo Chat\nNo need to go anywhere anymore to chat online. You can freely chat, send money, and even create groups via the Neo Chat feature in the neobank application which is safe and super practical.\n\n\n\nData security\nYour financial activities are guaranteed to be safer because we implement a multi-layered banking security system. There are password and PIN gesture features that ensure your transactions are always protected.\n\n\n\nAbout Neo Commerce Bank\nneobank is an online savings and deposit application from Bank Neo Commerce (BNC). Present since 1990 under the name Bank Yudha Bhakti (BBYB), we transformed into the first neobank in Indonesia to provide digital banking services.\n\n\n\nWith the support of the leading fintech company in Indonesia, Akulaku, we continue to invest in technology to provide the latest products and services that suit the needs of customers, both individuals and corporations.\n\n\n\nPT Bank Neo Commerce Tbk is domiciled at Treasury Tower lt. 60, District 8 Lot 28, Jl. Gen. Sudirman cav. 52-53, Senayan, Kebayoran Baru, South Jakarta 12190, Indonesia. Registered with Bank Indonesia with Business License No. 22/1017/UPPS/PSbD.\n\n\n\nContact us:\nPT Bank Neo Commerce Tbk\nwww.bankneocommerce.co.id\n1-500-190 (no prefix or area code)\ncustomercare@bankneo.co.id\n\n\n\nInstagram: bankneocommerce\nFacebook: Neo Commerce Bank\nYouTube: Neo Commerce Bank\nTikTok: @bankneocommerce\nTwitter (X): @bankneocommerce\nLinkedIn: PT Bank Neo Commerce Tbk\n\n\n\nPT Bank Neo Commerce Tbk is licensed & supervised by the Financial Services Authority (OJK), and is a participating bank under the Deposit Insurance Corporation (LPS).",
-        "minimumOsVersion": "14.0",
         "averageUserRatingForCurrentVersion": 3.92689,
         "languageCodesISO2A": [
           "EN",
@@ -1173,7 +1172,8 @@
         "formattedPrice": "Free",
         "userRatingCountForCurrentVersion": 10463,
         "trackContentRating": "17+",
-        "bundleId": "com.bank.neo",
+        "trackName": "neobank by BNC Digital",
+        "trackId": 1519178181,
         "userRatingCount": 10463
       },
       "apple_discovery": {
@@ -1219,11 +1219,6 @@
       "apple_url": "https://apps.apple.com/id/app/aladin-bank/id1586598115?uo=4",
       "apple_metadata": {
         "isGameCenterEnabled": false,
-        "artistViewUrl": "https://apps.apple.com/id/developer/pt-bank-aladin-syariah-tbk/id1586598117?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/6c/ae/e36caee4-2c66-35bf-2d7b-436b868f23b3/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/6c/ae/e36caee4-2c66-35bf-2d7b-436b868f23b3/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.jpg",
-        "features": [],
-        "advisories": [],
         "supportedDevices": [
           "iPhone5s-iPhone5s",
           "iPadAir-iPadAir",
@@ -1356,7 +1351,11 @@
           "iPhone18ProMax-iPhone18ProMax",
           "iPhoneDuo-iPhoneDuo"
         ],
+        "advisories": [],
         "kind": "software",
+        "artistViewUrl": "https://apps.apple.com/id/developer/pt-bank-aladin-syariah-tbk/id1586598117?uo=4",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/6c/ae/e36caee4-2c66-35bf-2d7b-436b868f23b3/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/6c/ae/e36caee4-2c66-35bf-2d7b-436b868f23b3/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.jpg",
         "screenshotUrls": [
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/88/a9/5d88a95c-38a3-9beb-a71b-4ea69b82a28b/ios-small_10.png/392x696bb.png",
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/16/6a/f3/166af3b5-1333-e657-e175-c41a722f78f4/ios-small_4.png/392x696bb.png",
@@ -1369,10 +1368,8 @@
         "ipadScreenshotUrls": [],
         "appletvScreenshotUrls": [],
         "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/6c/ae/e36caee4-2c66-35bf-2d7b-436b868f23b3/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
-        "trackCensoredName": "Aladin Bank",
-        "trackViewUrl": "https://apps.apple.com/id/app/aladin-bank/id1586598115?uo=4",
-        "contentAdvisoryRating": "4+",
-        "averageUserRating": 4.43588,
+        "features": [],
+        "minimumOsVersion": "15.0",
         "artistId": 1586598117,
         "artistName": "PT. BANK ALADIN SYARIAH TBK",
         "genres": [
@@ -1380,23 +1377,29 @@
           "Utilities"
         ],
         "price": 0.0,
-        "sellerName": "PT. BANK ALADIN SYARIAH TBK",
-        "bundleId": "id.aladinbank.mobile",
-        "isVppDeviceBasedLicensingEnabled": true,
-        "primaryGenreName": "Finance",
-        "primaryGenreId": 6015,
         "currentVersionReleaseDate": "2026-09-01T07:23:43Z",
+        "bundleId": "id.aladinbank.mobile",
         "releaseDate": "2022-01-18T08:00:00Z",
         "trackId": 1586598115,
         "trackName": "Aladin Bank",
+        "genreIds": [
+          "6015",
+          "6002"
+        ],
+        "primaryGenreName": "Finance",
+        "primaryGenreId": 6015,
+        "sellerName": "PT. BANK ALADIN SYARIAH TBK",
+        "isVppDeviceBasedLicensingEnabled": true,
         "releaseNotes": "Fitur Baru untuk Kemudahan Transaksi:\n1. Tarik Tunai Makin Praktis: Sekarang sudah bisa Tarik Tunai Tanpa Kartu di ATM BCA dan Lawson terdekat!\n2. Bayar & Beli Jadi Lebih Lengkap: Semua tagihan beres di satu tempat. Bayar PDAM, Tagihan Internet, PBB, hingga BPJS kini lebih mudah!\n3. Transfer Makin Hemat: Nikmati Gratis Transfer via BI-FAST Hingga 100x setiap bulannya!\n\nYuk, update aplikasimu sekarang dan nikmati semua kemudahannya!\n\n#Kebaikan Syariah Sepenuhnya\n\n*Informasi selengkapnya mengenai syarat dan ketentuan promo dapat dilihat di www.aladinbank.id",
         "version": "1.100.0",
         "wrapperType": "software",
         "currency": "IDR",
         "description": "Hai, teman! Yuk, kenalan sama Aladin, bank syariah digital yang akan bantu kamu lewat satu aplikasi. \n\nMulai dari buat tabungan digital, sampai pembayaran, dan semua seputar keuangan kamu, bisa diurus dengan satu aplikasi. Gak hanya itu, prinsip syariahnya juga bakal bikin hati tenang.\n\nLalu, apa lagi yang bisa Aladin bantuin?\n\n## Buka Rekening Secara Online \nDaftarnya? Semua lewat aplikasi. Kamu tinggal duduk santai saja dan ikuti instruksi yang ada di aplikasi. Buka rekening gratis, tanpa setoran awal dan pastinya cepat. \n\n## Wujudkan Impianmu di Ala Impian\nUntuk kamu yang punya impian travel, impian nikah, impian rumah dan banyak impian lainnya, Aladin siap bantuin. Di Aladin, kamu bisa mulai mewujudkan semuanya dengan tabungan Ala Impian. \n\n## Urusan Transfer Langsung Aja\nKirim uang ke siapa saja prosesnya instan dan gak ada biaya tambahan tersembunyi.\n\n## Kartu Debit Aladin Untuk Berbagai Transaksi\nKartu debit Aladin tersedia untuk kamu yang suka belanja cashless di toko dan dapat digunakan untuk tarik tunai di ATM berlogo Link dan ATM bersama. Pengaturan kartunya juga mudah karena bisa langsung dari aplikasi.\n\nSudah siap Aladin bantuin? Segera download aplikasinya dan gabung jadi Teman Aladin.",
-        "averageUserRatingForCurrentVersion": 4.43588,
+        "contentAdvisoryRating": "4+",
+        "averageUserRating": 4.43588,
+        "trackCensoredName": "Aladin Bank",
+        "trackViewUrl": "https://apps.apple.com/id/app/aladin-bank/id1586598115?uo=4",
         "sellerUrl": "https://aladinbank.id",
-        "minimumOsVersion": "15.0",
         "languageCodesISO2A": [
           "EN"
         ],
@@ -1404,10 +1407,7 @@
         "formattedPrice": "Free",
         "userRatingCountForCurrentVersion": 4414,
         "trackContentRating": "4+",
-        "genreIds": [
-          "6015",
-          "6002"
-        ],
+        "averageUserRatingForCurrentVersion": 4.43588,
         "userRatingCount": 4414
       },
       "apple_discovery": {
@@ -1434,9 +1434,9 @@
       "google_play_metadata": {
         "title": "Superbank: Tabungan & Pinjaman",
         "developer": "PT Super Bank Indonesia Tbk",
-        "score": 4.5122213,
-        "ratings": 84061,
-        "reviews": 59851,
+        "score": 4.5125117,
+        "ratings": 84065,
+        "reviews": 59856,
         "installs": "5.000.000+",
         "updated": 1790580018,
         "url": "https://play.google.com/store/apps/details?id=id.co.bankfama.android&hl=id&gl=id"
@@ -1452,9 +1452,6 @@
       "apple_app_id": "6444720285",
       "apple_url": "https://apps.apple.com/id/app/superbank-savings-loans/id6444720285?uo=4",
       "apple_metadata": {
-        "artistViewUrl": "https://apps.apple.com/id/developer/pt-super-bank-indonesia/id1646960929?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/5a/72/815a7286-b63b-232a-dafe-59e25ee96709/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/5a/72/815a7286-b63b-232a-dafe-59e25ee96709/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
         "screenshotUrls": [
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/1f/4a/511f4a86-02c1-59ba-eff3-6bca5bd7ed14/Image_Gallery_Next_Release_baru_v5_iOS_6.9_1260x2736-01.jpg/320x480bb.jpg",
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/27/70/f42770c1-f6a3-2c04-c85f-640efee1b26b/Image_Gallery_Next_Release_baru_v5_iOS_6.9_1260x2736-02.jpg/320x480bb.jpg",
@@ -1469,6 +1466,7 @@
         "appletvScreenshotUrls": [],
         "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/5a/72/815a7286-b63b-232a-dafe-59e25ee96709/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
         "isGameCenterEnabled": false,
+        "features": [],
         "supportedDevices": [
           "iPhone5s-iPhone5s",
           "iPadAir-iPadAir",
@@ -1603,23 +1601,20 @@
         ],
         "advisories": [],
         "kind": "software",
-        "features": [],
-        "releaseNotes": "Top up this, pay for that, now it's all in one place.\n\nTop-Up & Bayar is now available on Superbank!\nFrom e-Wallets, Data Packages, Phone Credit, Electricity Tokens, to Electricity Bills, now all in a single space.\n\nUpdate now!",
-        "averageUserRating": 4.30091,
-        "trackCensoredName": "Superbank: Savings & Loans",
-        "trackViewUrl": "https://apps.apple.com/id/app/superbank-savings-loans/id6444720285?uo=4",
-        "contentAdvisoryRating": "17+",
-        "minimumOsVersion": "15.0",
+        "artistViewUrl": "https://apps.apple.com/id/developer/pt-super-bank-indonesia/id1646960929?uo=4",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/5a/72/815a7286-b63b-232a-dafe-59e25ee96709/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/5a/72/815a7286-b63b-232a-dafe-59e25ee96709/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
         "averageUserRatingForCurrentVersion": 4.30091,
         "sellerUrl": "https://www.superbank.id",
-        "languageCodesISO2A": [
-          "EN",
-          "ID"
-        ],
         "fileSizeBytes": "141860864",
         "formattedPrice": "Free",
         "userRatingCountForCurrentVersion": 5613,
         "trackContentRating": "17+",
+        "languageCodesISO2A": [
+          "EN",
+          "ID"
+        ],
+        "releaseNotes": "Top up this, pay for that, now it's all in one place.\n\nTop-Up & Bayar is now available on Superbank!\nFrom e-Wallets, Data Packages, Phone Credit, Electricity Tokens, to Electricity Bills, now all in a single space.\n\nUpdate now!",
         "artistId": 1646960929,
         "artistName": "PT Super Bank Indonesia",
         "genres": [
@@ -1628,20 +1623,25 @@
         "price": 0.0,
         "bundleId": "id.co.bankfama.app",
         "releaseDate": "2023-11-20T08:00:00Z",
-        "trackId": 6444720285,
-        "trackName": "Superbank: Savings & Loans",
         "genreIds": [
           "6015"
         ],
-        "primaryGenreName": "Finance",
-        "primaryGenreId": 6015,
         "sellerName": "PT Super Bank Indonesia",
         "isVppDeviceBasedLicensingEnabled": true,
+        "primaryGenreName": "Finance",
+        "primaryGenreId": 6015,
+        "trackId": 6444720285,
+        "trackName": "Superbank: Savings & Loans",
         "currentVersionReleaseDate": "2026-09-28T10:24:37Z",
         "version": "1.55.0",
         "wrapperType": "software",
         "currency": "IDR",
         "description": "Rewarding, safe, and super fun banking with Superbank!\n\nSuperbank is part of Grab, Emtek, GxS, and KakaoBank.\n\nEnjoy a simpler, transparent, and more rewarding way to manage your money. #SekarangWaktunyaSuperbank!\n\nCheck out all the awesome features waiting for you:\n- Hassle-free account opening with no monthly admin fees and no minimum balance required. \n- Enjoy up to 200 free transfers every month. \n- MAIN SAVINGS: Grow your daily funds effortlessly with 5% p.a. interest. \n- CELENGAN: Save automatically every day with Celi and earn 10% p.a. interest! \n- DEPOSIT: Start your deposit from just Rp500 thousand and earn interest up to 7.50% p.a. \n- PINJAMAN ATUR SENDIRI (PAS): Ultimate flexibility! Access a loan limit up to Rp100 million and set your own due dates and repayment amounts. \n- SAKU: Organize your budget for hobbies, trips, or daily needs with Sakuru while still enjoying 5% p.a. interest. \n- KARTU UNTUNG: Play daily card games with Taro and win millions in daily prizes! \n- MORE SAVINGS ON GRAB: Link your Superbank or OVO Nabung account and enjoy exclusive discounts.\n- Pay for daily essentials and treats smoothly with Superbank QRIS.\n\nYour data and funds are protected with PIN verification, push notifications, and email alerts.\n\nGot questions or need a hand? Contact Super Care via in-app chat, call 1500 333, or email care@superbank.id. Explore more at https://www.superbank.id\n\nPT Super Bank Indonesia Tbk is licensed and supervised by the Financial Services Authority (OJK) and Bank Indonesia (BI), and is a member of the LPS guarantee program. \n\nPlease pay attention to the guaranteed interest rate set by LPS. Savings with interest rates exceeding the guaranteed rate are not insured by LPS.",
+        "contentAdvisoryRating": "17+",
+        "trackCensoredName": "Superbank: Savings & Loans",
+        "trackViewUrl": "https://apps.apple.com/id/app/superbank-savings-loans/id6444720285?uo=4",
+        "averageUserRating": 4.30091,
+        "minimumOsVersion": "15.0",
         "userRatingCount": 5613
       },
       "apple_discovery": {
@@ -1668,8 +1668,8 @@
       "google_play_metadata": {
         "title": "Krom - Bank Digital",
         "developer": "PT Krom Bank Indonesia Tbk",
-        "score": 4.8805704,
-        "ratings": 65996,
+        "score": 4.8807297,
+        "ratings": 66007,
         "reviews": 17247,
         "installs": "1.000.000+",
         "updated": 1788524062,
@@ -1822,9 +1822,8 @@
         ],
         "advisories": [],
         "kind": "software",
-        "artistViewUrl": "https://apps.apple.com/id/developer/pt-krom-bank-indonesia-tbk/id1673245870?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/35/f6/ae35f6d8-c2dc-6ea6-c691-44dbc01f263b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/35/f6/ae35f6d8-c2dc-6ea6-c691-44dbc01f263b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+        "appletvScreenshotUrls": [],
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/35/f6/ae35f6d8-c2dc-6ea6-c691-44dbc01f263b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
         "screenshotUrls": [
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/aa/2a/8c/aa2a8c60-f8c2-6bb4-fe2f-53c97f0f904c/General_banner_-_Cover.png/320x480bb.jpg",
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7c/7c/0f/7c7c0fca-b9f8-853d-e30f-287687234483/General_banner_-_1.png/320x480bb.jpg",
@@ -1834,27 +1833,25 @@
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4f/67/51/4f6751f7-4d4c-f1d9-59d5-e73ed32094e3/General_banner_-_5.png/320x480bb.jpg"
         ],
         "ipadScreenshotUrls": [],
-        "appletvScreenshotUrls": [],
-        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/35/f6/ae35f6d8-c2dc-6ea6-c691-44dbc01f263b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        "minimumOsVersion": "16.0",
+        "artistViewUrl": "https://apps.apple.com/id/developer/pt-krom-bank-indonesia-tbk/id1673245870?uo=4",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/35/f6/ae35f6d8-c2dc-6ea6-c691-44dbc01f263b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/35/f6/ae35f6d8-c2dc-6ea6-c691-44dbc01f263b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
         "releaseNotes": "Hi, Kromates!\n\nIn this version, Krom shoo away all the bugs for better experience because...\n\nKrom now has new payment method; Debit Card!\n\nWell, it's still BETA version and limited. So, how can I know, I get the feature or not?\n\nOnly one way to know for sure. Update your Krom app to version 1.4.6 now!",
-        "trackCensoredName": "Krom - Bank Digital",
-        "trackViewUrl": "https://apps.apple.com/id/app/krom-bank-digital/id1673245868?uo=4",
+        "minimumOsVersion": "16.0",
         "artistId": 1673245870,
         "artistName": "PT. KROM BANK INDONESIA TBK",
         "genres": [
           "Finance"
         ],
         "price": 0.0,
-        "trackId": 1673245868,
-        "trackName": "Krom - Bank Digital",
-        "releaseDate": "2023-11-07T08:00:00Z",
-        "primaryGenreName": "Finance",
-        "primaryGenreId": 6015,
+        "bundleId": "com.krom.ios",
         "genreIds": [
           "6015"
         ],
+        "releaseDate": "2023-11-07T08:00:00Z",
         "sellerName": "PT. KROM BANK INDONESIA TBK",
+        "trackId": 1673245868,
+        "trackName": "Krom - Bank Digital",
         "isVppDeviceBasedLicensingEnabled": true,
         "currentVersionReleaseDate": "2026-09-01T21:55:35Z",
         "version": "1.4.6",
@@ -1862,18 +1859,21 @@
         "currency": "IDR",
         "description": "Krom is a digital banking app from PT Krom Bank Indonesia Tbk designed to make easier financial management.\n\nConveniently access all banking services directly from your smartphone. Registration takes just 5 minutes, and you can choose your own Main Savings account number!\n\nEnjoy Krom products and services and access all your financial needs, from Savings Pockets, transfers to any accounts, top-ups and monthly bill payments, credit, to checking transaction history and monthly budgeting, all within the Krom app. Also, no monthly admin fees!\n\nReady to manage your finances and maximize your savings?\nDownload the Krom Bank app, register, and activate it instantly. You can access it anytime, anywhere, without having to visit a branch office.\n\nInterest rates at Krom Bank are competitive compared to other banks\n- Flexible transactions and more convenient withdrawals. You can use Savings Pockets with interest rates of 6% p.a.\n- Save your money with longer tenor and earn maximum interest, while still being able to withdraw at any time. You can use Time Deposits with interest rates of up to 8% p.a.\n- Check estimated interest on Savings Pocket and Time Deposits with the \"Interest Comparison\" feature in the Krom app\n\nChoose and create up to 60 Savings and Time Deposits\n- Easily manage your daily finances with 1 Main Savings Account and 19 Savings Pockets\n- Promising future planning with 20 Krom Flex and 20 Krom Max Deposits\n\nFree transaction quota per month\n- Free transaction quota of up to 100x per month can be used for interbank transfers and top up digital products, including e-money and e-wallets\n\nTop Up & Pay Monthly Bills.\n- Top up mobile credit, data packages, e-wallets, and e-money anytime, anywhere\n- Bill payments from electricity, internet and TV, BPJS, PDAM, to insurance premiums\n\nCredit\n- Get quick funds for any need, including the urgent ones\n\nMonitor Your Finances and Monthly Budget\n- Check a summary of your income, expenses, and monthly growth with Money Journey\n- Download your transaction history in the form of a monthly e-statement\n\nWhat are you waiting for? Start your financial journey with Krom!\nDownload now!\n\nPT Krom Bank Indonesia Tbk is licensed and supervised by the Financial Services Authority (OJK) and Bank Indonesia (BI) and is a participant in the LPS guarantee program.\n\nFor further information, contact Krom Support:\nPhone: 021-5099-6920\nEmail: support@krom.id\n\nFollow Krom's Promos & Events on Social Media:\n1. Instagram: @krom.bank\n2. TikTok: @krom.bank\n3. Facebook: krombankofficial\n4. Website: https://krom.id/\n\nAddress:\nPT Krom Bank Indonesia Tbk\nDipo Tower Building, 9th Floor\nJl. Gatot Subroto Kav. 50-52 Petamburan,\nTanah Abang District, Central Jakarta, DKI Jakarta 10260",
         "averageUserRating": 4.91485,
-        "contentAdvisoryRating": "4+",
         "averageUserRatingForCurrentVersion": 4.91485,
-        "bundleId": "com.krom.ios",
+        "sellerUrl": "https://krom.id/",
         "languageCodesISO2A": [
           "EN",
           "ID"
         ],
         "fileSizeBytes": "111833088",
         "formattedPrice": "Free",
-        "userRatingCountForCurrentVersion": 14798,
         "trackContentRating": "4+",
-        "sellerUrl": "https://krom.id/",
+        "userRatingCountForCurrentVersion": 14798,
+        "trackCensoredName": "Krom - Bank Digital",
+        "trackViewUrl": "https://apps.apple.com/id/app/krom-bank-digital/id1673245868?uo=4",
+        "contentAdvisoryRating": "4+",
+        "primaryGenreName": "Finance",
+        "primaryGenreId": 6015,
         "userRatingCount": 14798
       },
       "apple_discovery": {
@@ -1922,7 +1922,7 @@
         "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/be/51/c7be51bb-aa00-7112-ef73-e94742f897e7/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
         "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/be/51/c7be51bb-aa00-7112-ef73-e94742f897e7/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
         "isGameCenterEnabled": false,
-        "features": [],
+        "advisories": [],
         "supportedDevices": [
           "iPhone5s-iPhone5s",
           "iPadAir-iPadAir",
@@ -2055,9 +2055,9 @@
           "iPhone18ProMax-iPhone18ProMax",
           "iPhoneDuo-iPhoneDuo"
         ],
-        "advisories": [],
         "kind": "software",
         "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/be/51/c7be51bb-aa00-7112-ef73-e94742f897e7/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+        "features": [],
         "screenshotUrls": [
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c4/48/e7/c448e78c-61ce-c1be-c25f-1fd034f1ae2b/A_-_iPhone_6.7.png/320x480bb.jpg",
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/80/b0/e3/80b0e300-3693-0e2e-1207-af2dd32966bd/B_-_iPhone_6.7.png/320x480bb.jpg",
@@ -2069,45 +2069,45 @@
         ],
         "ipadScreenshotUrls": [],
         "appletvScreenshotUrls": [],
-        "averageUserRating": 4.83654,
         "trackCensoredName": "hi by hibank",
-        "trackViewUrl": "https://apps.apple.com/id/app/hi-by-hibank/id6474590911?uo=4",
         "contentAdvisoryRating": "4+",
-        "releaseNotes": "Ada yang Baru di hi by hibank!\n\nKini hadir sebagai mitra digital untuk membantu bisnis UMKM Anda naik kelas, sekaligus menghadirkan fitur baru untuk aktivitas finansial yang lebih mudah dan praktis.\nNikmati fitur unggulan hi UMKM:\n- hi kasir: Kelola keuangan toko, invoice & stok produk dengan praktis.\n- hi ekosistem: Kolaborasi bersama hibank & perluas jaringan.\n- hi chat & konsultasi: Konsultasi bisnis, pajak & hukum langsung di aplikasi.\n- hi literasi: Konten edukatif & tips UMKM.\n\nMakin Praktis dengan Fitur Baru!\n- Voucher Game: Beli voucher game favorit dengan mudah langsung dari hi.\n- E-Wallet: Top up DANA, LinkAja, GoPay, ShopeePay, OVO, i.saku, dan DOKU dengan mudah.\n- hi Deposito: Nikmati total return hingga 7,25% p.a. (6,75% bunga + 0,50% cashback).\n- hi Nabung Max: Nikmati suku bunga hingga 5,50% p.a. per tahun untuk saldo harian hingga 5 Miliar.\n\nMakin lengkap dengan kemudahan transfer, top up & bayar cicilan.\n\nYuk, mulai sekarang bersama hi by hibank!",
-        "artistId": 1459504797,
-        "artistName": "PT. BANK HIBANK INDONESIA",
+        "minimumOsVersion": "14.0",
+        "trackViewUrl": "https://apps.apple.com/id/app/hi-by-hibank/id6474590911?uo=4",
+        "averageUserRating": 4.83654,
+        "formattedPrice": "Free",
+        "fileSizeBytes": "184932352",
         "genres": [
           "Finance",
           "Lifestyle"
         ],
-        "price": 0.0,
-        "bundleId": "com.hibank.mobile",
-        "trackId": 6474590911,
-        "trackName": "hi by hibank",
-        "releaseDate": "2024-11-18T08:00:00Z",
         "genreIds": [
           "6015",
           "6012"
         ],
+        "artistId": 1459504797,
+        "artistName": "PT. BANK HIBANK INDONESIA",
+        "sellerName": "PT. BANK HIBANK INDONESIA",
         "primaryGenreName": "Finance",
         "primaryGenreId": 6015,
-        "sellerName": "PT. BANK HIBANK INDONESIA",
+        "releaseDate": "2024-11-18T08:00:00Z",
         "isVppDeviceBasedLicensingEnabled": true,
         "currentVersionReleaseDate": "2026-09-25T04:09:49Z",
+        "trackId": 6474590911,
+        "trackName": "hi by hibank",
+        "releaseNotes": "Ada yang Baru di hi by hibank!\n\nKini hadir sebagai mitra digital untuk membantu bisnis UMKM Anda naik kelas, sekaligus menghadirkan fitur baru untuk aktivitas finansial yang lebih mudah dan praktis.\nNikmati fitur unggulan hi UMKM:\n- hi kasir: Kelola keuangan toko, invoice & stok produk dengan praktis.\n- hi ekosistem: Kolaborasi bersama hibank & perluas jaringan.\n- hi chat & konsultasi: Konsultasi bisnis, pajak & hukum langsung di aplikasi.\n- hi literasi: Konten edukatif & tips UMKM.\n\nMakin Praktis dengan Fitur Baru!\n- Voucher Game: Beli voucher game favorit dengan mudah langsung dari hi.\n- E-Wallet: Top up DANA, LinkAja, GoPay, ShopeePay, OVO, i.saku, dan DOKU dengan mudah.\n- hi Deposito: Nikmati total return hingga 7,25% p.a. (6,75% bunga + 0,50% cashback).\n- hi Nabung Max: Nikmati suku bunga hingga 5,50% p.a. per tahun untuk saldo harian hingga 5 Miliar.\n\nMakin lengkap dengan kemudahan transfer, top up & bayar cicilan.\n\nYuk, mulai sekarang bersama hi by hibank!",
         "version": "1.7.8",
         "wrapperType": "software",
         "currency": "IDR",
         "description": "hi by hibank merupakan aplikasi mobile banking terintegrasi dan andal untuk UMKM yang memiliki beragam fitur menarik dan mengembangkan potensi usahamu melalui ekosistem digital dalam satu genggaman.\n\nBeragam fitur-fitur menarik untuk mu:\n1. Pembukaan rekening bagi calon nasabah hibank dan nasabah hibank\n2. Login lebih cepat dengan biometrik\n3. Smart-Transfer\n4. Pengecekan saldo dan mutasi semua rekening setiap saat\n5. Transaksi perbankan secara aman dan nyaman\n6. Literasi & Edukasi bisnis\n7. Promo UMKM\n8. Personalisasi (termasuk menu & warna tema)\n9. Kalkulator pinjaman yang dapat bantu hitung simulasi pinjamanmu\n\nHubungi hi CallCenter di 1500910. \nhi,hiro, download hi by hibank sekarang!\nhibank berizin dan diawasi oleh Otoritas Jasa Keuangan (OJK) dan Bank Indonesia, serta merupakan peserta penjaminan Lembaga Penjaminan Simpanan (LPS).",
         "averageUserRatingForCurrentVersion": 4.83654,
-        "minimumOsVersion": "14.0",
         "sellerUrl": "https://www.hibank.co.id",
-        "userRatingCountForCurrentVersion": 1456,
         "languageCodesISO2A": [
           "EN"
         ],
-        "fileSizeBytes": "184932352",
-        "formattedPrice": "Free",
+        "userRatingCountForCurrentVersion": 1456,
         "trackContentRating": "4+",
+        "bundleId": "com.hibank.mobile",
+        "price": 0.0,
         "userRatingCount": 1456
       },
       "apple_discovery": {
@@ -2134,9 +2134,9 @@
       "google_play_metadata": {
         "title": "Raya - Digital Bank",
         "developer": "PT Bank Raya Indonesia Tbk.",
-        "score": 4.2126584,
-        "ratings": 11973,
-        "reviews": 8108,
+        "score": 4.213322,
+        "ratings": 11974,
+        "reviews": 8109,
         "installs": "1.000.000+",
         "updated": 1790473866,
         "url": "https://play.google.com/store/apps/details?id=id.co.bankraya.apps&hl=id&gl=id"
@@ -2152,6 +2152,7 @@
       "apple_app_id": "1627393834",
       "apple_url": "https://apps.apple.com/id/app/raya-digital-bank/id1627393834?uo=4",
       "apple_metadata": {
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/76/97/b4769774-2810-22f4-b9ec-6b76fafbb489/prodAppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
         "screenshotUrls": [
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/c3/61/86c36107-b755-6ffe-668c-f62077ee39f1/16.7.png/320x480bb.jpg",
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/65/b6/45/65b645f8-581f-769b-7aa6-249c8d051614/26.7.png/320x480bb.jpg",
@@ -2173,14 +2174,7 @@
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e5/12/65/e512655d-8a67-9c28-1961-496c88370212/142b75b3-87b8-48fe-9008-b09402a0bab6_8.png/576x768bb.png"
         ],
         "appletvScreenshotUrls": [],
-        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/76/97/b4769774-2810-22f4-b9ec-6b76fafbb489/prodAppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-        "artistViewUrl": "https://apps.apple.com/id/developer/pt-bank-raya-indonesia-tbk/id1332952507?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/76/97/b4769774-2810-22f4-b9ec-6b76fafbb489/prodAppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/76/97/b4769774-2810-22f4-b9ec-6b76fafbb489/prodAppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
         "isGameCenterEnabled": false,
-        "features": [
-          "iosUniversal"
-        ],
         "supportedDevices": [
           "iPhone5s-iPhone5s",
           "iPadAir-iPadAir",
@@ -2315,8 +2309,14 @@
         ],
         "advisories": [],
         "kind": "software",
-        "minimumOsVersion": "16.6",
+        "features": [
+          "iosUniversal"
+        ],
+        "artistViewUrl": "https://apps.apple.com/id/developer/pt-bank-raya-indonesia-tbk/id1332952507?uo=4",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/76/97/b4769774-2810-22f4-b9ec-6b76fafbb489/prodAppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/76/97/b4769774-2810-22f4-b9ec-6b76fafbb489/prodAppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
         "averageUserRatingForCurrentVersion": 4.65672,
+        "trackContentRating": "4+",
         "sellerUrl": "https://bankraya.co.id",
         "languageCodesISO2A": [
           "EN",
@@ -2325,34 +2325,34 @@
         "fileSizeBytes": "209371136",
         "formattedPrice": "Free",
         "userRatingCountForCurrentVersion": 1541,
-        "trackContentRating": "4+",
-        "trackCensoredName": "Raya - Digital Bank",
-        "trackViewUrl": "https://apps.apple.com/id/app/raya-digital-bank/id1627393834?uo=4",
-        "contentAdvisoryRating": "4+",
-        "currentVersionReleaseDate": "2026-09-21T03:05:31Z",
-        "releaseNotes": "Update terbaru sudah hadir!\n\n- Setor Tunai kini tersedia di Indomaret.\n- Uang Saku anak kini bisa transfer.\n- Transaksi digital bikin jejakmu jadi lebih hijau dengan Green Banking.\n- Tampilan antar muka baru FAQ.\n\nAda juga improvement lainnya biar makin aman & nyaman pakai Raya\n\nPs:\nBiar transaksi makin nyaman, pastikan tipe HP kamu sudah disupport Raya. Selengkapnya cek di ‘Tentang aplikasi ini’ ya!",
-        "averageUserRating": 4.65672,
-        "artistId": 1332952507,
-        "artistName": "PT. Bank Raya Indonesia, Tbk.",
+        "price": 0.0,
         "genres": [
           "Finance"
         ],
-        "price": 0.0,
-        "bundleId": "id.co.bankraya.apps",
-        "trackId": 1627393834,
-        "trackName": "Raya - Digital Bank",
-        "releaseDate": "2022-08-30T07:00:00Z",
-        "primaryGenreName": "Finance",
-        "primaryGenreId": 6015,
-        "sellerName": "PT. Bank Raya Indonesia, Tbk.",
-        "isVppDeviceBasedLicensingEnabled": true,
+        "artistId": 1332952507,
+        "artistName": "PT. Bank Raya Indonesia, Tbk.",
         "genreIds": [
           "6015"
         ],
+        "isVppDeviceBasedLicensingEnabled": true,
+        "sellerName": "PT. Bank Raya Indonesia, Tbk.",
+        "currentVersionReleaseDate": "2026-09-21T03:05:31Z",
+        "primaryGenreName": "Finance",
+        "primaryGenreId": 6015,
+        "releaseDate": "2022-08-30T07:00:00Z",
         "version": "2.37.0",
         "wrapperType": "software",
         "currency": "IDR",
         "description": "Bank digital pilihan untuk kelola keuangan personal dan bisnis dalam satu akun.\n\nSebagai bagian dari BRI Group, Raya siap bantu kamu kelola keuangan dengan mudah, aman, dan nyaman setiap harinya.\n\nApa keuntungan pakai Raya? \n\nDi Raya, nabungnya bebas biaya \nBuka rekening lewat HP, hanya 4 menit\nGratis biaya admin bulanan\nBebas setoran awal dan tanpa minimal saldo\n\nPraktis penuhi berbagai kebutuhan\nAda Saku Raya buat atur keuangan, mulai dari bujetin bulanan, nabung wujudin impian, sampai nabung bareng hingga 100 kawan\nMudah pisahin keuangan personal dan bisnis dalam satu aplikasi\nPinjaman hingga Rp25 juta di Pinang Flexi, khusus buat kamu yang gajian lewat Raya atau BRI. \n\nAksesnya luas di seluruh Indonesia \nAda 25 Community Branch Raya tersebar di Indonesia\nSetor tunai di Kantor Bank BRI, Agen BRILink dan Community Branch Raya\nTarik tunai di Indomaret, ATM BRI, Agen BRILink dan Community Branch Raya\n\nTransaksi aman bikin nyaman\nSmart login, cepat dan aman dengan sidik jari atau scan wajah.\nFitur Ekstra Pengamanan untuk transaksi nominal besar.\nKeamanan berlapis menggunakan kode OTP dan verifikasi wajah.\n\nDapatkan juga cashback, voucher, dan berbagai misi seru hanya untukmu.\nTunggu apalagi, mulai #RayakanKemudahan bersama Raya! #BankDigitalPilihanmu #BebasinBarengRaya\n\nUntuk informasi lebih lengkap, hubungi Sapa Raya di:\nContact Center: 1500 494\nWhatsApp: 081210000494\nInstagram: @bankraya\n\nPT Bank Raya Indonesia Tbk. \nGedung Menara BRILiaN \nJl. Gatot Subroto No. 177A, Kel No.RT 009/01, Menteng Dalam, Tebet, Jakarta Selatan, Jakarta 12870.",
+        "minimumOsVersion": "16.6",
+        "bundleId": "id.co.bankraya.apps",
+        "trackCensoredName": "Raya - Digital Bank",
+        "trackViewUrl": "https://apps.apple.com/id/app/raya-digital-bank/id1627393834?uo=4",
+        "contentAdvisoryRating": "4+",
+        "averageUserRating": 4.65672,
+        "releaseNotes": "Update terbaru sudah hadir!\n\n- Setor Tunai kini tersedia di Indomaret.\n- Uang Saku anak kini bisa transfer.\n- Transaksi digital bikin jejakmu jadi lebih hijau dengan Green Banking.\n- Tampilan antar muka baru FAQ.\n\nAda juga improvement lainnya biar makin aman & nyaman pakai Raya\n\nPs:\nBiar transaksi makin nyaman, pastikan tipe HP kamu sudah disupport Raya. Selengkapnya cek di ‘Tentang aplikasi ini’ ya!",
+        "trackName": "Raya - Digital Bank",
+        "trackId": 1627393834,
         "userRatingCount": 1541
       },
       "apple_discovery": {
@@ -2615,8 +2615,8 @@
         "title": "myBCA: BCA Banking Apps",
         "developer": "PT Bank Central Asia Tbk.",
         "score": 4.004685,
-        "ratings": 105842,
-        "reviews": 46358,
+        "ratings": 105843,
+        "reviews": 46361,
         "installs": "10.000.000+",
         "updated": 1790080787,
         "url": "https://play.google.com/store/apps/details?id=com.bca.mybca.omni.android&hl=id&gl=id"
@@ -2632,17 +2632,6 @@
       "apple_app_id": "1440241902",
       "apple_url": "https://apps.apple.com/id/app/mybca-new-bca-banking-apps/id1440241902?uo=4",
       "apple_metadata": {
-        "screenshotUrls": [
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/40/b4/1440b4ed-031e-b231-44d8-78df204a52ae/01.png/392x696bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/d3/7a/75d37a8b-a3e0-22f3-1dbd-28558c6c94f7/02.png/392x696bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/41/38/5741380b-823b-6ad7-c8b4-865376d48da9/03.png/392x696bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/24/69/09/246909af-6845-9f66-4423-e5499d7fae46/04.png/392x696bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/8c/a4/128ca481-0ce2-9938-fa05-6a3d0fa76ded/05.png/392x696bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/69/26/866926c7-aa6b-57bf-d4fb-0ea5f1ac91ab/06.png/392x696bb.png"
-        ],
-        "ipadScreenshotUrls": [],
-        "appletvScreenshotUrls": [],
-        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/40/ae/6540aee3-05f8-b68a-a94c-db2f87488e56/AppIcon-0-0-1x_U007emarketing-0-6-0-0-sRGB-GLES2_U002c0-85-220.png/512x512bb.jpg",
         "isGameCenterEnabled": false,
         "supportedDevices": [
           "iPhone5s-iPhone5s",
@@ -2782,7 +2771,49 @@
         "artistViewUrl": "https://apps.apple.com/id/developer/pt-bank-central-asia-tbk/id551587257?uo=4",
         "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/40/ae/6540aee3-05f8-b68a-a94c-db2f87488e56/AppIcon-0-0-1x_U007emarketing-0-6-0-0-sRGB-GLES2_U002c0-85-220.png/60x60bb.jpg",
         "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/40/ae/6540aee3-05f8-b68a-a94c-db2f87488e56/AppIcon-0-0-1x_U007emarketing-0-6-0-0-sRGB-GLES2_U002c0-85-220.png/100x100bb.jpg",
+        "screenshotUrls": [
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/40/b4/1440b4ed-031e-b231-44d8-78df204a52ae/01.png/392x696bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/d3/7a/75d37a8b-a3e0-22f3-1dbd-28558c6c94f7/02.png/392x696bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/41/38/5741380b-823b-6ad7-c8b4-865376d48da9/03.png/392x696bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/24/69/09/246909af-6845-9f66-4423-e5499d7fae46/04.png/392x696bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/8c/a4/128ca481-0ce2-9938-fa05-6a3d0fa76ded/05.png/392x696bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/69/26/866926c7-aa6b-57bf-d4fb-0ea5f1ac91ab/06.png/392x696bb.png"
+        ],
+        "ipadScreenshotUrls": [],
+        "appletvScreenshotUrls": [],
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/40/ae/6540aee3-05f8-b68a-a94c-db2f87488e56/AppIcon-0-0-1x_U007emarketing-0-6-0-0-sRGB-GLES2_U002c0-85-220.png/512x512bb.jpg",
         "features": [],
+        "releaseNotes": "Enjoy a transaction experience with the latest version of myBCA, now featuring:\n\n• myBCA Widget is now available for quick access right from your Home Screen.\n• Top Up Flazz is now more flexible, starting from IDR 10 Thousand.\n• Access your BCA Syariah portfolio through the My Account menu. \n\nSo what are you waiting for? Update your app to the latest version and enjoy all myBCA has to offer!",
+        "minimumOsVersion": "15.0",
+        "artistId": 551587257,
+        "artistName": "PT. Bank Central Asia Tbk",
+        "genres": [
+          "Finance",
+          "Business"
+        ],
+        "price": 0.0,
+        "genreIds": [
+          "6015",
+          "6000"
+        ],
+        "sellerName": "PT Bank Central Asia Tbk.",
+        "isVppDeviceBasedLicensingEnabled": true,
+        "primaryGenreName": "Finance",
+        "primaryGenreId": 6015,
+        "trackId": 1440241902,
+        "trackName": "myBCA: New BCA Banking Apps",
+        "releaseDate": "2021-05-03T07:00:00Z",
+        "currentVersionReleaseDate": "2026-09-17T23:27:22Z",
+        "version": "2.22.1",
+        "wrapperType": "software",
+        "currency": "IDR",
+        "description": "From open BCA account online, transfer money online, paying bills, to managing investments — everything is accessible from just one app. myBCA is here to simplify your digital banking needs all in one place. With just one BCA ID, your financial transactions can be done anytime, anywhere.\n\nMain Features:\n1. Domestic & International Transfers\nSend money to fellow BCA users, other banks, virtual accounts, or top up e-wallets like OVO, DANA, and more. Easily transfer foreign currencies with competitive exchange rates. Perfect for personal or business transfers — a powerful foreign exchange app.\n2. Complete Bill & Daily Payment Services\nPay electricity, water, internet, vehicle tax, education fees, and even credit card installments — all from within the app.\n3. Practical QRIS Payments\nMake payments by scanning QRIS codes. Works across Indonesia, Thailand, Singapore, and Malaysia.\n4. Cardless Cash Withdrawals\nForgot your wallet? No problem. Use the cardless feature in myBCA to deposit or withdraw cash at any BCA ATM.\n5. Fast & Secure Login Anywhere\nAccess the app quickly and securely using fingerprint or Face ID — no need to enter your PIN repeatedly.\n6. Online Foreign Currency Savings\nBuy and save in foreign currencies with the Poket Valas feature. Choose from up to 17 currencies, available 24/7 with great exchange rates. Ideal for business, travel, or long-term investing. Use your BCA Mastercard debit card abroad with no conversion hassle.\n7. Curated Investments from Rp10,000\nStart investing from just Rp10,000 with access to mutual funds and bonds. Safe, curated, and built around your investment goals — all accessible via mobile. It’s your digital account opening app for investing.\n8. Financial Diary & Transaction History\nTrack your daily expenses using Financial Diary and view your transaction history all the way back to 2016 — across all accounts in one dashboard.\n9. Multi-Platform Access\nAccess myBCA via the mobile app or web browser. Flexible and secure across devices.\n10. Exclusive Features for Priority Customers\nEnjoy exclusive offers and services for Priority and Solitaire customers — including lifestyle, health, and travel benefits.\n\nDownload myBCA Now!\nDownload myBCA and enjoy seamless banking right from your fingertips\n\nPerfect for those looking to open BCA account online, save in foreign currencies, invest, or just pay electricity bills from home\n\nAll your transactions — one app. Faster, safer, and hassle-free!\n\n#myBCA #OpenBankAccountOnlineFree #TransferUang #QRIS #TopUpEwallet #ForeignExchangeApp #OnlineInvestment #DigitalBanking #BankNewAccountOpeningOnline #myBCAPayLater",
+        "trackCensoredName": "myBCA: New BCA Banking Apps",
+        "trackViewUrl": "https://apps.apple.com/id/app/mybca-new-bca-banking-apps/id1440241902?uo=4",
+        "contentAdvisoryRating": "17+",
+        "averageUserRating": 3.46436,
+        "averageUserRatingForCurrentVersion": 3.46436,
+        "sellerUrl": "https://www.bca.co.id",
         "languageCodesISO2A": [
           "EN",
           "ID",
@@ -2792,38 +2823,7 @@
         "formattedPrice": "Free",
         "userRatingCountForCurrentVersion": 15432,
         "trackContentRating": "17+",
-        "sellerUrl": "https://www.bca.co.id",
-        "averageUserRatingForCurrentVersion": 3.46436,
-        "currentVersionReleaseDate": "2026-09-17T23:27:22Z",
-        "releaseNotes": "Enjoy a transaction experience with the latest version of myBCA, now featuring:\n\n• myBCA Widget is now available for quick access right from your Home Screen.\n• Top Up Flazz is now more flexible, starting from IDR 10 Thousand.\n• Access your BCA Syariah portfolio through the My Account menu. \n\nSo what are you waiting for? Update your app to the latest version and enjoy all myBCA has to offer!",
-        "minimumOsVersion": "15.0",
-        "artistId": 551587257,
-        "artistName": "PT. Bank Central Asia Tbk",
-        "price": 0.0,
-        "genres": [
-          "Finance",
-          "Business"
-        ],
         "bundleId": "com.bca.mybca.omni",
-        "trackId": 1440241902,
-        "trackName": "myBCA: New BCA Banking Apps",
-        "genreIds": [
-          "6015",
-          "6000"
-        ],
-        "primaryGenreName": "Finance",
-        "primaryGenreId": 6015,
-        "sellerName": "PT Bank Central Asia Tbk.",
-        "isVppDeviceBasedLicensingEnabled": true,
-        "version": "2.22.1",
-        "wrapperType": "software",
-        "currency": "IDR",
-        "description": "From open BCA account online, transfer money online, paying bills, to managing investments — everything is accessible from just one app. myBCA is here to simplify your digital banking needs all in one place. With just one BCA ID, your financial transactions can be done anytime, anywhere.\n\nMain Features:\n1. Domestic & International Transfers\nSend money to fellow BCA users, other banks, virtual accounts, or top up e-wallets like OVO, DANA, and more. Easily transfer foreign currencies with competitive exchange rates. Perfect for personal or business transfers — a powerful foreign exchange app.\n2. Complete Bill & Daily Payment Services\nPay electricity, water, internet, vehicle tax, education fees, and even credit card installments — all from within the app.\n3. Practical QRIS Payments\nMake payments by scanning QRIS codes. Works across Indonesia, Thailand, Singapore, and Malaysia.\n4. Cardless Cash Withdrawals\nForgot your wallet? No problem. Use the cardless feature in myBCA to deposit or withdraw cash at any BCA ATM.\n5. Fast & Secure Login Anywhere\nAccess the app quickly and securely using fingerprint or Face ID — no need to enter your PIN repeatedly.\n6. Online Foreign Currency Savings\nBuy and save in foreign currencies with the Poket Valas feature. Choose from up to 17 currencies, available 24/7 with great exchange rates. Ideal for business, travel, or long-term investing. Use your BCA Mastercard debit card abroad with no conversion hassle.\n7. Curated Investments from Rp10,000\nStart investing from just Rp10,000 with access to mutual funds and bonds. Safe, curated, and built around your investment goals — all accessible via mobile. It’s your digital account opening app for investing.\n8. Financial Diary & Transaction History\nTrack your daily expenses using Financial Diary and view your transaction history all the way back to 2016 — across all accounts in one dashboard.\n9. Multi-Platform Access\nAccess myBCA via the mobile app or web browser. Flexible and secure across devices.\n10. Exclusive Features for Priority Customers\nEnjoy exclusive offers and services for Priority and Solitaire customers — including lifestyle, health, and travel benefits.\n\nDownload myBCA Now!\nDownload myBCA and enjoy seamless banking right from your fingertips\n\nPerfect for those looking to open BCA account online, save in foreign currencies, invest, or just pay electricity bills from home\n\nAll your transactions — one app. Faster, safer, and hassle-free!\n\n#myBCA #OpenBankAccountOnlineFree #TransferUang #QRIS #TopUpEwallet #ForeignExchangeApp #OnlineInvestment #DigitalBanking #BankNewAccountOpeningOnline #myBCAPayLater",
-        "trackCensoredName": "myBCA: New BCA Banking Apps",
-        "trackViewUrl": "https://apps.apple.com/id/app/mybca-new-bca-banking-apps/id1440241902?uo=4",
-        "contentAdvisoryRating": "17+",
-        "averageUserRating": 3.46436,
-        "releaseDate": "2021-05-03T07:00:00Z",
         "userRatingCount": 15432
       },
       "apple_discovery": {
@@ -2851,9 +2851,9 @@
       "google_play_metadata": {
         "title": "BCA mobile",
         "developer": "PT Bank Central Asia Tbk.",
-        "score": 3.9870484,
+        "score": 3.98708,
         "ratings": 1384489,
-        "reviews": 567717,
+        "reviews": 567719,
         "installs": "50.000.000+",
         "updated": 1789641055,
         "url": "https://play.google.com/store/apps/details?id=com.bca&hl=id&gl=id"
@@ -2869,6 +2869,15 @@
       "apple_app_id": "1407403492",
       "apple_url": "https://apps.apple.com/id/app/bca-mobile/id1407403492?uo=4",
       "apple_metadata": {
+        "isGameCenterEnabled": false,
+        "advisories": [],
+        "kind": "software",
+        "screenshotUrls": [
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/0e/7b/e70e7bc2-2caa-8fb5-0475-2a9c1bac4508/be464e74-462a-406d-847c-32189ac59386_Login_1242_x_2208.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d2/b1/d3/d2b1d326-816b-b6c1-d484-12f98e598034/884807e7-d811-4a6a-8d63-bbcad84990fc_Dashboard_1242_x_2208.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/27/30/74/27307436-eda8-1e4c-4103-052570228827/9d07d58b-d61b-4f40-8f0e-f157bc80957c_Accounts_U0026Movements_1242_x_2208.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e3/a4/06/e3a40611-6077-f6dd-c533-e70f89b231e4/5d3426ca-903d-4003-8032-70740fc101e2_Checks_1242_x_2208.jpg/392x696bb.jpg"
+        ],
         "ipadScreenshotUrls": [
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ca/8b/b0/ca8bb029-1607-2b7f-c3d7-fc729be80145/ee4f9f82-03d9-41fb-b8b0-4ad157cbf380_Autentication_2048_x_2732.jpg/576x768bb.jpg",
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/86/9a/60869ad0-881b-e793-f01c-84cdebf0632d/0a43047a-3bc6-4cfb-9c3e-2b5676d12965_Login_2048_x_2732.jpg/576x768bb.jpg",
@@ -2878,14 +2887,12 @@
         ],
         "appletvScreenshotUrls": [],
         "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/c3/fb/7bc3fb70-d0f0-2507-b7f5-d2c511a13539/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-        "screenshotUrls": [
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/0e/7b/e70e7bc2-2caa-8fb5-0475-2a9c1bac4508/be464e74-462a-406d-847c-32189ac59386_Login_1242_x_2208.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d2/b1/d3/d2b1d326-816b-b6c1-d484-12f98e598034/884807e7-d811-4a6a-8d63-bbcad84990fc_Dashboard_1242_x_2208.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/27/30/74/27307436-eda8-1e4c-4103-052570228827/9d07d58b-d61b-4f40-8f0e-f157bc80957c_Accounts_U0026Movements_1242_x_2208.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e3/a4/06/e3a40611-6077-f6dd-c533-e70f89b231e4/5d3426ca-903d-4003-8032-70740fc101e2_Checks_1242_x_2208.jpg/392x696bb.jpg"
+        "features": [
+          "iosUniversal"
         ],
-        "isGameCenterEnabled": false,
-        "advisories": [],
+        "artistViewUrl": "https://apps.apple.com/id/developer/bca-mobile-banking/id1407403491?uo=4",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/c3/fb/7bc3fb70-d0f0-2507-b7f5-d2c511a13539/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/c3/fb/7bc3fb70-d0f0-2507-b7f5-d2c511a13539/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
         "supportedDevices": [
           "iPhone5s-iPhone5s",
           "iPadAir-iPadAir",
@@ -3018,13 +3025,30 @@
           "iPhone18ProMax-iPhone18ProMax",
           "iPhoneDuo-iPhoneDuo"
         ],
-        "kind": "software",
-        "artistViewUrl": "https://apps.apple.com/id/developer/bca-mobile-banking/id1407403491?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/c3/fb/7bc3fb70-d0f0-2507-b7f5-d2c511a13539/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/c3/fb/7bc3fb70-d0f0-2507-b7f5-d2c511a13539/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
-        "features": [
-          "iosUniversal"
+        "averageUserRating": 0,
+        "currentVersionReleaseDate": "2026-01-21T09:31:55Z",
+        "releaseNotes": "Correções na aplicação. \nGaranta que tenha a sua aplicação sempre actualizada.",
+        "minimumOsVersion": "12.0",
+        "artistId": 1407403491,
+        "artistName": "BCA Mobile Banking",
+        "genres": [
+          "Finance"
         ],
+        "price": 0.0,
+        "bundleId": "com.exictos.mbanka.bca.ao",
+        "genreIds": [
+          "6015"
+        ],
+        "releaseDate": "2019-01-13T19:20:18Z",
+        "primaryGenreName": "Finance",
+        "primaryGenreId": 6015,
+        "sellerName": "BANCO COMERCIAL ANGOLANO SA",
+        "isVppDeviceBasedLicensingEnabled": true,
+        "version": "4.3.11",
+        "wrapperType": "software",
+        "currency": "IDR",
+        "description": "No BCA Mobile pode:\n- Efectuar a personalização do ecrã;\n- Consultar saldos, movimentos, NIB, IBAN e SWIFT;\n- Consultar contas de depósito a prazo;\n- Consultar detalhes sobre créditos contraídos;\n- Agendar e efectuar transferências Conta a Conta e Interbancárias;\n- Efectuar transferências KWiK (usando número do telemóvel, email ou nickname);   \n- Carregar o saldo do telemóvel e pagar a conta da energia, água, televisão, internet, entre outros;\n- Consultar a taxa de câmbio;\n- Levantamento sem Cartão;\n- Bloquear cartões, em situações de emergência (perda/roubo);\n- Definir limites diários nos cartões multicaixa;\n- Consultar operações e exportar detalhes em documento PDF;\n- Criar e utilizar favoritos de transferências e pagamentos de serviços;\n- Pagamentos de Impostos, incluindo RUPE;\n- Consulta de Posição Integrada, com visualização gráfica de activos vs passivos;\n- Localizador de Serviços – A partir da sua posição actual, ou outra por si determinada, pode localizar os serviços BCA mais próximos de si, assim como as respectivas moradas e contactos.\nE muito mais...",
+        "averageUserRatingForCurrentVersion": 0,
         "languageCodesISO2A": [
           "EN"
         ],
@@ -3032,35 +3056,11 @@
         "formattedPrice": "Free",
         "userRatingCountForCurrentVersion": 0,
         "trackContentRating": "4+",
-        "averageUserRatingForCurrentVersion": 0,
-        "price": 0.0,
-        "artistId": 1407403491,
-        "artistName": "BCA Mobile Banking",
-        "genres": [
-          "Finance"
-        ],
-        "primaryGenreName": "Finance",
-        "primaryGenreId": 6015,
-        "sellerName": "BANCO COMERCIAL ANGOLANO SA",
-        "genreIds": [
-          "6015"
-        ],
-        "trackId": 1407403492,
-        "trackName": "BCA Mobile",
-        "currentVersionReleaseDate": "2026-01-21T09:31:55Z",
-        "isVppDeviceBasedLicensingEnabled": true,
-        "releaseNotes": "Correções na aplicação. \nGaranta que tenha a sua aplicação sempre actualizada.",
-        "version": "4.3.11",
-        "wrapperType": "software",
-        "currency": "IDR",
-        "description": "No BCA Mobile pode:\n- Efectuar a personalização do ecrã;\n- Consultar saldos, movimentos, NIB, IBAN e SWIFT;\n- Consultar contas de depósito a prazo;\n- Consultar detalhes sobre créditos contraídos;\n- Agendar e efectuar transferências Conta a Conta e Interbancárias;\n- Efectuar transferências KWiK (usando número do telemóvel, email ou nickname);   \n- Carregar o saldo do telemóvel e pagar a conta da energia, água, televisão, internet, entre outros;\n- Consultar a taxa de câmbio;\n- Levantamento sem Cartão;\n- Bloquear cartões, em situações de emergência (perda/roubo);\n- Definir limites diários nos cartões multicaixa;\n- Consultar operações e exportar detalhes em documento PDF;\n- Criar e utilizar favoritos de transferências e pagamentos de serviços;\n- Pagamentos de Impostos, incluindo RUPE;\n- Consulta de Posição Integrada, com visualização gráfica de activos vs passivos;\n- Localizador de Serviços – A partir da sua posição actual, ou outra por si determinada, pode localizar os serviços BCA mais próximos de si, assim como as respectivas moradas e contactos.\nE muito mais...",
         "trackCensoredName": "BCA Mobile",
         "trackViewUrl": "https://apps.apple.com/id/app/bca-mobile/id1407403492?uo=4",
         "contentAdvisoryRating": "4+",
-        "averageUserRating": 0,
-        "minimumOsVersion": "12.0",
-        "bundleId": "com.exictos.mbanka.bca.ao",
-        "releaseDate": "2019-01-13T19:20:18Z",
+        "trackName": "BCA Mobile",
+        "trackId": 1407403492,
         "userRatingCount": 0
       },
       "apple_discovery": {
@@ -3089,8 +3089,8 @@
         "title": "Livin' by Mandiri",
         "developer": "PT Bank Mandiri (Persero) Tbk",
         "score": 2.7622085,
-        "ratings": 773504,
-        "reviews": 334033,
+        "ratings": 773516,
+        "reviews": 334035,
         "installs": "50.000.000+",
         "updated": 1788654382,
         "url": "https://play.google.com/store/apps/details?id=id.bmri.livin&hl=id&gl=id"
@@ -3106,6 +3106,7 @@
       "apple_app_id": "1555414743",
       "apple_url": "https://apps.apple.com/id/app/livin-by-mandiri/id1555414743?uo=4",
       "apple_metadata": {
+        "isGameCenterEnabled": false,
         "screenshotUrls": [
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/9b/e6/589be62b-306e-31f6-8aed-febb7a33edcd/1.png/392x696bb.png",
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/38/d3/6738d3f3-5c38-a874-5b94-245e5cdea562/2.png/392x696bb.png",
@@ -3119,13 +3120,7 @@
         "ipadScreenshotUrls": [],
         "appletvScreenshotUrls": [],
         "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/3f/62/1f3f62a7-bc10-42eb-3fc3-178045c005f4/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg",
-        "isGameCenterEnabled": false,
         "features": [],
-        "advisories": [],
-        "kind": "software",
-        "artistViewUrl": "https://apps.apple.com/id/developer/pt-bank-mandiri-persero-tbk/id516447725?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/3f/62/1f3f62a7-bc10-42eb-3fc3-178045c005f4/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/3f/62/1f3f62a7-bc10-42eb-3fc3-178045c005f4/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.jpg",
         "supportedDevices": [
           "iPhone5s-iPhone5s",
           "iPadAir-iPadAir",
@@ -3258,8 +3253,12 @@
           "iPhone18ProMax-iPhone18ProMax",
           "iPhoneDuo-iPhoneDuo"
         ],
+        "advisories": [],
+        "kind": "software",
+        "artistViewUrl": "https://apps.apple.com/id/developer/pt-bank-mandiri-persero-tbk/id516447725?uo=4",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/3f/62/1f3f62a7-bc10-42eb-3fc3-178045c005f4/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/3f/62/1f3f62a7-bc10-42eb-3fc3-178045c005f4/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.jpg",
         "sellerUrl": "https://bmri.id/livin",
-        "fileSizeBytes": "484461568",
         "formattedPrice": "Free",
         "userRatingCountForCurrentVersion": 31421,
         "trackContentRating": "4+",
@@ -3267,37 +3266,38 @@
           "EN",
           "ID"
         ],
+        "fileSizeBytes": "484461568",
         "averageUserRatingForCurrentVersion": 2.24779,
-        "minimumOsVersion": "12.0",
         "artistId": 516447725,
         "artistName": "PT. Bank Mandiri (Persero) Tbk.",
+        "genres": [
+          "Finance",
+          "Business"
+        ],
         "price": 0.0,
+        "bundleId": "id.bmri.livin",
         "trackId": 1555414743,
         "trackName": "Livin' by Mandiri",
-        "bundleId": "id.bmri.livin",
-        "releaseDate": "2021-09-29T07:00:00Z",
-        "currentVersionReleaseDate": "2026-09-07T12:21:19Z",
         "isVppDeviceBasedLicensingEnabled": true,
         "genreIds": [
           "6015",
           "6000"
         ],
+        "primaryGenreName": "Finance",
+        "primaryGenreId": 6015,
         "sellerName": "PT Bank Mandiri (Persero) Tbk.",
+        "releaseDate": "2021-09-29T07:00:00Z",
+        "currentVersionReleaseDate": "2026-09-07T12:21:19Z",
+        "releaseNotes": "New version with enhancement for your everyday transaction. Update now!",
         "version": "3.8.0",
         "wrapperType": "software",
         "currency": "IDR",
         "description": "Imagine having a 24/7 financial sidekick, always there for you, wherever you go. Livin' has leveled up with exciting features to enrich your life to the fullest!\n\nLIFESTYLE SAVER\nDive into various content and meet your lifestyle needs at Sukha! Pay effortlessly using your savings or credit card.\n\nEARN LIVIN'POIN AND REDEEM EXCITING REWARDS\nMake more transactions, earn Livin'poin, and redeem exciting rewards. Stay in Livin' to increase your Membership level and enjoy greater perks!\n\nCREDIT OPTIONS WITH VARIOUS OFFERS\nWant to buy gold from partner merchants with flexible financing terms? Apply through KSM Emas! Need additional funds? Apply for a loan secured by timed deposit collateral via Livin' KA-Deposito or securities collaterals via Livin' KA-SBN!\n\nALL KIND OF ACCOUNTS FOR YOUR NEEDS!\nNow available in IDR, Forex, or Current account. Also, choose between physical or virtual debit card according to your needs.\n\nGROW YOUR INVESTMENT AND WEALTH IN ONE APP\nManage your investments effortlessly without switching between apps. From mutual funds, stocks, primary and secondary bonds, everything you need is seamlessly integrated into one app.\n\nREGISTER LIVIN' FROM OVERSEAS\nSign up for Livin' using your local country number – we're going global, literally!\n\nCROSS-CURRENCY TRANSFER\nCheap, fast and easy way to send foreign currencies globally or between Mandiri account.\n\nUSE YOUR FOREX ACCOUNT AS YOUR SOURCE OF FUND NOW\nSet your Forex Account as your funding source – get it done now. Then you can use Debit Card whenever you travel overseas! Without exchange fees!\n\nQRIS LIVIN' IN MORE COUNTRIES\nYou only need Livin' to travel across Asia. Pay using QRIS in Thailand, Singapore, Malaysia, Japan, South Korea and China. Enjoy the flexibility to choose between savings or credit card as the source of fund.\n\nALL-IN-ONE WALLET\nConnects all your wallets in one app – truly beyond banking!\n\nEASY AND ALWAYS ON TIME WITH YOUR BILL PAYMENTS\nSeamless payment experience with VA copy-paste and flexible source of funds (Savings or Credit Card). You can also activate auto bill payment to never miss a bill.\n\nTOLL-FREE CALL 24/7\nLivin’ Call by Mandiri ready to provide any banking information you need, toll-free, any time, any where. Talk to our customer service and get insight right away.\n\nCARDLESS DEPOSIT AND WITHDRAWAL\nForget your wallet? No problem! Cash in and out at the ATM with Livin'.\n\nEXPRESS FUNDS\nGet loans and credit cards effortlessly, with swift approval! Loan limits up to IDR 1 billion.\n\nYOUR KEY TO A DREAM HOME\nDreaming of your ideal home? Livin' by Mandiri opens the door to your aspirations with Livin' KPR. Delve into a collection of captivating properties from our renowned developers and Livin' Lelang catalogue!\n\nYour financial sidekick is leveling up – more features, better than ever! Register now and let Livin' enhance your financial adventures!\n\nPT Bank Mandiri (Persero) Tbk. is licensed and supervised by the Indonesia Financial Service Authority (OJK) and Bank Indonesia (BI), and is a member of Deposit Insurance Corporation (LPS).\n\nMenara Mandiri 1\nJenderal Sudirman Street Kav 54-55\nJakarta 12190 Indonesia\nPhone: 14000, +62-21-52997777\nEmail: mandiricare@bankmandiri.co.id\nSWIFT Code: BMRIIDJA",
+        "averageUserRating": 2.24779,
         "trackCensoredName": "Livin' by Mandiri",
         "trackViewUrl": "https://apps.apple.com/id/app/livin-by-mandiri/id1555414743?uo=4",
-        "averageUserRating": 2.24779,
         "contentAdvisoryRating": "4+",
-        "primaryGenreName": "Finance",
-        "primaryGenreId": 6015,
-        "releaseNotes": "New version with enhancement for your everyday transaction. Update now!",
-        "genres": [
-          "Finance",
-          "Business"
-        ],
+        "minimumOsVersion": "12.0",
         "userRatingCount": 31421
       },
       "apple_discovery": {
@@ -3324,9 +3324,9 @@
       "google_play_metadata": {
         "title": "BRImo",
         "developer": "PT Bank Rakyat Indonesia (Persero) Tbk.",
-        "score": 4.6053023,
-        "ratings": 2254427,
-        "reviews": 928004,
+        "score": 4.605324,
+        "ratings": 2254465,
+        "reviews": 928015,
         "installs": "50.000.000+",
         "updated": 1790396733,
         "url": "https://play.google.com/store/apps/details?id=id.co.bri.brimo&hl=id&gl=id"
@@ -3561,9 +3561,9 @@
       "google_play_metadata": {
         "title": "wondr by BNI",
         "developer": "PT Bank Negara Indonesia (Persero) Tbk.",
-        "score": 4.8243794,
-        "ratings": 1388186,
-        "reviews": 116852,
+        "score": 4.824382,
+        "ratings": 1388356,
+        "reviews": 116861,
         "installs": "10.000.000+",
         "updated": 1784513892,
         "url": "https://play.google.com/store/apps/details?id=id.bni.wondr&hl=id&gl=id"
@@ -3581,24 +3581,6 @@
       "apple_metadata": {
         "isGameCenterEnabled": false,
         "features": [],
-        "advisories": [],
-        "kind": "software",
-        "artistViewUrl": "https://apps.apple.com/id/developer/pt-bank-negara-indonesia-persero-tbk/id623228787?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/1e/d2/4c1ed27f-54eb-2ac8-1d49-dc09fe72a734/AppIcon-PROD-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/1e/d2/4c1ed27f-54eb-2ac8-1d49-dc09fe72a734/AppIcon-PROD-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-        "screenshotUrls": [
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/95/d5/a495d564-9708-1277-36d2-93564e27926b/ADE-BNI_-_Wondr_by_BNI-_Iphone_5_U002c5_Inch_Version-FA-241112-2-01.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/3c/04/233c04a5-ebaa-82b1-02b0-ce5108d18e03/ADE-BNI_-_Wondr_by_BNI-_Iphone_5_U002c5_Inch_Version-FA-241112-2-02.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b0/17/14/b017143a-951d-fd0a-1e07-8e1807302ecb/ADE-BNI_-_Wondr_by_BNI-_Iphone_5_U002c5_Inch_Version-FA-241112-2-03.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7d/78/ce/7d78ce10-1d64-1927-2ab1-cdc1f8cfdae9/ADE-BNI_-_Wondr_by_BNI-_Iphone_5_U002c5_Inch_Version-FA-241112-2-04.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/66/a1/c266a17e-432b-2082-f226-73e763d6c879/ADE-BNI_-_Wondr_by_BNI-_Iphone_5_U002c5_Inch_Version-FA-241112-2-05.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/27/f3/68/27f368c5-a65f-31c4-a4a5-9a2edb3ded0a/ADE-BNI_-_Wondr_by_BNI-_Iphone_5_U002c5_Inch_Version-FA-241112-2-06.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/9e/89/629e8997-9da9-4938-e98a-07b6a99bb31e/ADE-BNI_-_Wondr_by_BNI-_Iphone_5_U002c5_Inch_Version-FA-241112-2-07.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/c5/08/f5c508f8-0945-3dda-27fb-b67b277961ee/ADE-BNI_-_Wondr_by_BNI-_Iphone_5_U002c5_Inch_Version-FA-241112-2-08.jpg/392x696bb.jpg"
-        ],
-        "ipadScreenshotUrls": [],
-        "appletvScreenshotUrls": [],
-        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/1e/d2/4c1ed27f-54eb-2ac8-1d49-dc09fe72a734/AppIcon-PROD-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
         "supportedDevices": [
           "iPhone5s-iPhone5s",
           "iPadAir-iPadAir",
@@ -3731,25 +3713,46 @@
           "iPhone18ProMax-iPhone18ProMax",
           "iPhoneDuo-iPhoneDuo"
         ],
+        "advisories": [],
+        "kind": "software",
+        "screenshotUrls": [
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/95/d5/a495d564-9708-1277-36d2-93564e27926b/ADE-BNI_-_Wondr_by_BNI-_Iphone_5_U002c5_Inch_Version-FA-241112-2-01.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/3c/04/233c04a5-ebaa-82b1-02b0-ce5108d18e03/ADE-BNI_-_Wondr_by_BNI-_Iphone_5_U002c5_Inch_Version-FA-241112-2-02.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b0/17/14/b017143a-951d-fd0a-1e07-8e1807302ecb/ADE-BNI_-_Wondr_by_BNI-_Iphone_5_U002c5_Inch_Version-FA-241112-2-03.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7d/78/ce/7d78ce10-1d64-1927-2ab1-cdc1f8cfdae9/ADE-BNI_-_Wondr_by_BNI-_Iphone_5_U002c5_Inch_Version-FA-241112-2-04.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/66/a1/c266a17e-432b-2082-f226-73e763d6c879/ADE-BNI_-_Wondr_by_BNI-_Iphone_5_U002c5_Inch_Version-FA-241112-2-05.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/27/f3/68/27f368c5-a65f-31c4-a4a5-9a2edb3ded0a/ADE-BNI_-_Wondr_by_BNI-_Iphone_5_U002c5_Inch_Version-FA-241112-2-06.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/9e/89/629e8997-9da9-4938-e98a-07b6a99bb31e/ADE-BNI_-_Wondr_by_BNI-_Iphone_5_U002c5_Inch_Version-FA-241112-2-07.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/c5/08/f5c508f8-0945-3dda-27fb-b67b277961ee/ADE-BNI_-_Wondr_by_BNI-_Iphone_5_U002c5_Inch_Version-FA-241112-2-08.jpg/392x696bb.jpg"
+        ],
+        "ipadScreenshotUrls": [],
+        "appletvScreenshotUrls": [],
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/1e/d2/4c1ed27f-54eb-2ac8-1d49-dc09fe72a734/AppIcon-PROD-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+        "artistViewUrl": "https://apps.apple.com/id/developer/pt-bank-negara-indonesia-persero-tbk/id623228787?uo=4",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/1e/d2/4c1ed27f-54eb-2ac8-1d49-dc09fe72a734/AppIcon-PROD-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/1e/d2/4c1ed27f-54eb-2ac8-1d49-dc09fe72a734/AppIcon-PROD-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
         "artistId": 623228787,
         "artistName": "PT. BANK NEGARA INDONESIA (PERSERO) TBK.",
+        "genres": [
+          "Finance"
+        ],
+        "price": 0.0,
         "releaseNotes": "Di update kali ini, kami menghadirkan wondrZ, tabungan anak dan remaja\ndari BNI.\n\nBuka tabungan ini langsung dari wondr dan dampingi langkah pertama anak\ndalam belajar finansial dengan kendali mudah.\n\nSaat anak berusia 12 tahun, kamu juga bisa kasih mereka akses ke wondr,\nagar mereka mulai belajar mengatur tabungan wondrZ sendiri, seperti:\n-   Belajar transaksi pakai QRIS\n-   Eksplor aktivitas seru di menu Lifestyle\n\nKamu tetap bisa memantau aktivitas akun langsung dari wondr by BNI.\n\nYuk, update sekarang!",
+        "bundleId": "id.bni.wondr",
         "genreIds": [
           "6015"
         ],
-        "releaseDate": "2024-06-21T07:00:00Z",
-        "currentVersionReleaseDate": "2026-07-22T18:14:38Z",
+        "primaryGenreName": "Finance",
+        "primaryGenreId": 6015,
+        "trackId": 6499518320,
+        "sellerName": "PT. BANK NEGARA INDONESIA (PERSERO) TBK.",
+        "trackName": "wondr by BNI",
         "isVppDeviceBasedLicensingEnabled": true,
+        "currentVersionReleaseDate": "2026-07-22T18:14:38Z",
         "version": "1.6.0",
         "wrapperType": "software",
         "currency": "IDR",
         "description": "Kenalan yuk sama wondr by BNI, teman finansial yang selalu siap bantu kamu!\nDari transaksi harian di dalam maupun luar negeri, sampai kebutuhan gaya hidup, semua ada di sini.\n\nCukup buka 1 rekening untuk 12 valuta asing, cocok banget buat kamu yang hobi traveling, belanja online, atau sedang mempersiapkan bisnis maupun studi di luar negeri.\nAda juga QRIS Cross Border yang siap menemani kamu bertransaksi di mana saja dengan mudah.\nMembangun masa depan juga jadi lebih gampang dengan investasi Reksa Dana yang bisa dijadwalkan secara rutin.\n\nSetiap fitur dibuat agar sesuai dengan kebutuhanmu. Praktis, bermanfaat, dan mudah digunakan kapan saja.\nYuk, download wondr by BNI dan cobain semua fiturnya yang siap bantu kamu #jadiinmaumu\nUntuk pertanyaan lebih lanjut, hubungi BNI Call 1500046.",
-        "contentAdvisoryRating": "4+",
-        "trackCensoredName": "wondr by BNI",
-        "trackViewUrl": "https://apps.apple.com/id/app/wondr-by-bni/id6499518320?uo=4",
-        "averageUserRating": 4.859,
-        "bundleId": "id.bni.wondr",
-        "minimumOsVersion": "13.0",
         "averageUserRatingForCurrentVersion": 4.859,
         "languageCodesISO2A": [
           "EN",
@@ -3759,15 +3762,12 @@
         "formattedPrice": "Free",
         "userRatingCountForCurrentVersion": 345782,
         "trackContentRating": "4+",
-        "sellerName": "PT. BANK NEGARA INDONESIA (PERSERO) TBK.",
-        "trackId": 6499518320,
-        "trackName": "wondr by BNI",
-        "primaryGenreName": "Finance",
-        "primaryGenreId": 6015,
-        "genres": [
-          "Finance"
-        ],
-        "price": 0.0,
+        "trackCensoredName": "wondr by BNI",
+        "trackViewUrl": "https://apps.apple.com/id/app/wondr-by-bni/id6499518320?uo=4",
+        "contentAdvisoryRating": "4+",
+        "averageUserRating": 4.859,
+        "minimumOsVersion": "13.0",
+        "releaseDate": "2024-06-21T07:00:00Z",
         "userRatingCount": 345782
       },
       "apple_discovery": {
@@ -3795,9 +3795,9 @@
       "google_play_metadata": {
         "title": "OCTO by CIMB Niaga",
         "developer": "PT. Bank CIMB Niaga, Tbk",
-        "score": 4.540599,
-        "ratings": 359338,
-        "reviews": 173446,
+        "score": 4.5406365,
+        "ratings": 359343,
+        "reviews": 173447,
         "installs": "10.000.000+",
         "updated": 1790485304,
         "url": "https://play.google.com/store/apps/details?id=id.co.cimbniaga.mobile.android&hl=id&gl=id"
@@ -3813,6 +3813,7 @@
       "apple_app_id": "505917174",
       "apple_url": "https://apps.apple.com/id/app/octo-by-cimb-niaga/id505917174?uo=4",
       "apple_metadata": {
+        "isGameCenterEnabled": false,
         "screenshotUrls": [
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/ef/2c/20ef2c3d-779c-821d-6900-35fa677b9f67/5.5._U00282025_U0029_01.jpg/392x696bb.jpg",
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b5/50/85/b55085fb-a9d9-6e3b-508e-778c396aa366/5.5._U00282025_U0029_02.jpg/392x696bb.jpg",
@@ -3825,10 +3826,8 @@
         "ipadScreenshotUrls": [],
         "appletvScreenshotUrls": [],
         "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/1c/6c/081c6c03-f655-566f-1a9f-c52f393ebb40/AppIcon-0-0-1x_U007ephone-0-11-0-sRGB-85-220.png/512x512bb.jpg",
-        "artistViewUrl": "https://apps.apple.com/id/developer/bank-cimb-niaga-tbk/id425193419?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/1c/6c/081c6c03-f655-566f-1a9f-c52f393ebb40/AppIcon-0-0-1x_U007ephone-0-11-0-sRGB-85-220.png/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/1c/6c/081c6c03-f655-566f-1a9f-c52f393ebb40/AppIcon-0-0-1x_U007ephone-0-11-0-sRGB-85-220.png/100x100bb.jpg",
-        "isGameCenterEnabled": false,
+        "features": [],
+        "advisories": [],
         "supportedDevices": [
           "iPhone5s-iPhone5s",
           "iPadAir-iPadAir",
@@ -3961,49 +3960,50 @@
           "iPhone18ProMax-iPhone18ProMax",
           "iPhoneDuo-iPhoneDuo"
         ],
-        "advisories": [],
         "kind": "software",
-        "features": [],
-        "averageUserRatingForCurrentVersion": 4.85022,
-        "formattedPrice": "Free",
-        "userRatingCountForCurrentVersion": 157402,
-        "trackContentRating": "4+",
+        "artistViewUrl": "https://apps.apple.com/id/developer/bank-cimb-niaga-tbk/id425193419?uo=4",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/1c/6c/081c6c03-f655-566f-1a9f-c52f393ebb40/AppIcon-0-0-1x_U007ephone-0-11-0-sRGB-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/1c/6c/081c6c03-f655-566f-1a9f-c52f393ebb40/AppIcon-0-0-1x_U007ephone-0-11-0-sRGB-85-220.png/100x100bb.jpg",
+        "minimumOsVersion": "15.0",
         "sellerUrl": "https://www.cimbniaga.co.id/",
         "languageCodesISO2A": [
           "EN",
           "ID"
         ],
         "fileSizeBytes": "319881216",
-        "releaseNotes": "The latest OCTO update is here! \nUpdate now to version 3.1.103 and enjoy a better banking experience with OCTO.",
-        "trackCensoredName": "OCTO by CIMB Niaga",
-        "trackViewUrl": "https://apps.apple.com/id/app/octo-by-cimb-niaga/id505917174?uo=4",
-        "contentAdvisoryRating": "4+",
-        "averageUserRating": 4.85022,
+        "formattedPrice": "Free",
+        "userRatingCountForCurrentVersion": 157402,
+        "trackContentRating": "4+",
+        "averageUserRatingForCurrentVersion": 4.85022,
         "price": 0.0,
         "artistId": 425193419,
         "artistName": "Bank CIMB Niaga Tbk",
-        "genres": [
-          "Finance",
-          "Lifestyle"
-        ],
-        "bundleId": "com.cimbniaga.CIMB",
-        "releaseDate": "2012-03-19T16:20:21Z",
-        "primaryGenreName": "Finance",
-        "primaryGenreId": 6015,
-        "isVppDeviceBasedLicensingEnabled": true,
         "genreIds": [
           "6015",
           "6012"
         ],
-        "sellerName": "Bank CIMB Niaga Tbk",
-        "trackId": 505917174,
-        "trackName": "OCTO by CIMB Niaga",
+        "primaryGenreName": "Finance",
+        "primaryGenreId": 6015,
         "currentVersionReleaseDate": "2026-09-17T09:36:02Z",
+        "isVppDeviceBasedLicensingEnabled": true,
+        "releaseNotes": "The latest OCTO update is here! \nUpdate now to version 3.1.103 and enjoy a better banking experience with OCTO.",
         "version": "3.1.103",
         "wrapperType": "software",
         "currency": "IDR",
         "description": "OCTO App is a digital banking application from CIMB Niaga that makes it easy for you to manage your finances in one place.\n \nMain features of the OCTO App:\n1. Product opening and management\n• Open a new account\n• Time deposits & savings\n• Investments (mutual funds & bonds)\n• Insurance\n \n2. Comprehensive daily transactions\n• Interbank & international transfers\n• Bill payments\n• Mobile credit & data package purchases\n• E-wallet top-ups\n• QRIS payments\n• Cardless cash withdrawals and deposits\n \n3. Additional features\nEnjoy conveniences such as flight ticket purchases and various attractive promotions that are updated regularly.\n \n4. Control and security\nManage your cards and transaction limits, block or unblock your cards, and use biometric login for added security.\n \nOCTO App is designed to provide a practical, secure, and flexible banking experience anytime and anywhere.\n \nImportant notes:\n1. Use your personal mobile number for registration\n2. Do not share your USER ID, PIN, or OTP with anyone\n3. The app is free, SMS charges follow your mobile operator\n \nFor more information & assistance, please contact us via Ask OCTO in the OCTO App or WhatsApp +6281197814041.",
-        "minimumOsVersion": "15.0",
+        "averageUserRating": 4.85022,
+        "trackCensoredName": "OCTO by CIMB Niaga",
+        "trackViewUrl": "https://apps.apple.com/id/app/octo-by-cimb-niaga/id505917174?uo=4",
+        "contentAdvisoryRating": "4+",
+        "bundleId": "com.cimbniaga.CIMB",
+        "releaseDate": "2012-03-19T16:20:21Z",
+        "trackId": 505917174,
+        "trackName": "OCTO by CIMB Niaga",
+        "sellerName": "Bank CIMB Niaga Tbk",
+        "genres": [
+          "Finance",
+          "Lifestyle"
+        ],
         "userRatingCount": 157402
       },
       "apple_discovery": {
@@ -4061,7 +4061,7 @@
         "title": "D-Bank PRO",
         "developer": "PT Bank Danamon Indonesia",
         "score": 3.835524,
-        "ratings": 28461,
+        "ratings": 28460,
         "reviews": 15474,
         "installs": "1.000.000+",
         "updated": 1788371808,
@@ -4078,11 +4078,10 @@
       "apple_app_id": "1532879177",
       "apple_url": "https://apps.apple.com/id/app/d-bank-pro/id1532879177?uo=4",
       "apple_metadata": {
-        "isGameCenterEnabled": false,
         "artistViewUrl": "https://apps.apple.com/id/developer/pt-bank-danamon-indonesia-tbk/id933773207?uo=4",
         "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/92/9d/12/929d1283-d7b8-cf2a-19be-64438e0bd521/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/60x60bb.jpg",
         "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/92/9d/12/929d1283-d7b8-cf2a-19be-64438e0bd521/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.jpg",
-        "features": [],
+        "isGameCenterEnabled": false,
         "supportedDevices": [
           "iPhone5s-iPhone5s",
           "iPadAir-iPadAir",
@@ -4215,8 +4214,12 @@
           "iPhone18ProMax-iPhone18ProMax",
           "iPhoneDuo-iPhoneDuo"
         ],
+        "features": [],
         "advisories": [],
         "kind": "software",
+        "ipadScreenshotUrls": [],
+        "appletvScreenshotUrls": [],
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/92/9d/12/929d1283-d7b8-cf2a-19be-64438e0bd521/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
         "screenshotUrls": [
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/c4/48/e9c44879-7f29-bdc3-c4c7-233ac107f921/Rectangle_1.jpg/320x480bb.jpg",
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0c/ad/71/0cad71de-1cca-9cd1-13a3-77896c88068d/Rectangle_2.jpg/320x480bb.jpg",
@@ -4225,32 +4228,30 @@
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/34/88/85/3488850f-9910-2d98-2a46-20bfe88132ef/Rectangle_5.jpg/320x480bb.jpg",
           "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b6/0c/3a/b60c3a78-4538-9637-c9c1-bf0a3b323748/Rectangle_6.jpg/320x480bb.jpg"
         ],
-        "ipadScreenshotUrls": [],
-        "appletvScreenshotUrls": [],
-        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/92/9d/12/929d1283-d7b8-cf2a-19be-64438e0bd521/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-        "releaseNotes": "D-Bank PRO latest update now comes with more comfort for your financial needs:\n- Easily manage your Danamon JCB Precious Card securit settings\n- Selected customers now can apply for Dana Instant\n- Open account process in Danamon branches is now connected to D-Bank PRO\n- Danamon LEBIH PRO iB is now available for new and existing customers\n\nUpdate now!",
+        "currentVersionReleaseDate": "2026-09-06T06:01:39Z",
         "trackCensoredName": "D-Bank PRO",
         "trackViewUrl": "https://apps.apple.com/id/app/d-bank-pro/id1532879177?uo=4",
         "contentAdvisoryRating": "4+",
         "averageUserRating": 3.33294,
+        "minimumOsVersion": "15.0",
         "artistId": 933773207,
         "artistName": "PT Bank Danamon Indonesia Tbk.",
         "genres": [
           "Finance"
         ],
         "price": 0.0,
-        "bundleId": "com.dbank.mobile",
-        "sellerName": "PT Bank Danamon Indonesia, Tbk",
         "trackId": 1532879177,
         "trackName": "D-Bank PRO",
+        "bundleId": "com.dbank.mobile",
+        "releaseDate": "2021-05-19T07:00:00Z",
         "genreIds": [
           "6015"
         ],
-        "releaseDate": "2021-05-19T07:00:00Z",
         "primaryGenreName": "Finance",
         "primaryGenreId": 6015,
+        "sellerName": "PT Bank Danamon Indonesia, Tbk",
         "isVppDeviceBasedLicensingEnabled": true,
-        "currentVersionReleaseDate": "2026-09-06T06:01:39Z",
+        "releaseNotes": "D-Bank PRO latest update now comes with more comfort for your financial needs:\n- Easily manage your Danamon JCB Precious Card securit settings\n- Selected customers now can apply for Dana Instant\n- Open account process in Danamon branches is now connected to D-Bank PRO\n- Danamon LEBIH PRO iB is now available for new and existing customers\n\nUpdate now!",
         "version": "2.1.2",
         "wrapperType": "software",
         "currency": "IDR",
@@ -4266,7 +4267,6 @@
         "formattedPrice": "Free",
         "userRatingCountForCurrentVersion": 3427,
         "trackContentRating": "4+",
-        "minimumOsVersion": "15.0",
         "userRatingCount": 3427
       },
       "apple_discovery": {
@@ -4312,25 +4312,14 @@
       "apple_app_id": "1194942386",
       "apple_url": "https://apps.apple.com/id/app/ocbc-mobile-indonesia/id1194942386?uo=4",
       "apple_metadata": {
-        "screenshotUrls": [
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/3d/58/783d58c6-bea3-21e8-4556-56c0765e7f7a/ENG_Iphone_5.5__01.png/392x696bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/25/8f/72/258f72a4-a5af-9a19-3573-8c5422de11b0/ENG_Iphone_5.5__02.png/392x696bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/75/28/0a752851-ff84-a662-3a4c-f854d1b8d831/5f992825-c2c4-4a24-b05f-aee353ff667f_ENG_Iphone_5.5__03.png/392x696bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cc/ce/b2/ccceb20f-1091-6938-00f4-b0b787106af9/2268b7db-1eca-43b0-866c-b2866f37bbbe_ENG_Iphone_5.5__04.png/392x696bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/60/a9/7060a916-b3b8-904c-633e-8de8548bfb97/7184477f-8955-4fb5-ba90-75f8694d003f_ENG_Iphone_5.5__05.png/392x696bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/aa/d7/81aad709-beb5-83fc-8d76-2ed330e82642/dc12196f-81ad-4667-b79e-c861ca0fa63c_ENG_Iphone_5.5__06.png/392x696bb.png"
-        ],
-        "ipadScreenshotUrls": [
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/3f/18/403f1814-a0e5-7429-1a3a-1a53b84e980e/ENG_Ipad_Pro_2nd_Gen_01.png/576x768bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/45/ee/26/45ee26e0-b3b9-693b-508b-209940b72fc3/ENG_Ipad_Pro_2nd_Gen_02.png/576x768bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/68/b6/7468b67b-1b0d-acdf-ff53-1f7ff8f14d44/c925164b-30b3-4532-84c6-5c9634d9d57a_ENG_Ipad_Pro_2nd_Gen_03.png/576x768bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b3/3b/48/b33b48fe-91bf-3eff-65be-aa0514451729/b8f420be-705d-4941-b776-f2204ef00280_ENG_Ipad_Pro_2nd_Gen_04.png/576x768bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/46/fa/1b/46fa1b3f-79ab-5ddc-1e7d-3a12d6da8bcd/60215325-2c68-4c96-b402-87f500d1b92c_ENG_Ipad_Pro_2nd_Gen_05.png/576x768bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/7f/92/597f92ff-2735-4d51-5af8-ebd1bde87d93/831b1a9b-b01b-4ae3-bff8-a20c23738d0c_ENG_Ipad_Pro_2nd_Gen_06.png/576x768bb.png"
-        ],
-        "appletvScreenshotUrls": [],
-        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/02/fa/2202fa38-bab4-4e98-78ee-c143188d221c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
         "isGameCenterEnabled": false,
+        "artistViewUrl": "https://apps.apple.com/id/developer/bank-ocbc-nisp-pt-tbk/id445522606?uo=4",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/02/fa/2202fa38-bab4-4e98-78ee-c143188d221c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/02/fa/2202fa38-bab4-4e98-78ee-c143188d221c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+        "features": [
+          "iosUniversal"
+        ],
+        "advisories": [],
         "supportedDevices": [
           "iPhone5s-iPhone5s",
           "iPadAir-iPadAir",
@@ -4463,51 +4452,62 @@
           "iPhone18ProMax-iPhone18ProMax",
           "iPhoneDuo-iPhoneDuo"
         ],
-        "advisories": [],
         "kind": "software",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/02/fa/2202fa38-bab4-4e98-78ee-c143188d221c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/02/fa/2202fa38-bab4-4e98-78ee-c143188d221c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-        "artistViewUrl": "https://apps.apple.com/id/developer/bank-ocbc-nisp-pt-tbk/id445522606?uo=4",
-        "features": [
-          "iosUniversal"
+        "screenshotUrls": [
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/3d/58/783d58c6-bea3-21e8-4556-56c0765e7f7a/ENG_Iphone_5.5__01.png/392x696bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/25/8f/72/258f72a4-a5af-9a19-3573-8c5422de11b0/ENG_Iphone_5.5__02.png/392x696bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/75/28/0a752851-ff84-a662-3a4c-f854d1b8d831/5f992825-c2c4-4a24-b05f-aee353ff667f_ENG_Iphone_5.5__03.png/392x696bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cc/ce/b2/ccceb20f-1091-6938-00f4-b0b787106af9/2268b7db-1eca-43b0-866c-b2866f37bbbe_ENG_Iphone_5.5__04.png/392x696bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/60/a9/7060a916-b3b8-904c-633e-8de8548bfb97/7184477f-8955-4fb5-ba90-75f8694d003f_ENG_Iphone_5.5__05.png/392x696bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/aa/d7/81aad709-beb5-83fc-8d76-2ed330e82642/dc12196f-81ad-4667-b79e-c861ca0fa63c_ENG_Iphone_5.5__06.png/392x696bb.png"
         ],
+        "ipadScreenshotUrls": [
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/3f/18/403f1814-a0e5-7429-1a3a-1a53b84e980e/ENG_Ipad_Pro_2nd_Gen_01.png/576x768bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/45/ee/26/45ee26e0-b3b9-693b-508b-209940b72fc3/ENG_Ipad_Pro_2nd_Gen_02.png/576x768bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/68/b6/7468b67b-1b0d-acdf-ff53-1f7ff8f14d44/c925164b-30b3-4532-84c6-5c9634d9d57a_ENG_Ipad_Pro_2nd_Gen_03.png/576x768bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b3/3b/48/b33b48fe-91bf-3eff-65be-aa0514451729/b8f420be-705d-4941-b776-f2204ef00280_ENG_Ipad_Pro_2nd_Gen_04.png/576x768bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/46/fa/1b/46fa1b3f-79ab-5ddc-1e7d-3a12d6da8bcd/60215325-2c68-4c96-b402-87f500d1b92c_ENG_Ipad_Pro_2nd_Gen_05.png/576x768bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/7f/92/597f92ff-2735-4d51-5af8-ebd1bde87d93/831b1a9b-b01b-4ae3-bff8-a20c23738d0c_ENG_Ipad_Pro_2nd_Gen_06.png/576x768bb.png"
+        ],
+        "appletvScreenshotUrls": [],
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/02/fa/2202fa38-bab4-4e98-78ee-c143188d221c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "trackCensoredName": "OCBC mobile Indonesia",
+        "trackViewUrl": "https://apps.apple.com/id/app/ocbc-mobile-indonesia/id1194942386?uo=4",
+        "contentAdvisoryRating": "9+",
+        "averageUserRating": 3.65685,
+        "artistId": 445522606,
+        "artistName": "Bank OCBC NISP PT, Tbk",
+        "genres": [
+          "Finance"
+        ],
+        "price": 0.0,
+        "sellerName": "BANK OCBC NISP, PT TBK",
+        "bundleId": "com.ocbcnisp.onemobile",
+        "isVppDeviceBasedLicensingEnabled": true,
+        "primaryGenreName": "Finance",
+        "primaryGenreId": 6015,
+        "currentVersionReleaseDate": "2026-09-29T03:10:41Z",
+        "releaseDate": "2017-01-23T13:39:39Z",
+        "trackId": 1194942386,
+        "trackName": "OCBC mobile Indonesia",
+        "releaseNotes": "Enjoy an easier banking experience with updated features from OCBC mobile!\n \nStarting from IDR 1 billion, you can now easily upgrade to Premier Banking directly through OCBC mobile and get exclusive benefits.\n \nYou can also optimize your funds through investment product suitable for you directly on the Financial page.\n \nUpdate now & enjoy the convenience.",
+        "version": "4.61.0",
+        "wrapperType": "software",
+        "currency": "IDR",
+        "description": "OCBC mobile by PT. Bank OCBC NISP Tbk is a \"one-stop solution\" application to grow your money and make your life easier!\n\nDownload, sign up and enjoy a simple banking solution in your hand! Live easier on 3, 2, One!\n\n1. ONe Stop open ON IT digital service:\n12 currencies in one account; no admin fees, no fee for online transfers and cash withdrawals at any bank’s ATM; register and activate your debit card directly from your smartphone. You can have it all by maintaining total balance of minimum only Rp1 million.\n\nGet Started Now with NYALA by OCBC \n\nIn the journey of pursuing your dream, NYALA is here as the digital banking service that will help you to be FinanciallyFIT by achieving financial freedom and a brighter future\n\n2. ONe for All: Complete services in one application to grow your money\n-Regular Mutual Funds and Mutual Funds starting from Rp10,000\n-Purchase Government Securities (SBN), Bonds, and insurance\n-Monitor and manage your investment portfolio\n-Buying and selling across 11 foreign currencies with competitive and real-time exchange rates\n-Cross currency transaction\n-Tabungan Berjangka (TAKA), enjoy maximum interest\n-Time Deposit in 5 currencies, tenors from 2 weeks\n\n3. ONe Step: Easy daily transactions with a quick menu\n-Transfers domestically and abroad\n-Fill in the E-wallet balance\n-Fast transfer with QR\n-QR Pay at QRIS merchant\n-Bill payment & Purchase pulses and data packages\n-Bill Money Via Chat Apps\n-Cash withdrawal without Debit card and much more\n\nOCBC mobile, a Bank in your pocket.\n\nFor Further assistance call TANYA OCBC 1500-999 (from Indonesia) or +62-21-26506300 (from overseas)\n\nHead Office, OCBC Tower , Jl Prof. Dr. Satrio Blok C4 No. 25, RT 14/RW 04, Kuningan, Kuningan Tim., Kecamatan Setiabudi, Wil. Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12950",
+        "averageUserRatingForCurrentVersion": 3.65685,
+        "minimumOsVersion": "13.0",
         "languageCodesISO2A": [
           "EN",
           "ID",
           "ZH"
         ],
+        "fileSizeBytes": "152517632",
+        "formattedPrice": "Free",
         "userRatingCountForCurrentVersion": 3669,
         "trackContentRating": "9+",
-        "averageUserRatingForCurrentVersion": 3.65685,
-        "releaseNotes": "Enjoy an easier banking experience with updated features from OCBC mobile!\n \nStarting from IDR 1 billion, you can now easily upgrade to Premier Banking directly through OCBC mobile and get exclusive benefits.\n \nYou can also optimize your funds through investment product suitable for you directly on the Financial page.\n \nUpdate now & enjoy the convenience.",
-        "artistId": 445522606,
-        "artistName": "Bank OCBC NISP PT, Tbk",
-        "price": 0.0,
         "genreIds": [
           "6015"
-        ],
-        "releaseDate": "2017-01-23T13:39:39Z",
-        "trackName": "OCBC mobile Indonesia",
-        "trackId": 1194942386,
-        "primaryGenreName": "Finance",
-        "primaryGenreId": 6015,
-        "sellerName": "BANK OCBC NISP, PT TBK",
-        "isVppDeviceBasedLicensingEnabled": true,
-        "currentVersionReleaseDate": "2026-09-29T03:10:41Z",
-        "version": "4.61.0",
-        "wrapperType": "software",
-        "currency": "IDR",
-        "description": "OCBC mobile by PT. Bank OCBC NISP Tbk is a \"one-stop solution\" application to grow your money and make your life easier!\n\nDownload, sign up and enjoy a simple banking solution in your hand! Live easier on 3, 2, One!\n\n1. ONe Stop open ON IT digital service:\n12 currencies in one account; no admin fees, no fee for online transfers and cash withdrawals at any bank’s ATM; register and activate your debit card directly from your smartphone. You can have it all by maintaining total balance of minimum only Rp1 million.\n\nGet Started Now with NYALA by OCBC \n\nIn the journey of pursuing your dream, NYALA is here as the digital banking service that will help you to be FinanciallyFIT by achieving financial freedom and a brighter future\n\n2. ONe for All: Complete services in one application to grow your money\n-Regular Mutual Funds and Mutual Funds starting from Rp10,000\n-Purchase Government Securities (SBN), Bonds, and insurance\n-Monitor and manage your investment portfolio\n-Buying and selling across 11 foreign currencies with competitive and real-time exchange rates\n-Cross currency transaction\n-Tabungan Berjangka (TAKA), enjoy maximum interest\n-Time Deposit in 5 currencies, tenors from 2 weeks\n\n3. ONe Step: Easy daily transactions with a quick menu\n-Transfers domestically and abroad\n-Fill in the E-wallet balance\n-Fast transfer with QR\n-QR Pay at QRIS merchant\n-Bill payment & Purchase pulses and data packages\n-Bill Money Via Chat Apps\n-Cash withdrawal without Debit card and much more\n\nOCBC mobile, a Bank in your pocket.\n\nFor Further assistance call TANYA OCBC 1500-999 (from Indonesia) or +62-21-26506300 (from overseas)\n\nHead Office, OCBC Tower , Jl Prof. Dr. Satrio Blok C4 No. 25, RT 14/RW 04, Kuningan, Kuningan Tim., Kecamatan Setiabudi, Wil. Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12950",
-        "trackCensoredName": "OCBC mobile Indonesia",
-        "trackViewUrl": "https://apps.apple.com/id/app/ocbc-mobile-indonesia/id1194942386?uo=4",
-        "contentAdvisoryRating": "9+",
-        "formattedPrice": "Free",
-        "fileSizeBytes": "152517632",
-        "averageUserRating": 3.65685,
-        "bundleId": "com.ocbcnisp.onemobile",
-        "minimumOsVersion": "13.0",
-        "genres": [
-          "Finance"
         ],
         "userRatingCount": 3669
       },
@@ -4535,9 +4535,9 @@
       "google_play_metadata": {
         "title": "GoPay Merchant: QRIS",
         "developer": "PT. GoTo Gojek Tokopedia Tbk",
-        "score": 4.5587296,
-        "ratings": 86588,
-        "reviews": 22894,
+        "score": 4.5584726,
+        "ratings": 86600,
+        "reviews": 22896,
         "installs": "10.000.000+",
         "updated": 1789643431,
         "url": "https://play.google.com/store/apps/details?id=com.gojek.gopaymerchant&hl=id&gl=id"
@@ -4556,9 +4556,9 @@
           "metadata": {
             "title": "Gojek - Transportasi & Makanan",
             "developer": "PT. GoTo Gojek Tokopedia Tbk",
-            "score": 4.674407,
-            "ratings": 6711256,
-            "reviews": 1899044,
+            "score": 4.674427,
+            "ratings": 6711321,
+            "reviews": 1899046,
             "installs": "100.000.000+",
             "updated": 1790766098,
             "url": "https://play.google.com/store/apps/details?id=com.gojek.app&hl=id&gl=id"
@@ -4783,9 +4783,9 @@
       "google_play_metadata": {
         "title": "OVO",
         "developer": "PT Visionet Internasional",
-        "score": 3.414898,
+        "score": 3.4148588,
         "ratings": 1201303,
-        "reviews": 576479,
+        "reviews": 576485,
         "installs": "50.000.000+",
         "updated": 1789973232,
         "url": "https://play.google.com/store/apps/details?id=ovo.id&hl=id&gl=id"
@@ -4823,9 +4823,9 @@
       "google_play_metadata": {
         "title": "DANA Dompet Digital Indonesia",
         "developer": "PT Espay Debit Indonesia Koe",
-        "score": 4.668825,
-        "ratings": 10763501,
-        "reviews": 2383337,
+        "score": 4.6688704,
+        "ratings": 10763803,
+        "reviews": 2383339,
         "installs": "100.000.000+",
         "updated": 1790578489,
         "url": "https://play.google.com/store/apps/details?id=id.dana&hl=id&gl=id"
@@ -4841,8 +4841,25 @@
       "apple_app_id": "1437123008",
       "apple_url": "https://apps.apple.com/id/app/dana-dompet-digital-indonesia/id1437123008?uo=4",
       "apple_metadata": {
+        "screenshotUrls": [
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1c/e0/f5/1ce0f5b3-5999-eeaa-52bc-32c39e11bfe6/11f3c698-067a-4aef-ac55-79a758131c5c_1.EN_iOS_IPHONE678_-_ASO_MAY_2024.png/392x696bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b6/6f/64/b66f64e1-a2a0-aebf-c561-3323b35f3b52/cd41d09d-99e2-4f21-b840-0fb4ee9ab988_2.EN_iOS_IPHONE678_-_ASO_MAY_2024.png/392x696bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c8/12/99/c81299fe-7105-735a-9d0c-c4fea50e0fbb/bf9ec15f-a4e1-449b-9ef7-a21b781dc7e6_3.EN_iOS_IPHONE678_-_ASO_MAY_2024.png/392x696bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4c/4c/30/4c4c30c5-e9e3-72ce-d01d-1f27289ce8d9/c0b41500-bf31-47fb-98f9-89752693fd95_4.EN_iOS_IPHONE678_-_ASO_MAY_2024.png/392x696bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/4c/f4/234cf4ad-301d-cf90-394b-63f87fb450b8/a91a1c34-6142-40e4-90a2-0ec5588f0c5d_5.EN_iOS_IPHONE678_-_ASO_MAY_2024.png/392x696bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/83/28/9283280a-58b5-6b09-f098-c7aca70062fa/b86849dc-d213-4ffc-8235-89ee608380dd_6.EN_iOS_IPHONE678_-_ASO_MAY_2024.png/392x696bb.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ce/da/e0/cedae0e1-76cd-c5dd-25ea-351f9694985d/397e6fdd-a0ed-4417-aafa-082b2a89214f_7.EN_iOS_IPHONE678_-_ASO_MAY_2024.png/392x696bb.png"
+        ],
+        "ipadScreenshotUrls": [],
+        "appletvScreenshotUrls": [],
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/52/20/6a522081-0e03-14ee-aafc-bb1433de3578/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/512x512bb.jpg",
         "isGameCenterEnabled": false,
+        "advisories": [],
+        "kind": "software",
         "features": [],
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/52/20/6a522081-0e03-14ee-aafc-bb1433de3578/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/52/20/6a522081-0e03-14ee-aafc-bb1433de3578/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.jpg",
+        "artistViewUrl": "https://apps.apple.com/id/developer/espay-debit-indonesia-koe-pt/id1437123007?uo=4",
         "supportedDevices": [
           "iPhone5s-iPhone5s",
           "iPadAir-iPadAir",
@@ -4975,53 +4992,7 @@
           "iPhone18ProMax-iPhone18ProMax",
           "iPhoneDuo-iPhoneDuo"
         ],
-        "advisories": [],
-        "kind": "software",
-        "artistViewUrl": "https://apps.apple.com/id/developer/espay-debit-indonesia-koe-pt/id1437123007?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/52/20/6a522081-0e03-14ee-aafc-bb1433de3578/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/52/20/6a522081-0e03-14ee-aafc-bb1433de3578/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.jpg",
-        "screenshotUrls": [
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1c/e0/f5/1ce0f5b3-5999-eeaa-52bc-32c39e11bfe6/11f3c698-067a-4aef-ac55-79a758131c5c_1.EN_iOS_IPHONE678_-_ASO_MAY_2024.png/392x696bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b6/6f/64/b66f64e1-a2a0-aebf-c561-3323b35f3b52/cd41d09d-99e2-4f21-b840-0fb4ee9ab988_2.EN_iOS_IPHONE678_-_ASO_MAY_2024.png/392x696bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c8/12/99/c81299fe-7105-735a-9d0c-c4fea50e0fbb/bf9ec15f-a4e1-449b-9ef7-a21b781dc7e6_3.EN_iOS_IPHONE678_-_ASO_MAY_2024.png/392x696bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4c/4c/30/4c4c30c5-e9e3-72ce-d01d-1f27289ce8d9/c0b41500-bf31-47fb-98f9-89752693fd95_4.EN_iOS_IPHONE678_-_ASO_MAY_2024.png/392x696bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/4c/f4/234cf4ad-301d-cf90-394b-63f87fb450b8/a91a1c34-6142-40e4-90a2-0ec5588f0c5d_5.EN_iOS_IPHONE678_-_ASO_MAY_2024.png/392x696bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/83/28/9283280a-58b5-6b09-f098-c7aca70062fa/b86849dc-d213-4ffc-8235-89ee608380dd_6.EN_iOS_IPHONE678_-_ASO_MAY_2024.png/392x696bb.png",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ce/da/e0/cedae0e1-76cd-c5dd-25ea-351f9694985d/397e6fdd-a0ed-4417-aafa-082b2a89214f_7.EN_iOS_IPHONE678_-_ASO_MAY_2024.png/392x696bb.png"
-        ],
-        "ipadScreenshotUrls": [],
-        "appletvScreenshotUrls": [],
-        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/52/20/6a522081-0e03-14ee-aafc-bb1433de3578/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/512x512bb.jpg",
-        "minimumOsVersion": "15.0",
-        "releaseNotes": "Fast access, secure as always.\n\nUse your fingerprint or face to log in instantly.\nBugs fixed, performance improved.\n\nUpdate your DANA now!",
-        "artistName": "ESPAY DEBIT INDONESIA KOE, PT",
-        "artistId": 1437123007,
-        "genres": [
-          "Finance"
-        ],
-        "price": 0.0,
-        "bundleId": "id.dana.app",
-        "releaseDate": "2018-11-05T10:08:46Z",
-        "trackId": 1437123008,
-        "trackName": "DANA Dompet Digital Indonesia",
-        "genreIds": [
-          "6015"
-        ],
-        "primaryGenreName": "Finance",
-        "primaryGenreId": 6015,
-        "sellerName": "ESPAY DEBIT INDONESIA KOE, PT",
-        "isVppDeviceBasedLicensingEnabled": true,
-        "currentVersionReleaseDate": "2026-09-29T23:19:10Z",
-        "version": "2.146.1",
-        "wrapperType": "software",
-        "currency": "IDR",
-        "description": "DANA - Digital Wallet (e-Wallet) for QRIS, Send Money & Bill Payment\nManage your daily finances faster, easier, and more securely with DANA. From paying with QRIS, sending money to bank accounts or fellow DANA users, topping up your favorite games, to growing your savings with DANA+, everything you need is in one trusted digital wallet.\n\nJoin millions of users across Indonesia who rely on DANA for secure, seamless, and convenient digital payments. DANA is licensed and supervised by Bank Indonesia and Komdigi.\n\nPay with QRIS Everywhere\nEnjoy cashless payments at millions of QRIS-enabled merchants across Indonesia, including restaurants, cafés, supermarkets, convenience stores, local shops, and small businesses. Simply scan a QRIS code and complete your payment in seconds. \n\nSend Money with Ease\nTransfer money anytime to fellow DANA users or bank accounts directly from the app. Whether you're splitting bills, supporting family, or making business payments, DANA makes every transfer quick and convenient. \n• Transfer to bank accounts like BCA, BRI, BNI, Mandiri & more. \n• Send money to other DANA users. \n• Send money to another e-wallet such as GoPay, ShopeePay and OVO. \n\nPay Bills in One Place\nTake care of your everyday payments without switching between multiple apps. Pay a wide range of bills, including:\n• Electricity (PLN)\n• BPJS Health Insurance\n• Water (PDAM)\n• Internet & Wi-Fi\n• Cable TV\n• Other digital services\nStay on top of your payments anytime, anywhere.\n \nTop Up Mobile Credit, Data & Digital Products\nNeed more mobile data or prepaid credit? DANA makes topping up fast and convenient.\nYou can also purchase various digital products and services directly within the app.\n\nDANA+ Grow Your Balance Every Day\nDANA+ is a feature that gives your DANA Balance the potential to keep growing, with a chance to earn extra balance every day. Your DANA+ Balance can be used immediately to pay with QRIS, send money, or make other transactions.\n\nBuilt for Secure Digital Payments with DANA Protection\nYour security is our priority. DANA is equipped with multiple layers of protection to help keep your account and transactions safe, including: \n• DANA Protection with a 100% Money-Back Guarantee (subject to applicable terms and conditions)\n• Scam Checker to help identify potential fraud\n• Multi-layered protection for your account and transactions, including PIN, OTP, and DANA Viz\n• Meet DIANA, your 24/7 Digital Assistant, always ready to help and answer your questions about DANA\n\nWhy Choose DANA?\n• Pay with QRIS at millions of merchants\n• Send money quickly and securely\n• Transfer to bank accounts with ease\n• Pay bills in one app\n• Top up mobile credit and data packages\n• Advanced security features to protect your account\n• Trusted by millions of users across Indonesia\nDownload DANA today and experience a smarter way to pay, transfer money, shop, and manage your everyday finances—all in one secure digital wallet.\n\nDANA’s Official Social Media Accounts:\nFollow DANA’s social media to find out more about the latest features & promotions:\n• Instagram (@dana.id)\n• X (@danawallet)\n• TikTok (@dana.indonesia)\n• Facebook (DANA Indonesia)\n• YouTube (DANA Indonesia)",
-        "trackCensoredName": "DANA Dompet Digital Indonesia",
-        "trackViewUrl": "https://apps.apple.com/id/app/dana-dompet-digital-indonesia/id1437123008?uo=4",
-        "contentAdvisoryRating": "4+",
-        "averageUserRating": 4.78084,
         "averageUserRatingForCurrentVersion": 4.78084,
-        "sellerUrl": "https://dana.id",
         "languageCodesISO2A": [
           "EN",
           "ID"
@@ -5030,6 +5001,35 @@
         "formattedPrice": "Free",
         "userRatingCountForCurrentVersion": 1404704,
         "trackContentRating": "4+",
+        "minimumOsVersion": "15.0",
+        "sellerUrl": "https://dana.id",
+        "artistId": 1437123007,
+        "artistName": "ESPAY DEBIT INDONESIA KOE, PT",
+        "genres": [
+          "Finance"
+        ],
+        "price": 0.0,
+        "primaryGenreName": "Finance",
+        "primaryGenreId": 6015,
+        "trackId": 1437123008,
+        "trackName": "DANA Dompet Digital Indonesia",
+        "bundleId": "id.dana.app",
+        "sellerName": "ESPAY DEBIT INDONESIA KOE, PT",
+        "isVppDeviceBasedLicensingEnabled": true,
+        "genreIds": [
+          "6015"
+        ],
+        "releaseDate": "2018-11-05T10:08:46Z",
+        "currentVersionReleaseDate": "2026-09-29T23:19:10Z",
+        "releaseNotes": "Fast access, secure as always.\n\nUse your fingerprint or face to log in instantly.\nBugs fixed, performance improved.\n\nUpdate your DANA now!",
+        "version": "2.146.1",
+        "wrapperType": "software",
+        "currency": "IDR",
+        "description": "DANA - Digital Wallet (e-Wallet) for QRIS, Send Money & Bill Payment\nManage your daily finances faster, easier, and more securely with DANA. From paying with QRIS, sending money to bank accounts or fellow DANA users, topping up your favorite games, to growing your savings with DANA+, everything you need is in one trusted digital wallet.\n\nJoin millions of users across Indonesia who rely on DANA for secure, seamless, and convenient digital payments. DANA is licensed and supervised by Bank Indonesia and Komdigi.\n\nPay with QRIS Everywhere\nEnjoy cashless payments at millions of QRIS-enabled merchants across Indonesia, including restaurants, cafés, supermarkets, convenience stores, local shops, and small businesses. Simply scan a QRIS code and complete your payment in seconds. \n\nSend Money with Ease\nTransfer money anytime to fellow DANA users or bank accounts directly from the app. Whether you're splitting bills, supporting family, or making business payments, DANA makes every transfer quick and convenient. \n• Transfer to bank accounts like BCA, BRI, BNI, Mandiri & more. \n• Send money to other DANA users. \n• Send money to another e-wallet such as GoPay, ShopeePay and OVO. \n\nPay Bills in One Place\nTake care of your everyday payments without switching between multiple apps. Pay a wide range of bills, including:\n• Electricity (PLN)\n• BPJS Health Insurance\n• Water (PDAM)\n• Internet & Wi-Fi\n• Cable TV\n• Other digital services\nStay on top of your payments anytime, anywhere.\n \nTop Up Mobile Credit, Data & Digital Products\nNeed more mobile data or prepaid credit? DANA makes topping up fast and convenient.\nYou can also purchase various digital products and services directly within the app.\n\nDANA+ Grow Your Balance Every Day\nDANA+ is a feature that gives your DANA Balance the potential to keep growing, with a chance to earn extra balance every day. Your DANA+ Balance can be used immediately to pay with QRIS, send money, or make other transactions.\n\nBuilt for Secure Digital Payments with DANA Protection\nYour security is our priority. DANA is equipped with multiple layers of protection to help keep your account and transactions safe, including: \n• DANA Protection with a 100% Money-Back Guarantee (subject to applicable terms and conditions)\n• Scam Checker to help identify potential fraud\n• Multi-layered protection for your account and transactions, including PIN, OTP, and DANA Viz\n• Meet DIANA, your 24/7 Digital Assistant, always ready to help and answer your questions about DANA\n\nWhy Choose DANA?\n• Pay with QRIS at millions of merchants\n• Send money quickly and securely\n• Transfer to bank accounts with ease\n• Pay bills in one app\n• Top up mobile credit and data packages\n• Advanced security features to protect your account\n• Trusted by millions of users across Indonesia\nDownload DANA today and experience a smarter way to pay, transfer money, shop, and manage your everyday finances—all in one secure digital wallet.\n\nDANA’s Official Social Media Accounts:\nFollow DANA’s social media to find out more about the latest features & promotions:\n• Instagram (@dana.id)\n• X (@danawallet)\n• TikTok (@dana.indonesia)\n• Facebook (DANA Indonesia)\n• YouTube (DANA Indonesia)",
+        "contentAdvisoryRating": "4+",
+        "trackCensoredName": "DANA Dompet Digital Indonesia",
+        "trackViewUrl": "https://apps.apple.com/id/app/dana-dompet-digital-indonesia/id1437123008?uo=4",
+        "averageUserRating": 4.78084,
         "userRatingCount": 1404704
       },
       "apple_discovery": {
@@ -5056,9 +5056,9 @@
       "google_play_metadata": {
         "title": "ShopeePay – Dompet Serba Bisa",
         "developer": "PT. AIRPAY INTERNATIONAL INDONESIA",
-        "score": 4.7716336,
-        "ratings": 1512383,
-        "reviews": 194426,
+        "score": 4.7717066,
+        "ratings": 1512380,
+        "reviews": 194429,
         "installs": "50.000.000+",
         "updated": 1790162103,
         "url": "https://play.google.com/store/apps/details?id=com.shopeepay.id&hl=id&gl=id"
@@ -5075,25 +5075,10 @@
       "apple_url": "https://apps.apple.com/id/app/shopeepay-dompet-serba-bisa/id6455990519?uo=4",
       "apple_metadata": {
         "isGameCenterEnabled": false,
-        "features": [],
-        "advisories": [],
-        "kind": "software",
         "artistViewUrl": "https://apps.apple.com/id/developer/pt-airpay-international-indonesia/id1522810443?uo=4",
         "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/21/c2/b621c28d-fb35-945e-8074-b621ba75e569/AppIcon-1x_U007ephone-0-1-0-85-220-0.png/60x60bb.jpg",
         "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/21/c2/b621c28d-fb35-945e-8074-b621ba75e569/AppIcon-1x_U007ephone-0-1-0-85-220-0.png/100x100bb.jpg",
-        "screenshotUrls": [
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/3b/ac/ca3bac42-14fd-ed2b-ade9-b434c1224cc5/22SEP-Saldo-Kaget-App-Visual_IPHONE-8-Page-1.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/51/ce/03/51ce03d3-1e2c-5702-4b97-7551c219b420/22SEP-Saldo-Kaget-App-Visual_IPHONE-8-Page-2.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/d4/28/55d42829-e7ec-a03b-75b3-c6160661261c/22SEP-Saldo-Kaget-App-Visual_IPHONE-8-Page-3.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/32/af/e632af4a-cf4e-c1c3-5c99-e5aef9e15ceb/22SEP-Saldo-Kaget-App-Visual_IPHONE-8-Page-4.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fc/12/d6/fc12d687-9d63-0362-1883-6abeffa0624e/22SEP-Saldo-Kaget-App-Visual_IPHONE-8-Page-5.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/c1/0d/6ac10d57-2775-0d13-56f5-038ad39fafa8/22SEP-Saldo-Kaget-App-Visual_IPHONE-8-Page-6.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/2e/33/522e335d-bd46-7a76-e67b-262edecaed8a/22SEP-Saldo-Kaget-App-Visual_IPHONE-8-Page-7.jpg/392x696bb.jpg",
-          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/b2/80/b0b28063-d5e5-5164-0e2c-bffcbd61788c/22SEP-Saldo-Kaget-App-Visual_IPHONE-8-Page-8.jpg/392x696bb.jpg"
-        ],
-        "ipadScreenshotUrls": [],
-        "appletvScreenshotUrls": [],
-        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/21/c2/b621c28d-fb35-945e-8074-b621ba75e569/AppIcon-1x_U007ephone-0-1-0-85-220-0.png/512x512bb.jpg",
+        "advisories": [],
         "supportedDevices": [
           "iPhone5s-iPhone5s",
           "iPadAir-iPadAir",
@@ -5226,33 +5211,48 @@
           "iPhone18ProMax-iPhone18ProMax",
           "iPhoneDuo-iPhoneDuo"
         ],
+        "kind": "software",
+        "features": [],
+        "screenshotUrls": [
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/3b/ac/ca3bac42-14fd-ed2b-ade9-b434c1224cc5/22SEP-Saldo-Kaget-App-Visual_IPHONE-8-Page-1.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/51/ce/03/51ce03d3-1e2c-5702-4b97-7551c219b420/22SEP-Saldo-Kaget-App-Visual_IPHONE-8-Page-2.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/d4/28/55d42829-e7ec-a03b-75b3-c6160661261c/22SEP-Saldo-Kaget-App-Visual_IPHONE-8-Page-3.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/32/af/e632af4a-cf4e-c1c3-5c99-e5aef9e15ceb/22SEP-Saldo-Kaget-App-Visual_IPHONE-8-Page-4.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fc/12/d6/fc12d687-9d63-0362-1883-6abeffa0624e/22SEP-Saldo-Kaget-App-Visual_IPHONE-8-Page-5.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/c1/0d/6ac10d57-2775-0d13-56f5-038ad39fafa8/22SEP-Saldo-Kaget-App-Visual_IPHONE-8-Page-6.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/2e/33/522e335d-bd46-7a76-e67b-262edecaed8a/22SEP-Saldo-Kaget-App-Visual_IPHONE-8-Page-7.jpg/392x696bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/b2/80/b0b28063-d5e5-5164-0e2c-bffcbd61788c/22SEP-Saldo-Kaget-App-Visual_IPHONE-8-Page-8.jpg/392x696bb.jpg"
+        ],
+        "ipadScreenshotUrls": [],
+        "appletvScreenshotUrls": [],
+        "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/21/c2/b621c28d-fb35-945e-8074-b621ba75e569/AppIcon-1x_U007ephone-0-1-0-85-220-0.png/512x512bb.jpg",
+        "minimumOsVersion": "13.0",
+        "trackCensoredName": "ShopeePay – Dompet Serba Bisa",
+        "trackViewUrl": "https://apps.apple.com/id/app/shopeepay-dompet-serba-bisa/id6455990519?uo=4",
+        "contentAdvisoryRating": "4+",
+        "averageUserRating": 4.88861,
+        "artistId": 1522810443,
+        "artistName": "PT. AIRPAY INTERNATIONAL INDONESIA",
         "genres": [
           "Finance"
         ],
-        "artistId": 1522810443,
-        "artistName": "PT. AIRPAY INTERNATIONAL INDONESIA",
         "price": 0.0,
         "primaryGenreName": "Finance",
         "primaryGenreId": 6015,
-        "trackId": 6455990519,
-        "trackName": "ShopeePay – Dompet Serba Bisa",
         "genreIds": [
           "6015"
         ],
         "releaseDate": "2024-02-04T08:00:00Z",
         "isVppDeviceBasedLicensingEnabled": true,
-        "sellerName": "PT. AIRPAY INTERNATIONAL INDONESIA",
+        "trackId": 6455990519,
+        "trackName": "ShopeePay – Dompet Serba Bisa",
         "currentVersionReleaseDate": "2026-09-25T04:20:23Z",
+        "sellerName": "PT. AIRPAY INTERNATIONAL INDONESIA",
+        "releaseNotes": "Transaksi makin mudah dan aman dengan ShopeePay versi terbaru. Nikmati pengalaman isi saldo, bayar, dan transfer yang lebih nyaman.",
         "version": "1.64.04",
         "wrapperType": "software",
         "currency": "IDR",
         "description": "ShopeePay adalah aplikasi dompet digital untuk beli pulsa, paket data, isi token PLN, bayar QRIS di merchant dan web/aplikasi, kirim uang ke bank, kirim dana ke e-wallet, hingga pembayaran paylater dengan SPaylater ataupun pembayaran lainnya. \nSemua tersedia dalam aplikasi ShopeePay dengan gratis admin untuk semua transaksi.\n\nKlaim Bonus Saldo 5RB\nMasukkan kode referral SALDO5RB saat pertama kali login, dan dapatkan bonus saldo setelah verifikasi akun. \n\nBayar QRIS di Mana Aja\nBayar QRIS di semua merchant yang menerima QRIS. Gunakan saldo ShopeePay, limit SPaylater atau kartu kredit / debit untuk bayar QRIS. Nikmati cashback s.d. 100RB di setiap transaksi QRIS.\n\nTransfer Uang & Kirim Uang Gratis Admin\nTransfer uang atau kirim uang mulai Rp1 ke rekening BCA, BRI, Bank Mandiri, BNI, SeaBank, serta e-wallet seperti DANA, GoPay, OVO, dan LinkAja. Gratis biaya admin sepuasnya untuk kirim dana dan transfer ke mana saja.\n\nTop Up Saldo & Tarik Tunai\nTop up saldo ShopeePay, e-wallet, isi saldo melalui transfer bank, Virtual Account, kartu debit/kredit, Alfamart, Indomaret, maupun Pos Indonesia. Nikmati tarik tunai gratis admin tanpa minimum transaksi.\n\nPulsa & PLN Pasti Murah\nBeli pulsa dan bayar tagihan listrik PLN dengan harga hemat. Nikmati Pulsa Rp1, biaya admin tagihan 1RB, serta promo lainnya. Semua kebutuhan pembayaran ada dalam satu aplikasi, mulai dari pulsa, paket data, token PLN, hingga tagihan harian.\n\nCashback & Promo Setiap Hari*\nNikmati berbagai promo seperti:\n- Bayar QRIS, Pasti Cashback Saldo s.d. 100RB\n- Bayar QRIS pakai SPayLater Diskon 50% di Indomaret, Alfamart, Boost Juice Bar, MR DIY, dan merchant lainnya.\n*Promo dapat berubah sesuai periode. S&K berlaku.\n\nAktivasi SPayLater & SPinjam\nNikmati layanan paylater dari SPayLater dan pinjaman daring dari SPinjam dengan aktivasi cepat menggunakan e-KTP. Aktivasi SPayLater & nikmati diskon bayar QRIS Rp50RB untuk transaksi pertama. Khusus SPinjam, tersedia bonus saldo ShopeePay Rp25RB dengan aktivasi di aplikasi ShopeePay.\n\nBelanja Sekarang, Bayar Nanti dengan SPayLater\nTersedia limit hingga Rp50JT, cicilan 0% serta tenor fleksibel 3–24 bulan dengan biaya cicilan ringan, mulai dari 2.45%. Gunakan paylater untuk bayar QRIS di merchant mana pun dan nikmati diskon hingga Rp200RB tanpa biaya layanan. Maksimal Persentase Bunga Tahunan 36%.\n\nDana Cepat Cair dengan SPinjam\nShopeePay menyediakan platform bagi pengguna terpilih untuk mengakses layanan pinjaman daring bernama SPinjam oleh PT Lentera Dana Nusantara. SPinjam oleh PT Lentera Dana Nusantara berizin dan diawasi oleh OJK (Otoritas Jasa Keuangan). Nikmati pinjaman tunai limit kredit s.d. Rp100JT dengan tenor 2–24 bulan. \n\nSimulasi Pinjaman:\nJumlah pinjaman: Rp3.000.000\nPeriode pinjaman: 12 bulan\nBunga tetap mulai dari 1.8%/bulan* (Maksimal Persentase Bunga Tahunan 36%)\nBiaya administrasi untuk pinjaman pertama: Rp0\n\nMaka total pembayaran = Rp3.648.000 atau setara dengan Rp304.000/bulan\n\n*Khusus pinjaman pertama. Suku bunga bulanan dapat berbeda untuk setiap pengguna sesuai hasil penilaian.\n\nSesuai kebijakan privasi ShopeePay, kami berkomitmen melindungi semua data dan informasi pengguna.\n\nPesan ShopeeFood Lebih Hemat\nNikmati diskon ongkir hingga Rp10RB di semua resto\n\nPunya Usaha? Daftar QRIS Gratis\nDaftar merchant QRIS langsung dari aplikasi ShopeePay. Gratis biaya transaksi, gratis pencairan saldo, dan cashback biaya QRIS hingga Rp1JT.\n\nTransaksi Aman dengan ShopeePay Proteksi\nNikmati Jaminan 100% Saldo Kembali serta Customer Service 24 jam melalui Pusat Bantuan aplikasi.\n\nShopeePay merupakan Penyelenggara Dompet Elektronik yang berizin dan diawasi oleh Bank Indonesia.\n\nAlamat: \nSopo Del Office Tower & Lifestyle Tower, Lt. 11. Jalan Mega Kuningan Barat III Lot 10, Kawasan Mega Kuningan, 1-6, Kuningan Timur, Setiabudi, Jakarta Selatan\n\nCari tahu lebih lanjut tentang ShopeePay:\nhttps://shopeepay.co.id/\nInstagram: @shopeepay_id\nFacebook: ShopeePay Indonesia\nTikTok: @shopeepay_id\nTwitter: @shopeepay_id",
-        "trackCensoredName": "ShopeePay – Dompet Serba Bisa",
-        "trackViewUrl": "https://apps.apple.com/id/app/shopeepay-dompet-serba-bisa/id6455990519?uo=4",
-        "contentAdvisoryRating": "4+",
-        "averageUserRating": 4.88861,
-        "minimumOsVersion": "13.0",
-        "bundleId": "com.shopeepay.id",
         "languageCodesISO2A": [
           "EN",
           "ID",
@@ -5266,8 +5266,8 @@
         "formattedPrice": "Free",
         "userRatingCountForCurrentVersion": 214770,
         "trackContentRating": "4+",
+        "bundleId": "com.shopeepay.id",
         "averageUserRatingForCurrentVersion": 4.88861,
-        "releaseNotes": "Transaksi makin mudah dan aman dengan ShopeePay versi terbaru. Nikmati pengalaman isi saldo, bayar, dan transfer yang lebih nyaman.",
         "userRatingCount": 214770
       },
       "apple_discovery": {
@@ -5294,7 +5294,7 @@
       "google_play_metadata": {
         "title": "LinkAja / LinkAja Syariah",
         "developer": "PT Fintek Karya Nusantara",
-        "score": 3.7820888,
+        "score": 3.7821035,
         "ratings": 822086,
         "reviews": 489110,
         "installs": "10.000.000+",
