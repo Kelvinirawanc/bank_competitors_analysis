@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-03T03:49:07.508207+00:00",
+  "generated_at": "2026-10-04T04:19:24.190012+00:00",
   "is_demo": false,
   "overall": {
-    "review_count": 31213,
+    "review_count": 32781,
     "avg_rating_from_reviews": 3.78,
-    "positive_pct": 68.3,
+    "positive_pct": 68.5,
     "neutral_pct": 1.4,
-    "negative_pct": 30.2,
-    "one_star_pct": 25.7,
+    "negative_pct": 30.1,
+    "one_star_pct": 25.6,
     "two_star_pct": 3.5,
     "three_star_pct": 3.1,
-    "four_star_pct": 2.4,
+    "four_star_pct": 2.5,
     "five_star_pct": 65.3,
-    "actionable_review_pct": 89.0
+    "actionable_review_pct": 88.3
   },
   "apps": [
     {
@@ -20,84 +20,84 @@
       "app_name": "DANA",
       "company": "DANA Indonesia",
       "industry": "Non-bank Fintech",
-      "review_count": 2132,
-      "avg_rating_from_reviews": 2.87,
-      "positive_pct": 44.8,
+      "review_count": 2344,
+      "avg_rating_from_reviews": 2.95,
+      "positive_pct": 46.9,
       "neutral_pct": 1.7,
-      "negative_pct": 53.5,
-      "one_star_pct": 46.7,
+      "negative_pct": 51.3,
+      "one_star_pct": 44.6,
       "two_star_pct": 5.4,
-      "three_star_pct": 3.6,
-      "four_star_pct": 2.8,
-      "five_star_pct": 41.5,
-      "actionable_review_pct": 87.8
-    },
-    {
-      "app_key": "brimo",
-      "app_name": "BRImo",
-      "company": "Bank BRI",
-      "industry": "Conventional Banking Apps",
-      "review_count": 1777,
-      "avg_rating_from_reviews": 3.46,
-      "positive_pct": 59.9,
-      "neutral_pct": 1.9,
-      "negative_pct": 38.2,
-      "one_star_pct": 31.8,
-      "two_star_pct": 4.7,
-      "three_star_pct": 4.4,
-      "four_star_pct": 3.3,
-      "five_star_pct": 55.7,
-      "actionable_review_pct": 84.3
+      "three_star_pct": 3.7,
+      "four_star_pct": 3.2,
+      "five_star_pct": 43.2,
+      "actionable_review_pct": 85.8
     },
     {
       "app_key": "shopeepay",
       "app_name": "ShopeePay",
       "company": "Sea / Shopee",
       "industry": "Non-bank Fintech",
-      "review_count": 1760,
-      "avg_rating_from_reviews": 3.95,
-      "positive_pct": 73.3,
+      "review_count": 1967,
+      "avg_rating_from_reviews": 3.99,
+      "positive_pct": 74.4,
       "neutral_pct": 1.1,
-      "negative_pct": 25.6,
-      "one_star_pct": 22.7,
-      "two_star_pct": 2.1,
-      "three_star_pct": 2.5,
-      "four_star_pct": 2.8,
-      "five_star_pct": 69.9,
-      "actionable_review_pct": 75.1
+      "negative_pct": 24.6,
+      "one_star_pct": 21.8,
+      "two_star_pct": 1.9,
+      "three_star_pct": 2.6,
+      "four_star_pct": 3.0,
+      "five_star_pct": 70.7,
+      "actionable_review_pct": 73.8
+    },
+    {
+      "app_key": "brimo",
+      "app_name": "BRImo",
+      "company": "Bank BRI",
+      "industry": "Conventional Banking Apps",
+      "review_count": 1964,
+      "avg_rating_from_reviews": 3.53,
+      "positive_pct": 61.8,
+      "neutral_pct": 1.8,
+      "negative_pct": 36.4,
+      "one_star_pct": 30.2,
+      "two_star_pct": 4.5,
+      "three_star_pct": 4.3,
+      "four_star_pct": 3.5,
+      "five_star_pct": 57.4,
+      "actionable_review_pct": 82.3
     },
     {
       "app_key": "wondr_bni",
       "app_name": "wondr by BNI",
       "company": "Bank BNI",
       "industry": "Conventional Banking Apps",
-      "review_count": 1691,
-      "avg_rating_from_reviews": 3.91,
-      "positive_pct": 71.9,
+      "review_count": 1831,
+      "avg_rating_from_reviews": 3.9,
+      "positive_pct": 71.8,
       "neutral_pct": 1.4,
-      "negative_pct": 26.7,
-      "one_star_pct": 21.2,
+      "negative_pct": 26.8,
+      "one_star_pct": 21.1,
       "two_star_pct": 4.4,
-      "three_star_pct": 3.8,
-      "four_star_pct": 3.4,
-      "five_star_pct": 67.2,
-      "actionable_review_pct": 78.4
+      "three_star_pct": 4.1,
+      "four_star_pct": 3.7,
+      "five_star_pct": 66.7,
+      "actionable_review_pct": 77.4
     },
     {
       "app_key": "superbank",
       "app_name": "Superbank",
       "company": "Superbank",
       "industry": "Digital Banks",
-      "review_count": 1592,
-      "avg_rating_from_reviews": 4.43,
-      "positive_pct": 85.9,
-      "neutral_pct": 0.8,
-      "negative_pct": 13.3,
-      "one_star_pct": 11.9,
-      "two_star_pct": 1.2,
-      "three_star_pct": 1.8,
+      "review_count": 1744,
+      "avg_rating_from_reviews": 4.45,
+      "positive_pct": 86.5,
+      "neutral_pct": 0.7,
+      "negative_pct": 12.8,
+      "one_star_pct": 11.4,
+      "two_star_pct": 1.1,
+      "three_star_pct": 1.7,
       "four_star_pct": 2.6,
-      "five_star_pct": 82.6,
+      "five_star_pct": 83.2,
       "actionable_review_pct": 91.2
     },
     {
@@ -105,50 +105,67 @@
       "app_name": "Livin' by Mandiri",
       "company": "Bank Mandiri",
       "industry": "Conventional Banking Apps",
-      "review_count": 1546,
+      "review_count": 1628,
       "avg_rating_from_reviews": 2.74,
       "positive_pct": 42.0,
       "neutral_pct": 1.0,
       "negative_pct": 56.9,
-      "one_star_pct": 51.9,
+      "one_star_pct": 51.8,
       "two_star_pct": 4.6,
-      "three_star_pct": 1.6,
-      "four_star_pct": 1.4,
-      "five_star_pct": 40.6,
-      "actionable_review_pct": 89.5
+      "three_star_pct": 1.7,
+      "four_star_pct": 1.5,
+      "five_star_pct": 40.4,
+      "actionable_review_pct": 89.0
     },
     {
       "app_key": "neobank",
       "app_name": "neobank",
       "company": "Bank Neo Commerce",
       "industry": "Digital Banks",
-      "review_count": 1513,
-      "avg_rating_from_reviews": 4.83,
-      "positive_pct": 95.8,
-      "neutral_pct": 0.3,
-      "negative_pct": 3.9,
+      "review_count": 1596,
+      "avg_rating_from_reviews": 4.82,
+      "positive_pct": 95.5,
+      "neutral_pct": 0.4,
+      "negative_pct": 4.1,
       "one_star_pct": 3.0,
-      "two_star_pct": 0.9,
-      "three_star_pct": 0.7,
-      "four_star_pct": 1.1,
-      "five_star_pct": 94.4,
-      "actionable_review_pct": 96.5
+      "two_star_pct": 1.0,
+      "three_star_pct": 0.8,
+      "four_star_pct": 1.3,
+      "five_star_pct": 93.9,
+      "actionable_review_pct": 96.2
+    },
+    {
+      "app_key": "dbank_pro",
+      "app_name": "D-Bank PRO",
+      "company": "Bank Danamon",
+      "industry": "Conventional Banking Apps",
+      "review_count": 1490,
+      "avg_rating_from_reviews": 3.78,
+      "positive_pct": 68.0,
+      "neutral_pct": 1.4,
+      "negative_pct": 30.6,
+      "one_star_pct": 25.6,
+      "two_star_pct": 3.6,
+      "three_star_pct": 3.6,
+      "four_star_pct": 1.5,
+      "five_star_pct": 65.7,
+      "actionable_review_pct": 87.6
     },
     {
       "app_key": "octo_mobile",
       "app_name": "OCTO Mobile",
       "company": "CIMB Niaga",
       "industry": "Conventional Banking Apps",
-      "review_count": 1463,
-      "avg_rating_from_reviews": 3.58,
-      "positive_pct": 63.2,
+      "review_count": 1488,
+      "avg_rating_from_reviews": 3.6,
+      "positive_pct": 63.6,
       "neutral_pct": 1.1,
-      "negative_pct": 35.7,
-      "one_star_pct": 30.3,
+      "negative_pct": 35.3,
+      "one_star_pct": 29.9,
       "two_star_pct": 3.7,
       "three_star_pct": 3.3,
       "four_star_pct": 2.7,
-      "five_star_pct": 60.0,
+      "five_star_pct": 60.4,
       "actionable_review_pct": 89.9
     },
     {
@@ -156,67 +173,50 @@
       "app_name": "myBCA",
       "company": "BCA",
       "industry": "Conventional Banking Apps",
-      "review_count": 1444,
-      "avg_rating_from_reviews": 2.98,
-      "positive_pct": 45.6,
+      "review_count": 1487,
+      "avg_rating_from_reviews": 2.97,
+      "positive_pct": 45.3,
       "neutral_pct": 3.4,
-      "negative_pct": 51.0,
-      "one_star_pct": 40.0,
-      "two_star_pct": 8.3,
-      "three_star_pct": 7.1,
+      "negative_pct": 51.3,
+      "one_star_pct": 40.1,
+      "two_star_pct": 8.5,
+      "three_star_pct": 7.2,
       "four_star_pct": 2.9,
-      "five_star_pct": 41.7,
-      "actionable_review_pct": 94.7
+      "five_star_pct": 41.4,
+      "actionable_review_pct": 94.5
     },
     {
       "app_key": "bank_jago",
       "app_name": "Jago",
       "company": "Bank Jago",
       "industry": "Digital Banks",
-      "review_count": 1438,
+      "review_count": 1479,
       "avg_rating_from_reviews": 3.65,
       "positive_pct": 64.8,
       "neutral_pct": 2.0,
       "negative_pct": 33.2,
-      "one_star_pct": 28.3,
-      "two_star_pct": 4.0,
+      "one_star_pct": 28.2,
+      "two_star_pct": 4.1,
       "three_star_pct": 3.7,
-      "four_star_pct": 2.7,
+      "four_star_pct": 2.8,
       "five_star_pct": 61.3,
-      "actionable_review_pct": 89.6
-    },
-    {
-      "app_key": "dbank_pro",
-      "app_name": "D-Bank PRO",
-      "company": "Bank Danamon",
-      "industry": "Conventional Banking Apps",
-      "review_count": 1429,
-      "avg_rating_from_reviews": 3.78,
-      "positive_pct": 68.1,
-      "neutral_pct": 1.3,
-      "negative_pct": 30.7,
-      "one_star_pct": 25.7,
-      "two_star_pct": 3.6,
-      "three_star_pct": 3.4,
-      "four_star_pct": 1.5,
-      "five_star_pct": 65.9,
-      "actionable_review_pct": 87.9
+      "actionable_review_pct": 89.1
     },
     {
       "app_key": "allo_bank",
       "app_name": "Allo Bank",
       "company": "Allo Bank Indonesia",
       "industry": "Digital Banks",
-      "review_count": 1390,
-      "avg_rating_from_reviews": 3.75,
-      "positive_pct": 67.7,
+      "review_count": 1465,
+      "avg_rating_from_reviews": 3.76,
+      "positive_pct": 68.0,
       "neutral_pct": 1.0,
-      "negative_pct": 31.3,
+      "negative_pct": 31.0,
       "one_star_pct": 26.8,
-      "two_star_pct": 3.8,
+      "two_star_pct": 3.6,
       "three_star_pct": 2.0,
       "four_star_pct": 2.4,
-      "five_star_pct": 64.9,
+      "five_star_pct": 65.3,
       "actionable_review_pct": 96.7
     },
     {
@@ -224,50 +224,50 @@
       "app_name": "Krom Bank",
       "company": "Krom Bank Indonesia",
       "industry": "Digital Banks",
-      "review_count": 1375,
-      "avg_rating_from_reviews": 4.78,
-      "positive_pct": 94.6,
-      "neutral_pct": 0.4,
-      "negative_pct": 4.9,
-      "one_star_pct": 3.8,
-      "two_star_pct": 0.9,
-      "three_star_pct": 1.0,
+      "review_count": 1428,
+      "avg_rating_from_reviews": 4.77,
+      "positive_pct": 94.4,
+      "neutral_pct": 0.5,
+      "negative_pct": 5.1,
+      "one_star_pct": 4.0,
+      "two_star_pct": 0.8,
+      "three_star_pct": 1.1,
       "four_star_pct": 2.2,
-      "five_star_pct": 92.1,
-      "actionable_review_pct": 81.3
+      "five_star_pct": 91.9,
+      "actionable_review_pct": 80.9
     },
     {
       "app_key": "blu_bca",
       "app_name": "blu by BCA Digital",
       "company": "BCA Digital",
       "industry": "Digital Banks",
-      "review_count": 1336,
-      "avg_rating_from_reviews": 4.04,
-      "positive_pct": 75.1,
+      "review_count": 1358,
+      "avg_rating_from_reviews": 4.05,
+      "positive_pct": 75.3,
       "neutral_pct": 2.2,
-      "negative_pct": 22.8,
-      "one_star_pct": 17.3,
+      "negative_pct": 22.5,
+      "one_star_pct": 17.1,
       "two_star_pct": 4.2,
       "three_star_pct": 4.6,
       "four_star_pct": 5.0,
-      "five_star_pct": 68.9,
-      "actionable_review_pct": 90.5
+      "five_star_pct": 69.1,
+      "actionable_review_pct": 90.1
     },
     {
       "app_key": "bank_aladin",
       "app_name": "Bank Aladin Syariah",
       "company": "Bank Aladin Syariah",
       "industry": "Digital Banks",
-      "review_count": 1234,
-      "avg_rating_from_reviews": 3.79,
-      "positive_pct": 68.1,
+      "review_count": 1238,
+      "avg_rating_from_reviews": 3.78,
+      "positive_pct": 67.9,
       "neutral_pct": 1.7,
-      "negative_pct": 30.2,
-      "one_star_pct": 25.8,
+      "negative_pct": 30.4,
+      "one_star_pct": 25.9,
       "two_star_pct": 3.3,
       "three_star_pct": 3.1,
       "four_star_pct": 2.3,
-      "five_star_pct": 65.6,
+      "five_star_pct": 65.4,
       "actionable_review_pct": 96.6
     },
     {
@@ -275,67 +275,67 @@
       "app_name": "Bank Raya",
       "company": "Bank Raya",
       "industry": "Digital Banks",
-      "review_count": 1225,
-      "avg_rating_from_reviews": 4.39,
-      "positive_pct": 84.1,
+      "review_count": 1230,
+      "avg_rating_from_reviews": 4.38,
+      "positive_pct": 83.8,
       "neutral_pct": 1.2,
-      "negative_pct": 14.7,
-      "one_star_pct": 11.9,
-      "two_star_pct": 2.2,
+      "negative_pct": 15.0,
+      "one_star_pct": 12.1,
+      "two_star_pct": 2.3,
       "three_star_pct": 2.5,
-      "four_star_pct": 1.3,
-      "five_star_pct": 82.0,
-      "actionable_review_pct": 89.6
-    },
-    {
-      "app_key": "hibank",
-      "app_name": "hi by hibank",
-      "company": "hibank Indonesia",
-      "industry": "Digital Banks",
-      "review_count": 1076,
-      "avg_rating_from_reviews": 4.74,
-      "positive_pct": 93.2,
-      "neutral_pct": 0.7,
-      "negative_pct": 6.1,
-      "one_star_pct": 4.9,
-      "two_star_pct": 0.7,
-      "three_star_pct": 1.5,
-      "four_star_pct": 0.9,
-      "five_star_pct": 91.9,
-      "actionable_review_pct": 96.9
+      "four_star_pct": 1.4,
+      "five_star_pct": 81.7,
+      "actionable_review_pct": 89.5
     },
     {
       "app_key": "ovo",
       "app_name": "OVO",
       "company": "OVO",
       "industry": "Non-bank Fintech",
-      "review_count": 1051,
-      "avg_rating_from_reviews": 3.06,
-      "positive_pct": 50.0,
-      "neutral_pct": 1.1,
-      "negative_pct": 48.9,
-      "one_star_pct": 44.1,
-      "two_star_pct": 3.8,
-      "three_star_pct": 2.5,
-      "four_star_pct": 1.7,
-      "five_star_pct": 48.0,
-      "actionable_review_pct": 94.6
+      "review_count": 1137,
+      "avg_rating_from_reviews": 2.96,
+      "positive_pct": 47.5,
+      "neutral_pct": 1.3,
+      "negative_pct": 51.2,
+      "one_star_pct": 46.4,
+      "two_star_pct": 3.7,
+      "three_star_pct": 2.7,
+      "four_star_pct": 1.6,
+      "five_star_pct": 45.6,
+      "actionable_review_pct": 94.1
+    },
+    {
+      "app_key": "hibank",
+      "app_name": "hi by hibank",
+      "company": "hibank Indonesia",
+      "industry": "Digital Banks",
+      "review_count": 1077,
+      "avg_rating_from_reviews": 4.74,
+      "positive_pct": 93.2,
+      "neutral_pct": 0.6,
+      "negative_pct": 6.1,
+      "one_star_pct": 4.9,
+      "two_star_pct": 0.7,
+      "three_star_pct": 1.5,
+      "four_star_pct": 0.9,
+      "five_star_pct": 91.9,
+      "actionable_review_pct": 96.8
     },
     {
       "app_key": "motionbank",
       "app_name": "MotionBank",
       "company": "MNC Bank",
       "industry": "Digital Banks",
-      "review_count": 955,
+      "review_count": 956,
       "avg_rating_from_reviews": 3.71,
-      "positive_pct": 66.3,
+      "positive_pct": 66.2,
       "neutral_pct": 1.9,
-      "negative_pct": 31.8,
+      "negative_pct": 31.9,
       "one_star_pct": 28.0,
       "two_star_pct": 2.9,
       "three_star_pct": 3.0,
       "four_star_pct": 2.3,
-      "five_star_pct": 63.8,
+      "five_star_pct": 63.7,
       "actionable_review_pct": 94.1
     },
     {
@@ -343,51 +343,51 @@
       "app_name": "BCA mobile",
       "company": "BCA",
       "industry": "Conventional Banking Apps",
-      "review_count": 891,
-      "avg_rating_from_reviews": 3.6,
-      "positive_pct": 62.7,
+      "review_count": 930,
+      "avg_rating_from_reviews": 3.55,
+      "positive_pct": 61.4,
       "neutral_pct": 2.9,
-      "negative_pct": 34.3,
-      "one_star_pct": 27.6,
-      "two_star_pct": 4.6,
-      "three_star_pct": 6.5,
-      "four_star_pct": 2.5,
-      "five_star_pct": 58.8,
-      "actionable_review_pct": 94.5
+      "negative_pct": 35.7,
+      "one_star_pct": 29.0,
+      "two_star_pct": 4.4,
+      "three_star_pct": 6.6,
+      "four_star_pct": 2.4,
+      "five_star_pct": 57.6,
+      "actionable_review_pct": 94.0
     },
     {
       "app_key": "gopay",
       "app_name": "GoPay",
       "company": "GoTo",
       "industry": "Non-bank Fintech",
-      "review_count": 852,
-      "avg_rating_from_reviews": 3.99,
-      "positive_pct": 74.3,
-      "neutral_pct": 1.3,
-      "negative_pct": 24.4,
-      "one_star_pct": 21.6,
+      "review_count": 894,
+      "avg_rating_from_reviews": 4.0,
+      "positive_pct": 74.6,
+      "neutral_pct": 1.2,
+      "negative_pct": 24.2,
+      "one_star_pct": 21.4,
       "two_star_pct": 2.6,
-      "three_star_pct": 2.0,
-      "four_star_pct": 2.8,
-      "five_star_pct": 71.0,
-      "actionable_review_pct": 88.0
+      "three_star_pct": 2.1,
+      "four_star_pct": 3.0,
+      "five_star_pct": 70.9,
+      "actionable_review_pct": 87.1
     },
     {
       "app_key": "linkaja",
       "app_name": "LinkAja",
       "company": "LinkAja",
       "industry": "Non-bank Fintech",
-      "review_count": 814,
-      "avg_rating_from_reviews": 3.61,
-      "positive_pct": 63.9,
+      "review_count": 821,
+      "avg_rating_from_reviews": 3.6,
+      "positive_pct": 63.6,
       "neutral_pct": 1.1,
-      "negative_pct": 35.0,
-      "one_star_pct": 31.0,
-      "two_star_pct": 2.3,
-      "three_star_pct": 3.1,
+      "negative_pct": 35.3,
+      "one_star_pct": 31.2,
+      "two_star_pct": 2.4,
+      "three_star_pct": 3.0,
       "four_star_pct": 1.8,
-      "five_star_pct": 61.8,
-      "actionable_review_pct": 91.5
+      "five_star_pct": 61.5,
+      "actionable_review_pct": 91.6
     },
     {
       "app_key": "ocbc_mobile",
@@ -427,45 +427,45 @@
   "industry_summary": [
     {
       "industry": "Conventional Banking Apps",
-      "review_count": 10916,
+      "review_count": 11493,
       "avg_rating_from_reviews": 3.47,
-      "positive_pct": 59.8,
+      "positive_pct": 60.1,
       "neutral_pct": 1.7,
-      "negative_pct": 38.4,
-      "one_star_pct": 32.1,
-      "two_star_pct": 4.8,
-      "three_star_pct": 4.0,
-      "four_star_pct": 2.5,
-      "five_star_pct": 56.6,
-      "actionable_review_pct": 87.6
+      "negative_pct": 38.2,
+      "one_star_pct": 31.9,
+      "two_star_pct": 4.7,
+      "three_star_pct": 4.1,
+      "four_star_pct": 2.6,
+      "five_star_pct": 56.7,
+      "actionable_review_pct": 86.8
     },
     {
       "industry": "Digital Banks",
-      "review_count": 13688,
+      "review_count": 14125,
       "avg_rating_from_reviews": 4.21,
-      "positive_pct": 79.5,
+      "positive_pct": 79.6,
       "neutral_pct": 1.2,
-      "negative_pct": 19.3,
-      "one_star_pct": 16.3,
+      "negative_pct": 19.2,
+      "one_star_pct": 16.2,
       "two_star_pct": 2.4,
-      "three_star_pct": 2.4,
+      "three_star_pct": 2.3,
       "four_star_pct": 2.4,
-      "five_star_pct": 76.6,
-      "actionable_review_pct": 91.6
+      "five_star_pct": 76.7,
+      "actionable_review_pct": 91.4
     },
     {
       "industry": "Non-bank Fintech",
-      "review_count": 6609,
-      "avg_rating_from_reviews": 3.42,
-      "positive_pct": 59.4,
-      "neutral_pct": 1.3,
-      "negative_pct": 39.3,
-      "one_star_pct": 34.7,
+      "review_count": 7163,
+      "avg_rating_from_reviews": 3.44,
+      "positive_pct": 59.9,
+      "neutral_pct": 1.4,
+      "negative_pct": 38.7,
+      "one_star_pct": 34.2,
       "two_star_pct": 3.5,
-      "three_star_pct": 2.9,
-      "four_star_pct": 2.5,
-      "five_star_pct": 56.4,
-      "actionable_review_pct": 86.0
+      "three_star_pct": 3.0,
+      "four_star_pct": 2.7,
+      "five_star_pct": 56.7,
+      "actionable_review_pct": 84.7
     }
   ],
   "platform_summary": [
@@ -485,117 +485,117 @@
     },
     {
       "platform": "Google Play",
-      "review_count": 20404,
-      "avg_rating_from_reviews": 4.06,
-      "positive_pct": 75.7,
+      "review_count": 21972,
+      "avg_rating_from_reviews": 4.04,
+      "positive_pct": 75.3,
       "neutral_pct": 1.1,
-      "negative_pct": 23.3,
-      "one_star_pct": 19.7,
+      "negative_pct": 23.6,
+      "one_star_pct": 20.0,
       "two_star_pct": 2.7,
-      "three_star_pct": 2.5,
-      "four_star_pct": 2.3,
-      "five_star_pct": 72.8,
-      "actionable_review_pct": 88.4
+      "three_star_pct": 2.6,
+      "four_star_pct": 2.5,
+      "five_star_pct": 72.2,
+      "actionable_review_pct": 87.4
     }
   ],
   "sentiment_by_industry": [
     {
       "industry": "Non-bank Fintech",
-      "positive": 3923,
-      "neutral": 87,
-      "negative": 2599
+      "positive": 4292,
+      "neutral": 97,
+      "negative": 2774
     },
     {
       "industry": "Conventional Banking Apps",
-      "positive": 6533,
-      "neutral": 190,
-      "negative": 4193
+      "positive": 6906,
+      "neutral": 199,
+      "negative": 4388
     },
     {
       "industry": "Digital Banks",
-      "positive": 10877,
-      "neutral": 167,
-      "negative": 2644
+      "positive": 11244,
+      "neutral": 171,
+      "negative": 2710
     }
   ],
   "topic_summary": [
     {
       "topic": "General",
-      "count": 12409
+      "count": 13300
     },
     {
       "topic": "Transaction",
-      "count": 7007
+      "count": 7312
     },
     {
       "topic": "UI / UX",
-      "count": 3998
+      "count": 4084
     },
     {
       "topic": "Login & KYC",
-      "count": 2526
+      "count": 2625
     },
     {
       "topic": "Performance & Bugs",
-      "count": 2072
+      "count": 2130
     },
     {
       "topic": "Promo & Benefits",
-      "count": 1064
+      "count": 1111
     },
     {
       "topic": "Fees & Limits",
-      "count": 819
+      "count": 858
     },
     {
       "topic": "Security",
-      "count": 785
+      "count": 814
     },
     {
       "topic": "Customer Service",
-      "count": 533
+      "count": 547
     }
   ],
   "top_negative_issues": [
     {
       "issue": "General",
-      "count": 5280
+      "count": 5554
     },
     {
       "issue": "Login / OTP",
-      "count": 932
+      "count": 970
     },
     {
       "issue": "App error / crash",
-      "count": 779
+      "count": 789
     },
     {
       "issue": "Top up / payment",
-      "count": 621
+      "count": 650
     },
     {
       "issue": "Balance / refund",
-      "count": 544
+      "count": 575
     },
     {
       "issue": "Customer service response",
-      "count": 449
+      "count": 464
     },
     {
       "issue": "Verification / KYC",
-      "count": 348
+      "count": 361
     },
     {
       "issue": "Fees / charges",
-      "count": 307
+      "count": 328
     },
     {
       "issue": "Transfer failure / pending",
-      "count": 103
+      "count": 106
     },
     {
       "issue": "Promo / cashback",
-      "count": 73
+      "count": 75
     }
   ],
   "trend": [
@@ -1123,7 +1123,7 @@
     },
     {
       "month": "2025-10",
-      "review_count": 383,
+      "review_count": 382,
       "avg_rating": 4.37,
       "negative_count": 59
     },
@@ -1159,15 +1159,15 @@
     },
     {
       "month": "2026-04",
-      "review_count": 670,
+      "review_count": 671,
       "avg_rating": 3.62,
       "negative_count": 228
     },
     {
       "month": "2026-05",
-      "review_count": 867,
-      "avg_rating": 3.44,
-      "negative_count": 336
+      "review_count": 873,
+      "avg_rating": 3.43,
+      "negative_count": 339
     },
     {
       "month": "2026-06",
@@ -1177,7 +1177,7 @@
     },
     {
       "month": "2026-07",
-      "review_count": 2627,
+      "review_count": 2629,
       "avg_rating": 3.89,
       "negative_count": 728
     },
@@ -1189,15 +1189,15 @@
     },
     {
       "month": "2026-09",
-      "review_count": 10355,
+      "review_count": 10391,
       "avg_rating": 3.66,
-      "negative_count": 3437
+      "negative_count": 3444
     },
     {
       "month": "2026-10",
-      "review_count": 2686,
-      "avg_rating": 3.21,
-      "negative_count": 1193
+      "review_count": 4210,
+      "avg_rating": 3.44,
+      "negative_count": 1619
     }
   ]
 }
