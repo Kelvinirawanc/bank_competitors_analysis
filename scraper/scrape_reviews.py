@@ -3,7 +3,7 @@ BANKING & FINTECH COMPETITIVE INTELLIGENCE
 FULL PUBLIC REVIEW COLLECTOR
 
 Main reference: Allo Bank
-Platforms: Google Play + Apple App Store (Indonesia storefront)
+Platform: Google Play (Indonesia storefront)
 
 IMPORTANT
 ---------
@@ -17,14 +17,6 @@ Google Play
 - Runs multiple sort orders and languages, then de-duplicates by review ID.
 - No artificial per-stream review cap by default.
 
-Apple App Store
-- Discovers/validates numeric app IDs.
-- Uses the public customer-review RSS JSON feed.
-- Reads pages 1..10 for mostRecent and mostHelpful.
-- Does not stop permanently at the first empty page; it continues through the
-  configured page window because the RSS feed can contain holes.
-- De-duplicates by review ID.
-
 Outputs
 -------
 data/app_registry.json
@@ -37,7 +29,7 @@ data/summary.json
     Aggregates for the dashboard.
 
 data/collection_diagnostics.json
-    Per-app/per-platform diagnostics: discovery, pages, errors, counts,
+    Per-app diagnostics: discovery, pages, errors, counts,
     and termination reasons.
 
 Run
@@ -55,13 +47,6 @@ Useful options
 
 --google-sorts NEWEST,RATING,HELPFUL
     Run several sort orders and merge unique reviews.
-
---apple-pages 10
-    Public Apple RSS practical window. Do not set above 10 expecting more
-    historical data; the feed is capped in practice.
-
---apple-sorts MOST_RECENT,MOST_HELPFUL
-    Run both public RSS sort modes.
 
 --fresh
     Start the stored review dataset from zero instead of merging with the
@@ -126,7 +111,6 @@ TIMEOUT = 35
 SLEEP_MIN = 0.25
 SLEEP_MAX = 0.65
 GOOGLE_MAX_SAFE_CALLS = 10000
-APPLE_MAX_SAFE_PAGES = 10
 
 HEADERS = {
     "User-Agent": (
@@ -167,10 +151,6 @@ KNOWN_GOOGLE_IDS: Dict[str, str] = {
     "dana": "id.dana",
     "shopeepay": "com.shopeepay.id",
     "gopay": "com.gojek.app",
-}
-
-KNOWN_APPLE_IDS: Dict[str, str] = {
-    "allo_bank": "1591223632",
 }
 
 
@@ -528,151 +508,6 @@ def collect_google_stream(
     return rows
 
 
-def discover_apple(target: Dict[str, Any], session: requests.Session) -> Dict[str, Any]:
-    diagnostics: Dict[str, Any] = {
-        "status":"failed", "method":None, "candidate_count":0, "selected":None, "score":0, "reason":""
-    }
-
-    if target.get("app_key") in KNOWN_APPLE_IDS:
-        aid = KNOWN_APPLE_IDS[target["app_key"]]
-        meta = fetch_apple_metadata(session, aid)
-        valid, score, reason = validate_apple_match(target, meta)
-        if valid:
-            diagnostics.update({"status":"validated","method":"known_id","selected":aid,"score":score,"reason":reason})
-            return {"app_id":aid,"url":meta.get("url") or target.get("apple_url"),"metadata":meta,"diagnostics":diagnostics}
-
-    params = {"term": target.get("search_term") or target.get("app_name"), "country":"id", "entity":"software", "limit":50}
-    try:
-        resp = session.get("https://itunes.apple.com/search", params=params, timeout=TIMEOUT)
-        resp.raise_for_status()
-        candidates = resp.json().get("results", [])
-    except Exception as exc:
-        diagnostics["reason"] = f"itunes_search_error:{exc}"
-        return {"app_id":None,"url":None,"metadata":{},"diagnostics":diagnostics}
-
-    diagnostics["candidate_count"] = len(candidates)
-    ranked = sorted(candidates, key=lambda x:candidate_score(target,x.get("trackName","") or "",x.get("artistName","") or ""), reverse=True)
-    for c in ranked[:15]:
-        aid = c.get("trackId")
-        if not aid:
-            continue
-        valid, score, reason = validate_apple_match(target,c)
-        if valid:
-            diagnostics.update({"status":"validated","method":"itunes_search","selected":str(aid),"score":score,"reason":reason})
-            return {"app_id":str(aid),"url":c.get("trackViewUrl"),"metadata":c,"diagnostics":diagnostics}
-
-    diagnostics["reason"] = "all_candidates_failed_validation"
-    return {"app_id":None,"url":None,"metadata":{},"diagnostics":diagnostics}
-
-
-def validate_apple_match(target: Dict[str, Any], metadata: Dict[str, Any]) -> Tuple[bool,int,str]:
-    title = metadata.get("trackName") or metadata.get("title") or ""
-    dev = metadata.get("artistName") or metadata.get("developer") or ""
-    score = candidate_score(target,title,dev)
-    if score < 20:
-        return False,score,f"low_confidence_match:title={title!r};developer={dev!r};score={score}"
-    return True,score,"validated"
-
-
-def fetch_apple_metadata(session: requests.Session, app_id: str) -> Dict[str, Any]:
-    try:
-        resp = session.get(f"https://itunes.apple.com/lookup?id={app_id}&country=id",timeout=TIMEOUT)
-        resp.raise_for_status()
-        rows = resp.json().get("results",[])
-        return rows[0] if rows else {}
-    except Exception:
-        return {}
-
-
-def label(entry: Dict[str, Any], key: str) -> str:
-    return (entry.get(key) or {}).get("label","") if isinstance(entry.get(key),dict) else ""
-
-
-def collect_apple_stream(
-    app_rec: Dict[str, Any],
-    sort_name: str,
-    max_pages: int,
-    diagnostics: Dict[str, Any],
-) -> List[Dict[str, Any]]:
-    if not app_rec.get("apple_app_id"):
-        diagnostics.update({"status":"skipped","reason":"no_apple_id"})
-        return []
-
-    rows: List[Dict[str, Any]] = []
-    seen: set[str] = set()
-    max_pages = min(max_pages, APPLE_MAX_SAFE_PAGES)
-    sort_param = "mostRecent" if sort_name == "MOST_RECENT" else "mostHelpful"
-
-    pages_seen: List[int] = []
-    empty_pages: List[int] = []
-    errors: List[str] = []
-
-    for page in range(1, max_pages + 1):
-        url = (
-            f"https://itunes.apple.com/id/rss/customerreviews/"
-            f"page={page}/id={app_rec['apple_app_id']}/sortby={sort_param}/json"
-        )
-        try:
-            resp = SESSION.get(url, timeout=TIMEOUT) if False else requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-            if resp.status_code == 404:
-                errors.append(f"page_{page}:404")
-                continue
-            resp.raise_for_status()
-            payload = resp.json()
-            entries = payload.get("feed",{}).get("entry",[]) or []
-            pages_seen.append(page)
-            if not entries:
-                empty_pages.append(page)
-                sleep_brief()
-                continue
-
-            for entry in entries:
-                review_id = label(entry,"id")
-                rating = label(entry,"im:rating")
-                if not review_id or not rating:
-                    continue
-                if review_id in seen:
-                    continue
-                seen.add(review_id)
-                rows.append({
-                    "review_id": f"ios:{review_id}",
-                    "source_review_id": review_id,
-                    "app_key": app_rec["app_key"],
-                    "app_name": app_rec["app_name"],
-                    "company": app_rec["company"],
-                    "industry": app_rec["industry"],
-                    "role": app_rec["role"],
-                    "platform": "App Store",
-                    "store_country": "id",
-                    "rating": int(rating),
-                    "review_title": label(entry,"title"),
-                    "review_text": label(entry,"content"),
-                    "review_date": entry.get("updated",{}).get("label","") if isinstance(entry.get("updated"),dict) else "",
-                    "app_version": label(entry,"im:version"),
-                    "user_name": label(entry.get("author",{}),"name") if isinstance(entry.get("author"),dict) else "",
-                    "thumbs_up": 0,
-                    "developer_reply": "",
-                    "source_url": app_rec.get("apple_url") or "",
-                    "collection_sort": sort_name,
-                    "scraped_at": now_iso(),
-                    "is_demo": False,
-                })
-        except Exception as exc:
-            errors.append(f"page_{page}:{exc}")
-        sleep_brief()
-
-    diagnostics.update({
-        "status":"ok" if rows else ("failed" if errors else "ok"),
-        "pages_requested":max_pages,
-        "pages_seen":pages_seen,
-        "empty_pages":empty_pages,
-        "errors":errors,
-        "raw_reviews":len(rows),
-        "unique_review_ids":len({r["review_id"] for r in rows}),
-    })
-    return rows
-
-
 def enrich_review(review: Dict[str, Any]) -> Dict[str, Any]:
     rating = int(review.get("rating") or 0)
     sentiment, s_conf = classify_sentiment(review.get("review_text", ""), rating)
@@ -698,7 +533,6 @@ def aggregate(reviews: List[Dict[str, Any]]) -> Dict[str, Any]:
 
     by_app: Dict[str,List[Dict[str,Any]]] = {}
     by_industry: Dict[str,List[Dict[str,Any]]] = {}
-    by_platform: Dict[str,List[Dict[str,Any]]] = {}
     by_month: Dict[str,List[Dict[str,Any]]] = {}
     issues: Dict[str,int] = {}
     topics: Dict[str,int] = {}
@@ -706,7 +540,6 @@ def aggregate(reviews: List[Dict[str, Any]]) -> Dict[str, Any]:
     for r in reviews:
         by_app.setdefault(r["app_key"],[]).append(r)
         by_industry.setdefault(r["industry"],[]).append(r)
-        by_platform.setdefault(r["platform"],[]).append(r)
         month=str(r.get("review_date", ""))[:7]
         if month:
             by_month.setdefault(month,[]).append(r)
@@ -739,9 +572,6 @@ def aggregate(reviews: List[Dict[str, Any]]) -> Dict[str, Any]:
     industries=[{"industry":k,**summary(v)} for k,v in by_industry.items()]
     industries.sort(key=lambda x:x["industry"])
 
-    platforms=[{"platform":k,**summary(v)} for k,v in by_platform.items()]
-    platforms.sort(key=lambda x:x["platform"])
-
     sentiment=[{"industry":k,"positive":sum(r.get("sentiment")=="Positive" for r in v),"neutral":sum(r.get("sentiment")=="Neutral" for r in v),"negative":sum(r.get("sentiment")=="Negative" for r in v)} for k,v in by_industry.items()]
     topic_summary=[{"topic":k,"count":v} for k,v in sorted(topics.items(),key=lambda x:(-x[1],x[0]))]
     issue_summary=[{"issue":k,"count":v} for k,v in sorted(issues.items(),key=lambda x:(-x[1],x[0]))]
@@ -756,7 +586,6 @@ def aggregate(reviews: List[Dict[str, Any]]) -> Dict[str, Any]:
         "overall":summary(reviews),
         "apps":apps,
         "industry_summary":industries,
-        "platform_summary":platforms,
         "sentiment_by_industry":sentiment,
         "topic_summary":topic_summary,
         "top_negative_issues":issue_summary,
@@ -787,16 +616,6 @@ def build_registry(catalog: List[Dict[str,Any]], existing: Dict[str,Any], sessio
                 rec["google_play_id"]=None
                 rec["google_play_discovery"]=gp.get("diagnostics",{})
 
-            ap=discover_apple(target,session)
-            if ap.get("app_id"):
-                rec["apple_app_id"]=ap["app_id"]
-                rec["apple_url"]=ap.get("url") or rec.get("apple_url")
-                rec["apple_metadata"]=ap.get("metadata",{})
-                rec["apple_discovery"]=ap.get("diagnostics",{})
-            else:
-                rec["apple_app_id"]=None
-                rec["apple_discovery"]=ap.get("diagnostics",{})
-
         result.append(rec)
     return result
 
@@ -810,8 +629,6 @@ def main() -> None:
     p.add_argument("--max-reviews-per-stream",type=int,default=0,help="0=unlimited until pagination ends")
     p.add_argument("--google-languages",default="id,en")
     p.add_argument("--google-sorts",default="NEWEST,RATING,HELPFUL")
-    p.add_argument("--apple-pages",type=int,default=10)
-    p.add_argument("--apple-sorts",default="MOST_RECENT,MOST_HELPFUL")
     p.add_argument("--fresh",action="store_true")
     p.add_argument("--skip-discovery",action="store_true")
     p.add_argument("--only-app",default="")
@@ -821,7 +638,7 @@ def main() -> None:
     catalog=load_json(CATALOG_PATH,{"apps":[]}).get("apps",[])
     previous_registry=load_json(REGISTRY_PATH,{"apps":[]})
     previous_reviews=[] if args.fresh else load_json(REVIEWS_PATH,{"reviews":[]}).get("reviews",[])
-    stored={r.get("review_id"):r for r in previous_reviews if r.get("review_id")}
+    stored={r.get("review_id"):r for r in previous_reviews if r.get("review_id") and r.get("platform")=="Google Play"}
 
     only=set(parse_csv_arg(args.only_app)) or None
     registry=build_registry(catalog,previous_registry,session,args.skip_discovery,only)
@@ -833,8 +650,6 @@ def main() -> None:
             "max_reviews_per_stream":args.max_reviews_per_stream,
             "google_languages":parse_csv_arg(args.google_languages),
             "google_sorts":parse_csv_arg(args.google_sorts),
-            "apple_pages":min(args.apple_pages,APPLE_MAX_SAFE_PAGES),
-            "apple_sorts":parse_csv_arg(args.apple_sorts),
             "fresh":args.fresh,
         },
         "apps":[],
@@ -842,19 +657,17 @@ def main() -> None:
 
     g_languages=[x.lower() for x in parse_csv_arg(args.google_languages)]
     g_sorts=[x.upper() for x in parse_csv_arg(args.google_sorts)]
-    a_sorts=[x.upper() for x in parse_csv_arg(args.apple_sorts)]
 
     print("\n============================================================")
     print(" BANKING & FINTECH - FULL PUBLIC REVIEW COLLECTION")
     print("============================================================")
     print(f"Apps selected: {len(registry)}")
     print("Google Play: continuation-token pagination, no per-stream cap by default")
-    print("Apple App Store: pages 1-10, mostRecent + mostHelpful by default")
     print("============================================================\n")
 
     for idx,rec in enumerate(registry,1):
         print(f"[{idx}/{len(registry)}] {rec['app_name']}")
-        app_diag={"app_key":rec["app_key"],"app_name":rec["app_name"],"google_play":{},"app_store":{},"stored_before":len(stored)}
+        app_diag={"app_key":rec["app_key"],"app_name":rec["app_name"],"google_play":{},"stored_before":len(stored)}
 
         if rec.get("google_play_id"):
             for lang in g_languages:
@@ -870,17 +683,6 @@ def main() -> None:
             app_diag["google_play"]={"status":"not_collected","reason":"no_validated_app_id","discovery":rec.get("google_play_discovery",{})}
             print("  Google Play: NO VALIDATED APP ID")
 
-        if rec.get("apple_app_id"):
-            for sort_name in a_sorts:
-                d={}
-                rows=collect_apple_stream(rec,sort_name,args.apple_pages,d)
-                app_diag["app_store"][sort_name]=d
-                for row in rows:
-                    stored[row["review_id"]]=enrich_review(row)
-                print(f"  App Store [{sort_name}]: {len(rows)}")
-        else:
-            app_diag["app_store"]={"status":"not_collected","reason":"no_validated_app_id","discovery":rec.get("apple_discovery",{})}
-            print("  App Store: NO VALIDATED APP ID")
 
         app_diag["stored_after"]=len(stored)
         diagnostics["apps"].append(app_diag)
@@ -893,14 +695,12 @@ def main() -> None:
     diagnostics["finished_at"]=now_iso()
     diagnostics["final_unique_review_count"]=len(review_list)
     diagnostics["stored_google_play_reviews"]=sum(1 for r in review_list if r.get("platform")=="Google Play")
-    diagnostics["stored_app_store_reviews"]=sum(1 for r in review_list if r.get("platform")=="App Store")
     save_json(DIAGNOSTICS_PATH,diagnostics)
 
     print("============================================================")
     print(" COLLECTION COMPLETE")
     print(f"Unique stored reviews : {len(review_list):,}")
     print(f"Google Play           : {diagnostics['stored_google_play_reviews']:,}")
-    print(f"App Store             : {diagnostics['stored_app_store_reviews']:,}")
     print(f"CSV export            : {CSV_PATH}")
     print(f"Diagnostics           : {DIAGNOSTICS_PATH}")
     print("============================================================")
