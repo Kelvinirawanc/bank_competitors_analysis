@@ -5,8 +5,8 @@ cd /d %~dp0
 color 0A
 
 echo ============================================================
-echo BANKING & FINTECH COMPETITIVE INTELLIGENCE
-echo FULL PUBLIC REVIEW COLLECTION
+echo BANK COMPETITORS TRACKER
+echo GOOGLE PLAY REVIEW COLLECTION
 echo ============================================================
 echo.
 
@@ -34,7 +34,7 @@ echo [3/3] Collecting maximum public written reviews...
 echo This can take a long time because the scraper uses multiple pagination passes.
 echo It will NOT use sample/demo review data.
 echo.
-python scraper\scrape_reviews.py --max-reviews-per-stream 0 --google-languages id,en --google-sorts NEWEST,RATING,HELPFUL --apple-pages 10 --apple-sorts MOST_RECENT,MOST_HELPFUL
+python scraper\scrape_reviews.py --max-reviews-per-stream 0 --google-languages id,en --google-sorts NEWEST,RATING,HELPFUL
 if errorlevel 1 (
     echo.
     echo SCRAPER FAILED.
