@@ -1,52 +1,178 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bank Competitors Tracker · Google Play</title>
-<meta name="description" content="Competitive tracker of Indonesian banking and fintech app ratings and Google Play user reviews, benchmarked against Allo Bank.">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Allo Bank™ · Competitive Intelligence Monitor</title>
+<meta name="description" content="Allo Bank competitive intelligence monitor covering Google Play store performance and customer voice across Indonesian banking and fintech competitors.">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="page">
+
 <header class="topbar">
   <div class="brand">
-    <div class="brand-icon">◒</div>
-    <div><div class="eyebrow">Competitive Intelligence</div><h1>Bank Competitors Tracker</h1><p>Google Play ratings &amp; user reviews, benchmarked against <strong>Allo Bank</strong>.</p></div>
+    <img class="brand-logo" src="assets/allobank-logo.png" alt="Allo Bank logo">
+    <div class="brand-copy">
+      <div class="eyebrow">ALLO BANK™ · COMPETITIVE INTELLIGENCE</div>
+      <h1>Banking &amp; Fintech Competitor Monitor</h1>
+      <p>Live-style market monitoring across Google Play performance, customer voice, and peer benchmarks.</p>
+    </div>
   </div>
-  <div class="top-actions"><span id="dataMode" class="mode-badge">Checking data...</span></div>
+  <div class="top-actions">
+    <div class="live-status" aria-label="Dashboard status">
+      <span class="status-dot"></span>
+      <div><strong id="statusLabel">Monitoring</strong><small id="updatedAt">Feed check —</small></div>
+    </div>
+    <div class="clock-chip" aria-label="Local time">
+      <span class="clock-pulse"></span><strong id="liveClock">--:--:--</strong><small>WIB</small>
+    </div>
+    <button id="refreshData" class="refresh-btn" type="button" title="Refresh dashboard data" aria-label="Refresh dashboard data">
+      <span aria-hidden="true">↻</span><span>Refresh</span>
+    </button>
+    <div class="view-tabs" role="tablist" aria-label="Dashboard view">
+      <button class="view-tab active" data-view="overall" role="tab" aria-selected="true">Overall</button>
+      <button class="view-tab" data-view="allo" role="tab" aria-selected="false">Allo Bank™</button>
+    </div>
+  </div>
 </header>
-<section class="filter-panel">
-  <div class="filter"><label for="industryFilter">Industry</label><select id="industryFilter"><option value="All">All industries</option><option value="Digital Banks">Digital Banks</option><option value="Conventional Banking Apps">Conventional Banking Apps</option><option value="Non-bank Fintech">Non-bank Fintech</option></select></div>
-  <div class="filter"><label for="appFilter">App</label><select id="appFilter"><option value="All">All apps</option></select></div>
-  <button id="resetFilters" class="reset-btn">Reset</button>
+
+<section id="overallView" class="view active" aria-labelledby="overall-view">
+  <section class="filter-panel">
+    <div class="filter">
+      <label for="industryFilter">Category</label>
+      <select id="industryFilter">
+        <option value="All">All categories</option>
+        <option value="Digital Banks">Digital Banks</option>
+        <option value="Conventional Banks">Conventional Banks</option>
+        <option value="Non-bank Competitors">Non-bank Competitors</option>
+      </select>
+    </div>
+    <div class="filter">
+      <label for="appFilter">App</label>
+      <select id="appFilter"><option value="All">All apps</option></select>
+    </div>
+    <button id="resetFilters" class="reset-btn">Reset</button>
+  </section>
+
+  <section class="section-header">
+    <div><div class="section-kicker">Market pulse</div><h2>Google Play store performance</h2></div>
+    <div class="refresh-meta"><span id="sourceLabel">Google Play · Indonesia</span><span>•</span><span id="refreshDate">05 Oct 2026</span><span>•</span><span id="coverageLabel">25 apps</span></div>
+  </section>
+
+  <section class="kpi-grid">
+    <article class="kpi-card allo-accent"><div class="kpi-label">Top store rating</div><div class="kpi-value" id="kpiTopRating">—</div><div class="kpi-meta" id="kpiTopRatingMeta">—</div></article>
+    <article class="kpi-card"><div class="kpi-label">Average store rating</div><div class="kpi-value" id="kpiAvgRating">—</div><div class="kpi-meta" id="kpiAvgRatingMeta">—</div></article>
+    <article class="kpi-card"><div class="kpi-label">Displayed store reviews</div><div class="kpi-value" id="kpiStoreReviews">—</div><div class="kpi-meta" id="kpiStoreReviewsMeta">—</div></article>
+    <article class="kpi-card"><div class="kpi-label">Customer voice signals</div><div class="kpi-value" id="kpiSamples">—</div><div class="kpi-meta" id="kpiSamplesMeta">—</div></article>
+  </section>
+
+  <section class="grid-2">
+    <article class="panel">
+      <div class="panel-head"><div><div class="panel-kicker">Store benchmark</div><h3 id="ratingTitle">Current Google Play rating</h3></div><span id="ratingSelect" class="info">Hover or click a bar</span></div>
+      <div class="chart-wrap tall"><canvas id="ratingChart"></canvas></div>
+    </article>
+    <article class="panel">
+      <div class="panel-head"><div><div class="panel-kicker">Review volume</div><h3 id="reviewCountTitle">Google Play review counts</h3></div><span id="reviewSelect" class="info">Log scale · hover or click</span></div>
+      <div class="chart-wrap tall"><canvas id="storeReviewsChart"></canvas></div>
+    </article>
+  </section>
+
+  <section class="grid-2">
+    <article class="panel">
+      <div class="panel-head"><div><div class="panel-kicker">Customer voice</div><h3 id="voiceTitle">Current review signals</h3></div><span class="info">Directional text signal</span></div>
+      <div class="chart-wrap medium"><canvas id="toneChart"></canvas></div>
+      <div class="signal-guide">
+        <div><span class="signal-dot positive"></span><strong>Positive</strong><span>Praise, satisfaction, or a clear benefit.</span></div>
+        <div><span class="signal-dot mixed"></span><strong>Mixed</strong><span>Positive value with a concern or friction point.</span></div>
+        <div><span class="signal-dot neutral"></span><strong>Neutral</strong><span>Mostly factual wording without a clear tone.</span></div>
+        <div><span class="signal-dot concern"></span><strong>Concern</strong><span>Complaint, failure, friction, or dissatisfaction.</span></div>
+      </div>
+      <p id="sampleNote" class="muted"></p>
+    </article>
+    <article class="panel">
+      <div class="panel-head"><div><div class="panel-kicker">Topics</div><h3 id="topicTitle">What users discuss</h3></div><span id="topicSelect" class="info">Hover or click a topic</span></div>
+      <div class="chart-wrap medium"><canvas id="topicChart"></canvas></div>
+    </article>
+  </section>
+
+  <section class="grid-2">
+    <article class="panel">
+      <div class="panel-head"><div><div class="panel-kicker">Digital-bank benchmark</div><h3 id="digitalTitle">Digital-bank store ratings</h3></div><span id="digitalSelect" class="info">Allo Bank™ highlighted</span></div>
+      <div class="chart-wrap tall"><canvas id="digitalRankChart"></canvas></div>
+    </article>
+    <article class="panel">
+      <div class="panel-head"><div><div class="panel-kicker">Competitor matrix</div><h3>Store metrics &amp; customer voice</h3></div><span id="tableNote" class="info"></span></div>
+      <div class="table-scroll">
+        <table id="appTable">
+          <thead><tr><th>App</th><th>Category</th><th>Store rating</th><th>Reviews</th><th>Downloads</th><th>Signals</th><th>Voice</th><th>Last update</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </article>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head"><div><div class="panel-kicker">Review explorer</div><h3 id="reviewExplorerTitle">Latest customer voice</h3></div><span class="info">Selected app / market view</span></div>
+    <div id="reviewList" class="review-list"></div>
+  </section>
 </section>
-<main>
-<section class="section-header"><div><div class="section-kicker">Executive snapshot</div><h2>App experience at a glance</h2></div><div id="updatedAt" class="muted"></div></section>
-<section class="kpi-grid">
-  <article class="kpi-card accent"><div class="kpi-label">Allo Bank review rating</div><div class="kpi-value" id="kpiAlloRating">—</div><div class="kpi-meta" id="kpiAlloReviews">— written reviews in this dataset</div></article>
-  <article class="kpi-card"><div class="kpi-label">Reviews analysed</div><div class="kpi-value" id="kpiReviews">—</div><div class="kpi-meta">Collected across selected apps</div></article>
-  <article class="kpi-card"><div class="kpi-label">Negative share</div><div class="kpi-value" id="kpiNegative">—</div><div class="kpi-meta">Based on review rating + text baseline</div></article>
-  <article class="kpi-card"><div class="kpi-label">Actionable reviews</div><div class="kpi-value" id="kpiActionable">—</div><div class="kpi-meta">Reviews with enough text for issue analysis</div></article>
+
+<section id="alloView" class="view" aria-labelledby="allo-view">
+  <section class="allo-hero">
+    <div class="allo-hero-copy">
+      <span class="focus-badge">OWN APP · ALLO BANK™</span>
+      <h2>Allo Bank™ competitive position</h2>
+      <p>Benchmark Allo Bank™ against the digital-bank peer set with a live-style operating view of store performance and customer-voice indicators.</p>
+      <div class="hero-metrics"><span>Google Play</span><span>Indonesia</span><span id="alloHeroDate">05 Oct 2026</span></div>
+    </div>
+    <div class="allo-hero-logo"><img src="assets/allobank-logo.png" alt="Allo Bank logo"></div>
+  </section>
+
+  <section class="kpi-grid allo-kpis">
+    <article class="kpi-card allo-accent"><div class="kpi-label">Allo Bank™ store rating</div><div class="kpi-value" id="alloRating">—</div><div class="kpi-meta" id="alloRatingMeta">—</div></article>
+    <article class="kpi-card"><div class="kpi-label">Store review count</div><div class="kpi-value" id="alloStoreReviews">—</div><div class="kpi-meta">Displayed on Google Play</div></article>
+    <article class="kpi-card"><div class="kpi-label">Digital-bank peer average</div><div class="kpi-value" id="alloPeerAvg">—</div><div class="kpi-meta">Excluding Allo Bank™</div></article>
+    <article class="kpi-card"><div class="kpi-label">Gap vs peer average</div><div class="kpi-value" id="alloGap">—</div><div class="kpi-meta" id="alloGapMeta">Percentage points</div></article>
+  </section>
+
+  <section class="grid-2">
+    <article class="panel allo-panel"><div class="panel-head"><div><div class="panel-kicker">Store benchmark</div><h3 id="alloRatingTitle">Allo Bank™ vs. digital-bank ratings</h3></div><span id="alloRatingSelect" class="info allo-info">Hover or click</span></div><div class="chart-wrap tall"><canvas id="alloRatingChart"></canvas></div></article>
+    <article class="panel allo-panel"><div class="panel-head"><div><div class="panel-kicker">Review volume</div><h3 id="alloReviewsTitle">Allo Bank™ vs. digital-bank review counts</h3></div><span id="alloReviewsSelect" class="info allo-info">Log scale · hover or click</span></div><div class="chart-wrap tall"><canvas id="alloReviewsChart"></canvas></div></article>
+  </section>
+
+  <section class="grid-2">
+    <article class="panel allo-panel">
+      <div class="panel-head"><div><div class="panel-kicker">Customer voice</div><h3 id="alloVoiceTitle">Allo Bank™ review signals</h3></div><span class="info allo-info">Directional text signal</span></div>
+      <div class="chart-wrap medium"><canvas id="alloToneChart"></canvas></div>
+      <div class="signal-guide compact">
+        <div><span class="signal-dot positive"></span><strong>Positive</strong><span>Praise, satisfaction, or clear benefit.</span></div>
+        <div><span class="signal-dot mixed"></span><strong>Mixed</strong><span>Value and concern appear together.</span></div>
+        <div><span class="signal-dot neutral"></span><strong>Neutral</strong><span>Mostly factual or unclear tone.</span></div>
+        <div><span class="signal-dot concern"></span><strong>Concern</strong><span>Complaint, friction, or dissatisfaction.</span></div>
+      </div>
+    </article>
+    <article class="panel allo-panel"><div class="panel-head"><div><div class="panel-kicker">Topics</div><h3 id="alloTopicTitle">What Allo Bank™ users discuss</h3></div><span id="alloTopicSelect" class="info allo-info">Hover or click</span></div><div class="chart-wrap medium"><canvas id="alloTopicChart"></canvas></div></article>
+  </section>
+
+  <section class="panel allo-panel">
+    <div class="panel-head"><div><div class="panel-kicker">Peer ranking</div><h3 id="alloPeerTitle">Allo Bank™ position within digital banks</h3></div><span id="alloPeerSelect" class="info allo-info">Store rating benchmark</span></div>
+    <div class="table-scroll"><table id="alloTable"><thead><tr><th>Rank</th><th>App</th><th>Store rating</th><th>Reviews</th><th>Downloads</th><th>Rating gap vs Allo</th></tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section class="panel allo-panel">
+    <div class="panel-head"><div><div class="panel-kicker">Customer voice</div><h3>Allo Bank™ latest review signal</h3></div><span class="info allo-info">Public review signal</span></div>
+    <div id="alloReviewList" class="review-list"></div>
+  </section>
 </section>
-<section class="grid-2">
-<article class="panel"><div class="panel-head"><div><div class="panel-kicker">Benchmark</div><h3>Average rating from collected reviews</h3></div><span class="info">Not a store-wide rating snapshot</span></div><div class="chart-wrap tall"><canvas id="ratingChart"></canvas></div></article>
-<article class="panel"><div class="panel-head"><div><div class="panel-kicker">Customer voice</div><h3>Sentiment by industry</h3></div></div><div class="chart-wrap tall"><canvas id="sentimentChart"></canvas></div></article>
-</section>
-<section class="panel"><div class="panel-head"><div><div class="panel-kicker">Pain points</div><h3>Top negative issues</h3></div><span class="info">Negative reviews only</span></div><div class="chart-wrap medium"><canvas id="issueChart"></canvas></div></section>
-<section class="grid-2">
-<article class="panel"><div class="panel-head"><div><div class="panel-kicker">What users discuss</div><h3>Review topics</h3></div></div><div class="chart-wrap tall"><canvas id="topicChart"></canvas></div></article>
-<article class="panel"><div class="panel-head"><div><div class="panel-kicker">Time series</div><h3>Review volume &amp; average rating</h3></div></div><div class="chart-wrap tall"><canvas id="trendChart"></canvas></div></article>
-</section>
-<section class="panel"><div class="panel-head"><div><div class="panel-kicker">App comparison</div><h3>Detailed app metrics</h3></div><span id="tableNote" class="info"></span></div><div class="table-scroll"><table id="appTable"><thead><tr><th>App</th><th>Industry</th><th>Play Store rating</th><th>Store ratings</th><th>Reviews collected</th><th>Review avg.</th><th>Gap vs Allo</th><th>Positive</th><th>Negative</th><th>1–2★</th><th>Link</th></tr></thead><tbody></tbody></table></div></section>
-<section class="grid-2">
-<article class="panel"><div class="panel-head"><div><div class="panel-kicker">Review explorer</div><h3>Recent negative feedback</h3></div></div><div id="reviewList" class="review-list"></div></article>
-<article class="panel"><div class="panel-head"><div><div class="panel-kicker">Methodology</div><h3>How the analysis works</h3></div></div>
-<div class="method"><div class="method-row"><span>1</span><p>Discover or load target app IDs by keyword, then validate the match before collection.</p></div><div class="method-row"><span>2</span><p>Collect written reviews and ratings from Google Play (Indonesia) using multiple languages and sort orders.</p></div><div class="method-row"><span>3</span><p>Deduplicate by review ID and retain date, app version, helpful votes and developer replies.</p></div><div class="method-row"><span>4</span><p>Apply deterministic sentiment, topic and issue classification as a transparent baseline.</p></div><div class="method-row"><span>5</span><p>Use the resulting dataset for trend, pain-point and cross-industry comparison.</p></div></div>
-<div class="note-box"><strong>Important:</strong> collected written reviews are not the same as the total number of store ratings. The Google Play review endpoint can have coverage limits, so this dashboard is designed as a comparative sample rather than a census.</div>
-</article></section>
-</main>
-<footer><div><strong>Banking &amp; Fintech Competitive Intelligence Dashboard</strong></div><div>Data analysis &amp; dashboard by Kelvin Irawan</div><div>Built with HTML, CSS, JavaScript, Chart.js, and Python</div><div>Data compiled from publicly available Google Play listings and reviews for analytical and educational purposes.</div></footer>
+
+<footer>
+  <div><strong>Allo Bank™ · Banking &amp; Fintech Competitive Intelligence Monitor</strong></div>
+  <div>Data analysis &amp; dashboard by Kelvin Irawan</div>
+  <div>Google Play · Indonesia · <span id="footerUpdate">Updated 05 Oct 2026</span></div>
+</footer>
+
 </div>
 <script src="js/dashboard.js"></script>
 </body>

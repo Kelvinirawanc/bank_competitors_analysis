@@ -1,0 +1,13 @@
+﻿item,value
+report_date,2026-10-05
+apps_in_scope,25
+own_bank,Allo Bank
+competitors,24
+high_level_source,Google Play public app pages / search-indexed current page content
+review_source,Google Play public page review cards surfaced to the web-accessible environment
+review_grain,1 row per surfaced public review card
+review_history_completeness,NOT complete lifetime archive
+why_not_complete,The ChatGPT web environment does not expose the full paginated competitor review endpoint or a public lifetime competitor-review export.
+raw_text_handling,Full review text is not reproduced in the output; review_summary is a concise paraphrase of surfaced reviews.
+rating_caveat,Some Play pages can show slightly different localized/cached counts; values are recorded as observed from the current web-accessible page results.
+today_boundary,The requested end date is 05 Oct 2026. Public pages surfaced here were crawled recently but may have page-cache crawl timestamps; the dataset records the values accessible during this run.

@@ -1,34 +1,42 @@
-# Methodology
+# Methodology & Coverage
 
-## Objective
+## Scope
 
-Track and compare Google Play ratings and written user reviews for Indonesian banking and fintech apps, with Allo Bank as the main reference.
+Allo Bank™ plus 24 selected Indonesian banking and fintech applications across three peer categories:
 
-## Ratings vs. reviews
+- Digital Banks
+- Conventional Banks
+- Non-bank Competitors
 
-- **Play Store rating / store ratings**: the score and rating count shown on the app listing, stored in `app_registry.json`.
-- **Review avg.**: the average star rating of the written reviews collected in this dataset. Ratings without written text are not included, so this can differ from the store rating.
+## Source files
 
-## Collection
+The current dashboard package is built from the supplied Google Play web extracts dated 5 October 2026:
 
-For each app the collector uses the package ID and continuation-token pagination (`google-play-scraper`), optionally across Indonesian/English contexts and NEWEST, RATING and HELPFUL sort orders. Results are merged by review ID. Pagination ends when the endpoint stops returning a new token or a request fails.
+- `data/app_metrics_latest_web_2026-10-05.csv` — current app-level store metrics
+- `data/reviews_surfaced_web_2026-10-05.csv` — publicly surfaced review signals
+- `data/method_and_limits_2026-10-05.csv` — source and coverage notes
 
-## App discovery
+## Front-end calculations
 
-1. Known package ID, validated against app title/developer
-2. `google-play-scraper` search
-3. Play Store search-page HTML fallback
+The dashboard calculates peer averages, ranking order, displayed review totals, category filters, topic counts, and customer-voice proportions in the browser from `data/dashboard_data.json`.
 
-Low-confidence matches are rejected instead of collected.
+Compact values such as `69.2K`, `1.94M`, and `100M+` are converted to numeric values only for charting and aggregation. Display labels remain as supplied.
 
-## Classification
+## Customer voice
 
-Sentiment, topic and primary issue are assigned by keyword rules plus the star rating (1-2 stars = negative, 4-5 = positive). 'General' means no rule matched.
+Each surfaced review is assigned a directional signal:
 
-## Repeated collection
+- **Positive** — praise, satisfaction, or clear benefit.
+- **Mixed** — positive value and concern/friction appear together.
+- **Neutral** — factual or unclear tone.
+- **Concern** — complaint, failure, friction, or dissatisfaction.
 
-Existing reviews are kept and new IDs are added on each run. Use `--fresh` to start over.
+The dashboard uses an exposed star score when one is supplied. Otherwise, the directional tone is inferred from the supplied review summary; the underlying full review text is not recreated.
 
-## Diagnostics
+## Interpretation
 
-`data/collection_diagnostics.json` records discovery method, pagination calls, termination reason, errors and unique counts per app.
+Google Play displayed ratings, review counts, download bands, and app-update dates can change by locale, cache, or crawl time. The dashboard therefore presents the supplied values as the current monitoring feed for this package rather than implying a Play Console lifetime export.
+
+## Attribution
+
+Data analysis & dashboard by Kelvin Irawan.
