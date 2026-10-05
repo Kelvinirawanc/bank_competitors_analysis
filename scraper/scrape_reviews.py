@@ -1,72 +1,7 @@
-"""
-BANKING & FINTECH COMPETITIVE INTELLIGENCE
-FULL PUBLIC REVIEW COLLECTOR
+"""BANKING & FINTECH COMPETITOR INTELLIGENCE — GOOGLE PLAY ONLY
 
-Main reference: Allo Bank
-Platform: Google Play (Indonesia storefront)
-
-IMPORTANT
----------
-This collector attempts to retrieve the maximum public WRITTEN reviews exposed
-by the available store endpoints. It does NOT pretend that a public scraper
-can retrieve every historical rating ever submitted to a store.
-
-Google Play
-- Discovers/validates package IDs.
-- Uses continuation-token pagination.
-- Runs multiple sort orders and languages, then de-duplicates by review ID.
-- No artificial per-stream review cap by default.
-
-Outputs
--------
-data/app_registry.json
-    Validated app IDs and metadata.
-
-data/reviews.json
-    All unique reviews collected by this run + previous stored reviews.
-
-data/summary.json
-    Aggregates for the dashboard.
-
-data/collection_diagnostics.json
-    Per-app diagnostics: discovery, pages, errors, counts,
-    and termination reasons.
-
-Run
----
-python scraper\\scrape_reviews.py
-
-Useful options
---------------
---max-reviews-per-stream 0
-    0 = unlimited until pagination ends (default).
-    Positive integer = optional safety cap.
-
---google-languages id,en
-    Run Google Play in both Indonesian and English UI contexts.
-
---google-sorts NEWEST,RATING,HELPFUL
-    Run several sort orders and merge unique reviews.
-
---fresh
-    Start the stored review dataset from zero instead of merging with the
-    previous data/reviews.json.
-
---skip-discovery
-    Reuse IDs already stored in app_registry.json. Useful for repeated runs.
-
---only-app allo_bank,jago
-    Collect selected apps only.
-
---no-ai
-    Present for future compatibility. This collector never calls an AI model.
-
-Requirements
-------------
-requests
-beautifulsoup4
-lxml
-google-play-scraper
+Refreshes Google Play store-level metrics and collects public written user reviews
+for the fixed competitor catalog in data/apps_catalog.json.
 """
 
 from __future__ import annotations
@@ -74,16 +9,14 @@ from __future__ import annotations
 import argparse
 import csv
 import json
-import os
 import random
 import re
 import sys
 import time
-from dataclasses import dataclass, asdict
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
-from urllib.parse import urljoin, urlparse
+from typing import Any, Dict, List, Optional, Tuple
+from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
@@ -106,11 +39,13 @@ REVIEWS_PATH = DATA_DIR / "reviews.json"
 SUMMARY_PATH = DATA_DIR / "summary.json"
 CSV_PATH = DATA_DIR / "reviews.csv"
 DIAGNOSTICS_PATH = DATA_DIR / "collection_diagnostics.json"
+HISTORY_PATH = DATA_DIR / "store_history.json"
 
 TIMEOUT = 35
 SLEEP_MIN = 0.25
 SLEEP_MAX = 0.65
-GOOGLE_MAX_SAFE_CALLS = 10000
+GOOGLE_MAX_SAFE_CALLS = 250
+HISTORY_MAX_SNAPSHOTS_PER_APP = 180
 
 HEADERS = {
     "User-Agent": (
@@ -118,7 +53,6 @@ HEADERS = {
         "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0 Safari/537.36"
     ),
     "Accept-Language": "id-ID,id;q=0.9,en;q=0.8",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 }
 
 GOOGLE_SORT_MAP = {
@@ -132,6 +66,7 @@ GOOGLE_SORT_MAP = {
 KNOWN_GOOGLE_IDS: Dict[str, str] = {
     "allo_bank": "com.alloapp.yump",
     "bank_jago": "com.jago.digitalBanking",
+    "seabank": "id.co.bankbkemobile.digitalbank",
     "blu_bca": "com.bcadigital.blu",
     "neobank": "com.bnc.finance",
     "bank_aladin": "id.aladinbank.mobile",
@@ -146,12 +81,16 @@ KNOWN_GOOGLE_IDS: Dict[str, str] = {
     "brimo": "id.co.bri.brimo",
     "wondr_bni": "id.bni.wondr",
     "octo_mobile": "id.co.cimbniaga.mobile.android",
+    "permatabank": "net.myinfosys.PermataMobileX",
     "dbank_pro": "com.dbank.mobile",
+    "ocbc_mobile": "com.ocbcnisp.onemobileapp",
+    "gopay": "com.gojek.gopay",
     "ovo": "ovo.id",
     "dana": "id.dana",
-    "shopeepay": "com.shopeepay.id",
-    "gopay": "com.gojek.app",
+    "shopeepay": "com.shopee.id",
+    "linkaja": "com.telkom.mwallet",
 }
+
 
 
 def now_iso() -> str:
@@ -527,95 +466,122 @@ def enrich_review(review: Dict[str, Any]) -> Dict[str, Any]:
     return out
 
 
-def aggregate(reviews: List[Dict[str, Any]]) -> Dict[str, Any]:
-    def pct(n:int,d:int)->float:
-        return round(n/d*100,1) if d else 0.0
+def aggregate(reviews: List[Dict[str, Any]], registry: List[Dict[str, Any]]) -> Dict[str, Any]:
+    def pct(n: int, d: int) -> float:
+        return round(n / d * 100, 1) if d else 0.0
 
-    by_app: Dict[str,List[Dict[str,Any]]] = {}
-    by_industry: Dict[str,List[Dict[str,Any]]] = {}
-    by_month: Dict[str,List[Dict[str,Any]]] = {}
-    issues: Dict[str,int] = {}
-    topics: Dict[str,int] = {}
-
+    by_app: Dict[str, List[Dict[str, Any]]] = {}
+    by_industry: Dict[str, List[Dict[str, Any]]] = {}
+    by_month: Dict[str, List[Dict[str, Any]]] = {}
+    topics: Dict[str, int] = {}
+    issues: Dict[str, int] = {}
     for r in reviews:
-        by_app.setdefault(r["app_key"],[]).append(r)
-        by_industry.setdefault(r["industry"],[]).append(r)
-        month=str(r.get("review_date", ""))[:7]
+        by_app.setdefault(r['app_key'], []).append(r)
+        by_industry.setdefault(r['industry'], []).append(r)
+        month = str(r.get('review_date', ''))[:7]
         if month:
-            by_month.setdefault(month,[]).append(r)
-        topics[r.get("topic","General")] = topics.get(r.get("topic","General"),0)+1
-        if r.get("sentiment")=="Negative":
-            issues[r.get("primary_issue","General")] = issues.get(r.get("primary_issue","General"),0)+1
+            by_month.setdefault(month, []).append(r)
+        topic = r.get('topic', 'General')
+        topics[topic] = topics.get(topic, 0) + 1
+        if r.get('sentiment') == 'Negative':
+            issue = r.get('primary_issue', 'General')
+            issues[issue] = issues.get(issue, 0) + 1
 
-    def summary(rows):
-        n=len(rows)
-        vals=[int(r.get("rating")) for r in rows if str(r.get("rating","")).isdigit() and 1<=int(r.get("rating"))<=5]
+    def review_summary(rows: List[Dict[str, Any]]) -> Dict[str, Any]:
+        n = len(rows)
+        vals = [int(r.get('rating')) for r in rows if str(r.get('rating', '')).isdigit() and 1 <= int(r.get('rating')) <= 5]
         return {
-            "review_count":n,
-            "avg_rating_from_reviews":round(sum(vals)/len(vals),2) if vals else None,
-            "positive_pct":pct(sum(r.get("sentiment")=="Positive" for r in rows),n),
-            "neutral_pct":pct(sum(r.get("sentiment")=="Neutral" for r in rows),n),
-            "negative_pct":pct(sum(r.get("sentiment")=="Negative" for r in rows),n),
-            "one_star_pct":pct(sum(r.get("rating")==1 for r in rows),n),
-            "two_star_pct":pct(sum(r.get("rating")==2 for r in rows),n),
-            "three_star_pct":pct(sum(r.get("rating")==3 for r in rows),n),
-            "four_star_pct":pct(sum(r.get("rating")==4 for r in rows),n),
-            "five_star_pct":pct(sum(r.get("rating")==5 for r in rows),n),
-            "actionable_review_pct":pct(sum(bool(r.get("actionable")) for r in rows),n),
+            'review_count': n,
+            'avg_rating_from_reviews': round(sum(vals) / len(vals), 2) if vals else None,
+            'positive_pct': pct(sum(r.get('sentiment') == 'Positive' for r in rows), n),
+            'neutral_pct': pct(sum(r.get('sentiment') == 'Neutral' for r in rows), n),
+            'negative_pct': pct(sum(r.get('sentiment') == 'Negative' for r in rows), n),
+            'one_star_pct': pct(sum(r.get('rating') == 1 for r in rows), n),
+            'two_star_pct': pct(sum(r.get('rating') == 2 for r in rows), n),
+            'three_star_pct': pct(sum(r.get('rating') == 3 for r in rows), n),
+            'four_star_pct': pct(sum(r.get('rating') == 4 for r in rows), n),
+            'five_star_pct': pct(sum(r.get('rating') == 5 for r in rows), n),
+            'actionable_review_pct': pct(sum(bool(r.get('actionable')) for r in rows), n),
         }
 
-    apps=[]
-    for key,rows in by_app.items():
-        apps.append({"app_key":key,"app_name":rows[0]["app_name"],"company":rows[0]["company"],"industry":rows[0]["industry"],**summary(rows)})
-    apps.sort(key=lambda x:(-x["review_count"],x["app_name"]))
+    apps = []
+    for rec in registry:
+        rows = by_app.get(rec['app_key'], [])
+        meta = rec.get('google_play_metadata') or {}
+        apps.append({
+            'app_key': rec['app_key'],
+            'app_name': rec['app_name'],
+            'company': rec['company'],
+            'industry': rec['industry'],
+            'role': rec['role'],
+            'google_play_id': rec.get('google_play_id'),
+            'google_play_url': rec.get('google_play_url'),
+            'store_rating': meta.get('score'),
+            'store_ratings': meta.get('ratings'),
+            'store_reviews': meta.get('reviews'),
+            'installs': meta.get('installs'),
+            'store_updated': meta.get('updated'),
+            **review_summary(rows),
+        })
 
-    industries=[{"industry":k,**summary(v)} for k,v in by_industry.items()]
-    industries.sort(key=lambda x:x["industry"])
+    digital = [a for a in apps if a['industry'] == 'Digital Banks' and isinstance(a.get('store_rating'), (int, float))]
+    digital.sort(key=lambda x: x['store_rating'], reverse=True)
+    allo_rank = next((i + 1 for i, a in enumerate(digital) if a['app_key'] == 'allo_bank'), None)
 
-    sentiment=[{"industry":k,"positive":sum(r.get("sentiment")=="Positive" for r in v),"neutral":sum(r.get("sentiment")=="Neutral" for r in v),"negative":sum(r.get("sentiment")=="Negative" for r in v)} for k,v in by_industry.items()]
-    topic_summary=[{"topic":k,"count":v} for k,v in sorted(topics.items(),key=lambda x:(-x[1],x[0]))]
-    issue_summary=[{"issue":k,"count":v} for k,v in sorted(issues.items(),key=lambda x:(-x[1],x[0]))]
-    trend=[]
-    for month,rows in sorted(by_month.items()):
-        vals=[int(r.get("rating")) for r in rows if str(r.get("rating","")).isdigit()]
-        trend.append({"month":month,"review_count":len(rows),"avg_rating":round(sum(vals)/len(vals),2) if vals else None,"negative_count":sum(r.get("sentiment")=="Negative" for r in rows)})
+    sentiment = []
+    for industry, rows in sorted(by_industry.items()):
+        sentiment.append({
+            'industry': industry,
+            'positive': sum(r.get('sentiment') == 'Positive' for r in rows),
+            'neutral': sum(r.get('sentiment') == 'Neutral' for r in rows),
+            'negative': sum(r.get('sentiment') == 'Negative' for r in rows),
+        })
+
+    trend = []
+    for month, rows in sorted(by_month.items()):
+        vals = [int(r.get('rating')) for r in rows if str(r.get('rating', '')).isdigit()]
+        trend.append({
+            'month': month,
+            'review_count': len(rows),
+            'avg_rating': round(sum(vals) / len(vals), 2) if vals else None,
+            'negative_count': sum(r.get('sentiment') == 'Negative' for r in rows),
+        })
 
     return {
-        "generated_at":now_iso(),
-        "is_demo":False,
-        "overall":summary(reviews),
-        "apps":apps,
-        "industry_summary":industries,
-        "sentiment_by_industry":sentiment,
-        "topic_summary":topic_summary,
-        "top_negative_issues":issue_summary,
-        "trend":trend,
+        'generated_at': now_iso(),
+        'source': 'Google Play',
+        'is_demo': False,
+        'overall': review_summary(reviews),
+        'digital_bank_allo_rank': allo_rank,
+        'apps': apps,
+        'industry_summary': [{'industry': k, **review_summary(v)} for k, v in sorted(by_industry.items())],
+        'sentiment_by_industry': sentiment,
+        'topic_summary': [{'topic': k, 'count': v} for k, v in sorted(topics.items(), key=lambda x: (-x[1], x[0]))],
+        'top_negative_issues': [{'issue': k, 'count': v} for k, v in sorted(issues.items(), key=lambda x: (-x[1], x[0]))],
+        'trend': trend,
     }
 
 
-def build_registry(catalog: List[Dict[str,Any]], existing: Dict[str,Any], session: requests.Session, skip_discovery: bool, only: Optional[set[str]]=None) -> List[Dict[str,Any]]:
-    old={x.get("app_key"):x for x in existing.get("apps",[]) if x.get("app_key")}
-    result=[]
+def build_registry(catalog: List[Dict[str, Any]], existing: Dict[str, Any], session: requests.Session, skip_discovery: bool, only: Optional[set[str]] = None) -> List[Dict[str, Any]]:
+    old = {x.get('app_key'): x for x in existing.get('apps', []) if x.get('app_key')}
+    result = []
     for target in catalog:
-        if only and target["app_key"] not in only:
+        if only and target['app_key'] not in only:
             continue
-        rec=dict(target)
-        old_rec=old.get(target["app_key"],{})
-
-        # Always validate stored IDs unless skip-discovery is explicitly used.
-        if skip_discovery and old_rec:
-            rec.update(old_rec)
+        rec = dict(target)
+        old_rec = old.get(target['app_key'], {})
+        if skip_discovery and old_rec.get('google_play_id'):
+            rec.update({k: old_rec[k] for k in ('google_play_id','google_play_url','google_play_metadata','google_play_discovery') if k in old_rec})
         else:
-            gp=discover_google(target,session)
-            if gp.get("app_id"):
-                rec["google_play_id"]=gp["app_id"]
-                rec["google_play_url"]=gp.get("url") or rec.get("google_play_url")
-                rec["google_play_metadata"]=gp.get("metadata",{})
-                rec["google_play_discovery"]=gp.get("diagnostics",{})
+            gp = discover_google(target, session)
+            if gp.get('app_id'):
+                rec['google_play_id'] = gp['app_id']
+                rec['google_play_url'] = gp.get('url') or rec.get('google_play_url')
+                rec['google_play_metadata'] = gp.get('metadata', {})
+                rec['google_play_discovery'] = gp.get('diagnostics', {})
             else:
-                rec["google_play_id"]=None
-                rec["google_play_discovery"]=gp.get("diagnostics",{})
-
+                rec['google_play_id'] = None
+                rec['google_play_discovery'] = gp.get('diagnostics', {})
         result.append(rec)
     return result
 
@@ -624,86 +590,128 @@ def parse_csv_arg(value: str) -> List[str]:
     return [x.strip() for x in value.split(",") if x.strip()]
 
 
+def update_store_history(registry: List[Dict[str, Any]]) -> None:
+    history = load_json(HISTORY_PATH, {'generated_at': None, 'source': 'Google Play', 'snapshots': []})
+    stamp = now_iso()
+    rows = []
+    for rec in registry:
+        meta = rec.get('google_play_metadata') or {}
+        if meta.get('score') is None and meta.get('ratings') is None and meta.get('reviews') is None:
+            continue
+        rows.append({
+            'snapshot_at': stamp,
+            'app_key': rec['app_key'],
+            'app_name': rec['app_name'],
+            'industry': rec['industry'],
+            'store_rating': meta.get('score'),
+            'store_ratings': meta.get('ratings'),
+            'store_reviews': meta.get('reviews'),
+            'installs': meta.get('installs'),
+        })
+    history['generated_at'] = stamp
+    history['snapshots'] = history.get('snapshots', []) + rows
+    counts: Dict[str, int] = {}
+    trimmed = []
+    for row in reversed(history['snapshots']):
+        k = row.get('app_key')
+        counts[k] = counts.get(k, 0) + 1
+        if counts[k] <= HISTORY_MAX_SNAPSHOTS_PER_APP:
+            trimmed.append(row)
+    history['snapshots'] = list(reversed(trimmed))
+    save_json(HISTORY_PATH, history)
+
+
 def main() -> None:
-    p=argparse.ArgumentParser()
-    p.add_argument("--max-reviews-per-stream",type=int,default=0,help="0=unlimited until pagination ends")
-    p.add_argument("--google-languages",default="id,en")
-    p.add_argument("--google-sorts",default="NEWEST,RATING,HELPFUL")
-    p.add_argument("--fresh",action="store_true")
-    p.add_argument("--skip-discovery",action="store_true")
-    p.add_argument("--only-app",default="")
-    args=p.parse_args()
+    p = argparse.ArgumentParser(description='Collect Google Play store metrics and written reviews.')
+    p.add_argument('--max-reviews-per-stream', type=int, default=200, help='0=continue until pagination ends; positive value caps each language/sort stream')
+    p.add_argument('--google-languages', default='id,en')
+    p.add_argument('--google-sorts', default='NEWEST,RATING,HELPFUL')
+    p.add_argument('--fresh', action='store_true', help='start from zero instead of merging existing reviews')
+    p.add_argument('--skip-discovery', action='store_true', help='reuse validated IDs from app_registry.json')
+    p.add_argument('--only-app', default='')
+    args = p.parse_args()
 
-    session=requests.Session(); session.headers.update(HEADERS)
-    catalog=load_json(CATALOG_PATH,{"apps":[]}).get("apps",[])
-    previous_registry=load_json(REGISTRY_PATH,{"apps":[]})
-    previous_reviews=[] if args.fresh else load_json(REVIEWS_PATH,{"reviews":[]}).get("reviews",[])
-    stored={r.get("review_id"):r for r in previous_reviews if r.get("review_id") and r.get("platform")=="Google Play"}
+    if gp_reviews is None:
+        raise RuntimeError('google-play-scraper is not installed. Run: python -m pip install -r requirements.txt')
 
-    only=set(parse_csv_arg(args.only_app)) or None
-    registry=build_registry(catalog,previous_registry,session,args.skip_discovery,only)
-    save_json(REGISTRY_PATH,{"generated_at":now_iso(),"apps":registry})
+    session = requests.Session(); session.headers.update(HEADERS)
+    catalog = load_json(CATALOG_PATH, {'apps': []}).get('apps', [])
+    previous_registry = load_json(REGISTRY_PATH, {'apps': []})
+    previous_reviews = [] if args.fresh else load_json(REVIEWS_PATH, {'reviews': []}).get('reviews', [])
+    previous_reviews = [r for r in previous_reviews if r.get('platform') == 'Google Play']
+    stored = {r.get('review_id'): r for r in previous_reviews if r.get('review_id')}
+    only = set(parse_csv_arg(args.only_app)) or None
 
-    diagnostics={
-        "started_at":now_iso(),
-        "settings":{
-            "max_reviews_per_stream":args.max_reviews_per_stream,
-            "google_languages":parse_csv_arg(args.google_languages),
-            "google_sorts":parse_csv_arg(args.google_sorts),
-            "fresh":args.fresh,
-        },
-        "apps":[],
-    }
-
-    g_languages=[x.lower() for x in parse_csv_arg(args.google_languages)]
-    g_sorts=[x.upper() for x in parse_csv_arg(args.google_sorts)]
-
-    print("\n============================================================")
-    print(" BANKING & FINTECH - FULL PUBLIC REVIEW COLLECTION")
-    print("============================================================")
-    print(f"Apps selected: {len(registry)}")
-    print("Google Play: continuation-token pagination, no per-stream cap by default")
-    print("============================================================\n")
-
-    for idx,rec in enumerate(registry,1):
-        print(f"[{idx}/{len(registry)}] {rec['app_name']}")
-        app_diag={"app_key":rec["app_key"],"app_name":rec["app_name"],"google_play":{},"stored_before":len(stored)}
-
-        if rec.get("google_play_id"):
-            for lang in g_languages:
-                for sort_name in g_sorts:
-                    key=f"{lang}:{sort_name}"
-                    d={}
-                    rows=collect_google_stream(rec,lang,sort_name,args.max_reviews_per_stream,d)
-                    app_diag["google_play"][key]=d
-                    for row in rows:
-                        stored[row["review_id"]]=enrich_review(row)
-                    print(f"  Google Play [{lang}/{sort_name}]: {len(rows)}")
+    registry = build_registry(catalog, previous_registry, session, args.skip_discovery, only)
+    # Refresh store-level metadata on every run — this is what makes the project a tracker.
+    for rec in registry:
+        if rec.get('google_play_id'):
+            rec['google_play_metadata'] = fetch_google_metadata(session, rec['google_play_id'])
+            rec['google_play_url'] = rec['google_play_metadata'].get('url') or rec.get('google_play_url')
         else:
-            app_diag["google_play"]={"status":"not_collected","reason":"no_validated_app_id","discovery":rec.get("google_play_discovery",{})}
-            print("  Google Play: NO VALIDATED APP ID")
+            rec['google_play_metadata'] = {}
+    save_json(REGISTRY_PATH, {'generated_at': now_iso(), 'source': 'Google Play', 'apps': registry})
 
+    diagnostics = {
+        'started_at': now_iso(),
+        'source': 'Google Play',
+        'settings': {
+            'max_reviews_per_stream': args.max_reviews_per_stream,
+            'google_languages': parse_csv_arg(args.google_languages),
+            'google_sorts': parse_csv_arg(args.google_sorts),
+            'fresh': args.fresh,
+        },
+        'apps': [],
+    }
+    languages = [x.lower() for x in parse_csv_arg(args.google_languages)]
+    sorts = [x.upper() for x in parse_csv_arg(args.google_sorts)]
 
-        app_diag["stored_after"]=len(stored)
-        diagnostics["apps"].append(app_diag)
+    print('\n============================================================')
+    print(' GOOGLE PLAY — BANKING & FINTECH COMPETITOR TRACKER')
+    print('============================================================')
+    print(f'Apps selected: {len(registry)}')
+    print(f'Review streams: {", ".join(languages)} × {", ".join(sorts)}')
+    print('Store metadata: current Google Play rating + reported counts')
+    print('============================================================\n')
+
+    for idx, rec in enumerate(registry, 1):
+        print(f'[{idx}/{len(registry)}] {rec["app_name"]}')
+        app_diag = {'app_key': rec['app_key'], 'app_name': rec['app_name'], 'google_play': {}, 'stored_before': len(stored)}
+        if rec.get('google_play_id'):
+            for lang in languages:
+                for sort_name in sorts:
+                    d = {}
+                    fetched = collect_google_stream(rec, lang, sort_name, args.max_reviews_per_stream, d)
+                    app_diag['google_play'][f'{lang}:{sort_name}'] = d
+                    for row in fetched:
+                        stored[row['review_id']] = enrich_review(row)
+                    print(f'  Google Play [{lang}/{sort_name}]: {len(fetched)}')
+        else:
+            app_diag['google_play'] = {'status': 'not_collected', 'reason': 'no_validated_app_id', 'discovery': rec.get('google_play_discovery', {})}
+            print('  Google Play: NO VALIDATED APP ID')
+        app_diag['stored_after'] = len(stored)
+        diagnostics['apps'].append(app_diag)
         print()
 
-    review_list=sorted(stored.values(),key=lambda x:str(x.get("review_date", "")),reverse=True)
-    save_json(REVIEWS_PATH,{"generated_at":now_iso(),"is_demo":False,"review_count":len(review_list),"reviews":review_list})
-    save_csv(CSV_PATH, review_list)
-    save_json(SUMMARY_PATH,aggregate(review_list))
-    diagnostics["finished_at"]=now_iso()
-    diagnostics["final_unique_review_count"]=len(review_list)
-    diagnostics["stored_google_play_reviews"]=sum(1 for r in review_list if r.get("platform")=="Google Play")
-    save_json(DIAGNOSTICS_PATH,diagnostics)
+    active_keys = {r['app_key'] for r in registry}
+    review_list = [r for r in stored.values() if r.get('platform') == 'Google Play' and r.get('app_key') in active_keys]
+    review_list.sort(key=lambda x: str(x.get('review_date', '')), reverse=True)
 
-    print("============================================================")
-    print(" COLLECTION COMPLETE")
-    print(f"Unique stored reviews : {len(review_list):,}")
-    print(f"Google Play           : {diagnostics['stored_google_play_reviews']:,}")
-    print(f"CSV export            : {CSV_PATH}")
-    print(f"Diagnostics           : {DIAGNOSTICS_PATH}")
-    print("============================================================")
+    stamp = now_iso()
+    save_json(REVIEWS_PATH, {'generated_at': stamp, 'source': 'Google Play', 'is_demo': False, 'review_count': len(review_list), 'reviews': review_list})
+    save_csv(CSV_PATH, review_list)
+    save_json(SUMMARY_PATH, aggregate(review_list, registry))
+    update_store_history(registry)
+
+    diagnostics.update({'finished_at': now_iso(), 'final_unique_review_count': len(review_list), 'stored_google_play_reviews': len(review_list)})
+    save_json(DIAGNOSTICS_PATH, diagnostics)
+
+    print('============================================================')
+    print(' COLLECTION COMPLETE')
+    print(f'Unique stored reviews : {len(review_list):,}')
+    print(f'CSV export             : {CSV_PATH}')
+    print(f'Store history          : {HISTORY_PATH}')
+    print('============================================================')
 
 
 if __name__=="__main__":
