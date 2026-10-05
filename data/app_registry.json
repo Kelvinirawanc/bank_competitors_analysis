@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T04:13:50.296665+00:00",
+  "generated_at": "2026-10-05T03:57:32.932129+00:00",
   "apps": [
     {
       "app_key": "allo_bank",
@@ -19,9 +19,9 @@
       "google_play_metadata": {
         "title": "Allo Bank",
         "developer": "PT. ALLO BANK INDONESIA Tbk",
-        "score": 4.146222,
-        "ratings": 69694,
-        "reviews": 46105,
+        "score": 4.1357884,
+        "ratings": 69674,
+        "reviews": 46055,
         "installs": "10.000.000+",
         "updated": 1790170390,
         "url": "https://play.google.com/store/apps/details?id=com.alloapp.yump&hl=id&gl=id"
@@ -263,9 +263,9 @@
       "google_play_metadata": {
         "title": "Bank Jago/Jago Syariah",
         "developer": "PT Bank Jago, Tbk",
-        "score": 4.7229977,
-        "ratings": 281951,
-        "reviews": 83178,
+        "score": 4.724769,
+        "ratings": 282120,
+        "reviews": 83204,
         "installs": "10.000.000+",
         "updated": 1790680118,
         "url": "https://play.google.com/store/apps/details?id=com.jago.digitalBanking&hl=id&gl=id"
@@ -732,9 +732,9 @@
       "google_play_metadata": {
         "title": "blu by BCA Digital",
         "developer": "BCA Digital",
-        "score": 4.7921486,
-        "ratings": 142769,
-        "reviews": 36231,
+        "score": 4.792934,
+        "ratings": 142883,
+        "reviews": 36247,
         "installs": "5.000.000+",
         "updated": 1788863561,
         "url": "https://play.google.com/store/apps/details?id=com.bcadigital.blu&hl=id&gl=id"
@@ -967,9 +967,9 @@
       "google_play_metadata": {
         "title": "neobank dari BNC Digital",
         "developer": "PT. BANK NEO COMMERCE TBK",
-        "score": 4.7533474,
-        "ratings": 368711,
-        "reviews": 179011,
+        "score": 4.7538233,
+        "ratings": 368797,
+        "reviews": 179027,
         "installs": "10.000.000+",
         "updated": 1790241276,
         "url": "https://play.google.com/store/apps/details?id=com.bnc.finance&hl=id&gl=id"
@@ -1200,9 +1200,9 @@
       "google_play_metadata": {
         "title": "Aladin : Bank Syariah Digital",
         "developer": "PT Bank Aladin Syariah Tbk",
-        "score": 4.0119348,
-        "ratings": 43855,
-        "reviews": 33415,
+        "score": 4.0116863,
+        "ratings": 43860,
+        "reviews": 33417,
         "installs": "5.000.000+",
         "updated": 1789036737,
         "url": "https://play.google.com/store/apps/details?id=id.aladinbank.mobile&hl=id&gl=id"
@@ -1434,9 +1434,9 @@
       "google_play_metadata": {
         "title": "Superbank: Tabungan & Pinjaman",
         "developer": "PT Super Bank Indonesia Tbk",
-        "score": 4.5370545,
-        "ratings": 84850,
-        "reviews": 60270,
+        "score": 4.5316815,
+        "ratings": 84932,
+        "reviews": 60193,
         "installs": "5.000.000+",
         "updated": 1790580018,
         "url": "https://play.google.com/store/apps/details?id=id.co.bankfama.android&hl=id&gl=id"
@@ -1668,9 +1668,9 @@
       "google_play_metadata": {
         "title": "Krom - Bank Digital",
         "developer": "PT Krom Bank Indonesia Tbk",
-        "score": 4.879509,
-        "ratings": 66706,
-        "reviews": 17358,
+        "score": 4.879953,
+        "ratings": 66878,
+        "reviews": 17374,
         "installs": "1.000.000+",
         "updated": 1790940758,
         "url": "https://play.google.com/store/apps/details?id=com.krom.android&hl=id&gl=id"
@@ -1900,9 +1900,9 @@
       "google_play_metadata": {
         "title": "hi by hibank",
         "developer": "PT BANK HIBANK INDONESIA",
-        "score": 4.448718,
+        "score": 4.4497256,
         "ratings": 5466,
-        "reviews": 4852,
+        "reviews": 4851,
         "installs": "100.000+",
         "updated": 1790250625,
         "url": "https://play.google.com/store/apps/details?id=com.hibank.mobile&hl=id&gl=id"
@@ -2134,9 +2134,9 @@
       "google_play_metadata": {
         "title": "Raya - Digital Bank",
         "developer": "PT Bank Raya Indonesia Tbk.",
-        "score": 4.178992,
-        "ratings": 12003,
-        "reviews": 8122,
+        "score": 4.1689076,
+        "ratings": 12008,
+        "reviews": 8124,
         "installs": "1.000.000+",
         "updated": 1790473866,
         "url": "https://play.google.com/store/apps/details?id=id.co.bankraya.apps&hl=id&gl=id"
@@ -2379,9 +2379,9 @@
       "google_play_metadata": {
         "title": "MotionBank",
         "developer": "PT Bank MNC Internasional, Tbk.",
-        "score": 3.3541837,
-        "ratings": 12398,
-        "reviews": 8882,
+        "score": 3.3560421,
+        "ratings": 12402,
+        "reviews": 8886,
         "installs": "1.000.000+",
         "updated": 1787317731,
         "url": "https://play.google.com/store/apps/details?id=com.mnc.mbanking&hl=id&gl=id"
@@ -2614,9 +2614,9 @@
       "google_play_metadata": {
         "title": "myBCA: BCA Banking Apps",
         "developer": "PT Bank Central Asia Tbk.",
-        "score": 4.0019026,
-        "ratings": 106100,
-        "reviews": 46469,
+        "score": 4.002657,
+        "ratings": 106183,
+        "reviews": 46505,
         "installs": "10.000.000+",
         "updated": 1790080787,
         "url": "https://play.google.com/store/apps/details?id=com.bca.mybca.omni.android&hl=id&gl=id"
@@ -2851,9 +2851,9 @@
       "google_play_metadata": {
         "title": "BCA mobile",
         "developer": "PT Bank Central Asia Tbk.",
-        "score": 3.986094,
-        "ratings": 1384579,
-        "reviews": 567760,
+        "score": 3.986003,
+        "ratings": 1384615,
+        "reviews": 567767,
         "installs": "50.000.000+",
         "updated": 1789641055,
         "url": "https://play.google.com/store/apps/details?id=com.bca&hl=id&gl=id"
@@ -3088,9 +3088,9 @@
       "google_play_metadata": {
         "title": "Livin' by Mandiri",
         "developer": "PT Bank Mandiri (Persero) Tbk",
-        "score": 2.7621133,
-        "ratings": 774027,
-        "reviews": 334201,
+        "score": 2.757744,
+        "ratings": 774123,
+        "reviews": 334231,
         "installs": "50.000.000+",
         "updated": 1790805703,
         "url": "https://play.google.com/store/apps/details?id=id.bmri.livin&hl=id&gl=id"
@@ -3324,9 +3324,9 @@
       "google_play_metadata": {
         "title": "BRImo",
         "developer": "PT Bank Rakyat Indonesia (Persero) Tbk.",
-        "score": 4.603898,
-        "ratings": 2255963,
-        "reviews": 928392,
+        "score": 4.6039014,
+        "ratings": 2256322,
+        "reviews": 928495,
         "installs": "50.000.000+",
         "updated": 1790396733,
         "url": "https://play.google.com/store/apps/details?id=id.co.bri.brimo&hl=id&gl=id"
@@ -3561,9 +3561,9 @@
       "google_play_metadata": {
         "title": "wondr by BNI",
         "developer": "PT Bank Negara Indonesia (Persero) Tbk.",
-        "score": 4.824482,
-        "ratings": 1396621,
-        "reviews": 117249,
+        "score": 4.8244934,
+        "ratings": 1398384,
+        "reviews": 117336,
         "installs": "10.000.000+",
         "updated": 1784513892,
         "url": "https://play.google.com/store/apps/details?id=id.bni.wondr&hl=id&gl=id"
@@ -3795,9 +3795,9 @@
       "google_play_metadata": {
         "title": "OCTO by CIMB Niaga",
         "developer": "PT. Bank CIMB Niaga, Tbk",
-        "score": 4.540074,
-        "ratings": 359538,
-        "reviews": 173484,
+        "score": 4.5404453,
+        "ratings": 359568,
+        "reviews": 173498,
         "installs": "10.000.000+",
         "updated": 1790485304,
         "url": "https://play.google.com/store/apps/details?id=id.co.cimbniaga.mobile.android&hl=id&gl=id"
@@ -4029,7 +4029,7 @@
       "google_play_discovery": {
         "status": "failed",
         "method": null,
-        "candidate_count": 18,
+        "candidate_count": 53,
         "selected": null,
         "score": 0,
         "reason": "all_candidates_failed_validation"
@@ -4060,9 +4060,9 @@
       "google_play_metadata": {
         "title": "D-Bank PRO",
         "developer": "PT Bank Danamon Indonesia",
-        "score": 3.70128,
-        "ratings": 28237,
-        "reviews": 15270,
+        "score": 3.6973495,
+        "ratings": 28242,
+        "reviews": 15277,
         "installs": "1.000.000+",
         "updated": 1788371808,
         "url": "https://play.google.com/store/apps/details?id=com.dbank.mobile&hl=id&gl=id"
@@ -4294,9 +4294,9 @@
       "google_play_metadata": {
         "title": "OCBC Business mobile Indonesia",
         "developer": "PT. Bank OCBC NISP, Tbk",
-        "score": 2.63,
-        "ratings": 259,
-        "reviews": 128,
+        "score": 2.61,
+        "ratings": 260,
+        "reviews": 129,
         "installs": "10.000+",
         "updated": 1789390767,
         "url": "https://play.google.com/store/apps/details?id=com.sme.ocbcnisp.corporatebanking&hl=id&gl=id"
@@ -4535,9 +4535,9 @@
       "google_play_metadata": {
         "title": "GoPay Merchant: QRIS",
         "developer": "PT. GoTo Gojek Tokopedia Tbk",
-        "score": 4.5569763,
-        "ratings": 86984,
-        "reviews": 22995,
+        "score": 4.556769,
+        "ratings": 87105,
+        "reviews": 23011,
         "installs": "10.000.000+",
         "updated": 1790915720,
         "url": "https://play.google.com/store/apps/details?id=com.gojek.gopaymerchant&hl=id&gl=id"
@@ -4545,7 +4545,7 @@
       "google_play_discovery": {
         "status": "validated",
         "method": "html_search",
-        "candidate_count": 23,
+        "candidate_count": 22,
         "selected": "com.gojek.gopaymerchant",
         "score": 66,
         "reason": "validated",
@@ -4556,9 +4556,9 @@
           "metadata": {
             "title": "Gojek - Transportasi & Makanan",
             "developer": "PT. GoTo Gojek Tokopedia Tbk",
-            "score": 4.673376,
-            "ratings": 6713085,
-            "reviews": 1899201,
+            "score": 4.673337,
+            "ratings": 6713667,
+            "reviews": 1899269,
             "installs": "100.000.000+",
             "updated": 1790766098,
             "url": "https://play.google.com/store/apps/details?id=com.gojek.app&hl=id&gl=id"
@@ -4783,9 +4783,9 @@
       "google_play_metadata": {
         "title": "OVO",
         "developer": "PT Visionet Internasional",
-        "score": 3.409958,
-        "ratings": 1201636,
-        "reviews": 576666,
+        "score": 3.410277,
+        "ratings": 1201706,
+        "reviews": 576711,
         "installs": "50.000.000+",
         "updated": 1789973232,
         "url": "https://play.google.com/store/apps/details?id=ovo.id&hl=id&gl=id"
@@ -4823,9 +4823,9 @@
       "google_play_metadata": {
         "title": "DANA Dompet Digital Indonesia",
         "developer": "PT Espay Debit Indonesia Koe",
-        "score": 4.6448836,
-        "ratings": 10787734,
-        "reviews": 2391981,
+        "score": 4.644604,
+        "ratings": 10793576,
+        "reviews": 2392533,
         "installs": "100.000.000+",
         "updated": 1790957031,
         "url": "https://play.google.com/store/apps/details?id=id.dana&hl=id&gl=id"
@@ -5056,9 +5056,9 @@
       "google_play_metadata": {
         "title": "ShopeePay – Dompet Serba Bisa",
         "developer": "PT. AIRPAY INTERNATIONAL INDONESIA",
-        "score": 4.768818,
-        "ratings": 1521184,
-        "reviews": 195490,
+        "score": 4.7692413,
+        "ratings": 1523664,
+        "reviews": 195800,
         "installs": "50.000.000+",
         "updated": 1790162103,
         "url": "https://play.google.com/store/apps/details?id=com.shopeepay.id&hl=id&gl=id"
@@ -5294,9 +5294,9 @@
       "google_play_metadata": {
         "title": "LinkAja / LinkAja Syariah",
         "developer": "PT Fintek Karya Nusantara",
-        "score": 3.7837434,
-        "ratings": 822069,
-        "reviews": 489089,
+        "score": 3.7835793,
+        "ratings": 822053,
+        "reviews": 489084,
         "installs": "10.000.000+",
         "updated": 1789527111,
         "url": "https://play.google.com/store/apps/details?id=com.telkom.mwallet&hl=id&gl=id"
@@ -5304,7 +5304,7 @@
       "google_play_discovery": {
         "status": "validated",
         "method": "html_search",
-        "candidate_count": 13,
+        "candidate_count": 16,
         "selected": "com.telkom.mwallet",
         "score": 66,
         "reason": "validated"
