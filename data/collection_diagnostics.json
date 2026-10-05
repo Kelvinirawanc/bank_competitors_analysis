@@ -1,1 +1,1100 @@
-{"started_at": null, "finished_at": null, "settings": {}, "apps": [], "final_unique_review_count": 23178}
+{
+  "started_at": "2026-10-05T12:14:33.153942+00:00",
+  "source": "Google Play",
+  "settings": {
+    "max_reviews_per_stream": 200,
+    "google_languages": [
+      "id",
+      "en"
+    ],
+    "google_sorts": [
+      "NEWEST",
+      "RATING",
+      "HELPFUL"
+    ],
+    "fresh": false
+  },
+  "apps": [
+    {
+      "app_key": "allo_bank",
+      "app_name": "Allo Bank",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 23178,
+      "stored_after": 23210
+    },
+    {
+      "app_key": "bank_jago",
+      "app_name": "Jago",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 23210,
+      "stored_after": 23221
+    },
+    {
+      "app_key": "seabank",
+      "app_name": "SeaBank Indonesia",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 23221,
+      "stored_after": 24010
+    },
+    {
+      "app_key": "blu_bca",
+      "app_name": "blu by BCA Digital",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 24010,
+      "stored_after": 24020
+    },
+    {
+      "app_key": "neobank",
+      "app_name": "neobank",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 24020,
+      "stored_after": 24024
+    },
+    {
+      "app_key": "bank_aladin",
+      "app_name": "Bank Aladin Syariah",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 24024,
+      "stored_after": 24025
+    },
+    {
+      "app_key": "superbank",
+      "app_name": "Superbank",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 24025,
+      "stored_after": 24065
+    },
+    {
+      "app_key": "krom_bank",
+      "app_name": "Krom Bank",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 24065,
+      "stored_after": 24071
+    },
+    {
+      "app_key": "hibank",
+      "app_name": "hi by hibank",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 24071,
+      "stored_after": 24071
+    },
+    {
+      "app_key": "bank_raya",
+      "app_name": "Bank Raya",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 24071,
+      "stored_after": 24072
+    },
+    {
+      "app_key": "motionbank",
+      "app_name": "MotionBank",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 24072,
+      "stored_after": 24074
+    },
+    {
+      "app_key": "mybca",
+      "app_name": "myBCA",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 24074,
+      "stored_after": 24098
+    },
+    {
+      "app_key": "bca_mobile",
+      "app_name": "BCA mobile",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 24098,
+      "stored_after": 24117
+    },
+    {
+      "app_key": "livin_mandiri",
+      "app_name": "Livin' by Mandiri",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 24117,
+      "stored_after": 24135
+    },
+    {
+      "app_key": "brimo",
+      "app_name": "BRImo",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 24135,
+      "stored_after": 24199
+    },
+    {
+      "app_key": "wondr_bni",
+      "app_name": "wondr by BNI",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 24199,
+      "stored_after": 24231
+    },
+    {
+      "app_key": "octo_mobile",
+      "app_name": "OCTO Mobile",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 24231,
+      "stored_after": 24238
+    },
+    {
+      "app_key": "permatabank",
+      "app_name": "PermataX",
+      "google_play": {
+        "status": "not_collected",
+        "reason": "no_validated_app_id",
+        "discovery": {
+          "status": "failed",
+          "method": null,
+          "candidate_count": 53,
+          "selected": null,
+          "score": 0,
+          "reason": "all_candidates_failed_validation",
+          "known_id_validation": {
+            "id": "net.myinfosys.PermataMobileX",
+            "score": 11,
+            "reason": "low_confidence_match:title='Permata ME';developer='PT Bank Permata Tbk';score=11",
+            "metadata": {
+              "title": "Permata ME",
+              "developer": "PT Bank Permata Tbk",
+              "score": 2.5242126,
+              "ratings": 145249,
+              "reviews": 92560,
+              "installs": "5.000.000+",
+              "updated": 1790366637,
+              "url": "https://play.google.com/store/apps/details?id=net.myinfosys.PermataMobileX&hl=id&gl=id"
+            }
+          }
+        }
+      },
+      "stored_before": 24238,
+      "stored_after": 24238
+    },
+    {
+      "app_key": "dbank_pro",
+      "app_name": "D-Bank PRO",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 24238,
+      "stored_after": 24253
+    },
+    {
+      "app_key": "ocbc_mobile",
+      "app_name": "OCBC Mobile",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 24253,
+      "stored_after": 25027
+    },
+    {
+      "app_key": "gopay",
+      "app_name": "GoPay",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 25027,
+      "stored_after": 25827
+    },
+    {
+      "app_key": "ovo",
+      "app_name": "OVO",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 25827,
+      "stored_after": 25854
+    },
+    {
+      "app_key": "dana",
+      "app_name": "DANA",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 25854,
+      "stored_after": 26060
+    },
+    {
+      "app_key": "shopeepay",
+      "app_name": "ShopeePay",
+      "google_play": {
+        "status": "not_collected",
+        "reason": "no_validated_app_id",
+        "discovery": {
+          "status": "failed",
+          "method": null,
+          "candidate_count": 21,
+          "selected": null,
+          "score": 0,
+          "reason": "all_candidates_failed_validation",
+          "known_id_validation": {
+            "id": "com.shopee.id",
+            "score": 2,
+            "reason": "low_confidence_match:title='Shopee Indonesia';developer='Shopee Indonesia';score=2",
+            "metadata": {
+              "title": "Shopee Indonesia",
+              "developer": "Shopee Indonesia",
+              "score": 4.5475426,
+              "ratings": 18677061,
+              "reviews": 5882904,
+              "installs": "100.000.000+",
+              "updated": 1791199152,
+              "url": "https://play.google.com/store/apps/details?id=com.shopee.id&hl=id&gl=id"
+            }
+          }
+        }
+      },
+      "stored_before": 26060,
+      "stored_after": 26060
+    },
+    {
+      "app_key": "linkaja",
+      "app_name": "LinkAja",
+      "google_play": {
+        "id:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "id:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        },
+        "en:NEWEST": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:RATING": {
+          "termination": "max_reviews_reached",
+          "status": "ok",
+          "calls": 1,
+          "raw_reviews": 200,
+          "unique_review_ids": 200
+        },
+        "en:HELPFUL": {
+          "status": "skipped",
+          "reason": "sort_not_supported:HELPFUL"
+        }
+      },
+      "stored_before": 26060,
+      "stored_after": 26064
+    }
+  ],
+  "finished_at": "2026-10-05T12:15:53.988804+00:00",
+  "final_unique_review_count": 26064,
+  "stored_google_play_reviews": 26064
+}
