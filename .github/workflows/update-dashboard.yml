@@ -2,10 +2,8 @@ name: Update Banking & Fintech Dashboard
 
 on:
   schedule:
-    # Every day at 07:00 WIB (00:00 UTC)
+    # Daily at 07:00 WIB (00:00 UTC)
     - cron: "0 0 * * *"
-
-  # Allows you to run it manually from GitHub Actions
   workflow_dispatch:
 
 permissions:
@@ -20,145 +18,74 @@ concurrency:
 jobs:
   update-and-deploy:
     runs-on: ubuntu-latest
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      # =====================================================
-      # 1. Get repository
-      # =====================================================
-
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # =====================================================
-      # 2. Setup Python
-      # =====================================================
-
       - name: Setup Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: "pip"
 
-      # =====================================================
-      # 3. Install scraper dependencies
-      # =====================================================
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          python -m pip install -r requirements.txt
 
-      # =====================================================
-      # 4. Run Banking & Fintech review scraper
-      # =====================================================
-
-      - name: Run review scraper
+      - name: Run Google Play review and store-metadata scraper
         run: |
-          python scraper/scrape_reviews.py             --max-reviews-per-stream 200             --apple-pages 10
-
-      # =====================================================
-      # 5. Validate generated data
-      # =====================================================
+          python scraper/scrape_reviews.py --max-reviews-per-stream 200
 
       - name: Validate generated JSON files
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
-
-          files = [
+          for path in [
+              Path("data/apps_catalog.json"),
               Path("data/app_registry.json"),
               Path("data/reviews.json"),
               Path("data/summary.json"),
-          ]
-
-          for path in files:
+              Path("data/store_history.json"),
+              Path("data/collection_diagnostics.json"),
+          ]:
               if not path.exists():
                   raise SystemExit(f"Missing generated file: {path}")
-
-              with path.open("r", encoding="utf-8") as f:
-                  json.load(f)
-
+              json.loads(path.read_text(encoding="utf-8"))
               print(f"Valid JSON: {path}")
-
-          reviews = json.loads(Path("data/reviews.json").read_text(encoding="utf-8"))
-          if "reviews" not in reviews:
-              raise SystemExit("data/reviews.json does not contain 'reviews'")
-
-          summary = json.loads(Path("data/summary.json").read_text(encoding="utf-8"))
-          if "apps" not in summary:
-              raise SystemExit("data/summary.json does not contain 'apps'")
-
-          print(f"Review rows stored: {len(reviews.get('reviews', []))}")
-          print(f"App summaries: {len(summary.get('apps', []))}")
+          reviews = json.loads(Path("data/reviews.json").read_text(encoding="utf-8"))["reviews"]
+          bad = [r for r in reviews if r.get("platform") != "Google Play"]
+          if bad:
+              raise SystemExit(f"Found {len(bad)} non-Google-Play review rows")
+          print(f"Google Play review rows stored: {len(reviews)}")
           PY
-
-      # =====================================================
-      # 6. Show generated files
-      # =====================================================
-
-      - name: Check generated data
-        run: |
-          echo "Generated files:"
-          ls -lh data/
-
-          echo ""
-          echo "App registry:"
-          ls -lh data/app_registry.json
-
-          echo ""
-          echo "Reviews:"
-          ls -lh data/reviews.json
-
-          echo ""
-          echo "Summary:"
-          ls -lh data/summary.json
-
-      # =====================================================
-      # 7. Commit updated review data
-      # =====================================================
 
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add data/app_registry.json
-          git add data/reviews.json
-          git add data/summary.json
-
+          git add data/apps_catalog.json data/app_registry.json data/reviews.json data/reviews.csv data/summary.json data/store_history.json data/collection_diagnostics.json
           if git diff --cached --quiet; then
             echo "No data changes detected."
           else
-            git commit -m "Auto update banking fintech review data"
+            git commit -m "Auto update Google Play competitor data"
             git push
           fi
-
-      # =====================================================
-      # 8. Configure GitHub Pages
-      # =====================================================
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # =====================================================
-      # 9. Upload dashboard
-      # =====================================================
-
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "."
-
-      # =====================================================
-      # 10. Deploy dashboard
-      # =====================================================
 
       - name: Deploy to GitHub Pages
         id: deployment
