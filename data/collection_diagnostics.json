@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-11-15T04:43:38.947680+00:00",
+  "started_at": "2026-11-16T04:41:05.432848+00:00",
   "source": "Google Play",
   "settings": {
     "max_reviews_per_stream": 200,
@@ -56,8 +56,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 50658,
-      "stored_after": 50711
+      "stored_before": 52414,
+      "stored_after": 52441
     },
     {
       "app_key": "bank_jago",
@@ -100,8 +100,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 50711,
-      "stored_after": 50752
+      "stored_before": 52441,
+      "stored_after": 52506
     },
     {
       "app_key": "seabank",
@@ -144,8 +144,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 50752,
-      "stored_after": 50958
+      "stored_before": 52506,
+      "stored_after": 52713
     },
     {
       "app_key": "blu_bca",
@@ -188,8 +188,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 50958,
-      "stored_after": 50980
+      "stored_before": 52713,
+      "stored_after": 52733
     },
     {
       "app_key": "neobank",
@@ -232,8 +232,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 50980,
-      "stored_after": 51197
+      "stored_before": 52733,
+      "stored_after": 52953
     },
     {
       "app_key": "bank_aladin",
@@ -276,8 +276,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 51197,
-      "stored_after": 51200
+      "stored_before": 52953,
+      "stored_after": 52953
     },
     {
       "app_key": "superbank",
@@ -320,8 +320,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 51200,
-      "stored_after": 51243
+      "stored_before": 52953,
+      "stored_after": 52982
     },
     {
       "app_key": "krom_bank",
@@ -364,8 +364,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 51243,
-      "stored_after": 51294
+      "stored_before": 52982,
+      "stored_after": 53012
     },
     {
       "app_key": "hibank",
@@ -408,8 +408,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 51294,
-      "stored_after": 51294
+      "stored_before": 53012,
+      "stored_after": 53013
     },
     {
       "app_key": "bank_raya",
@@ -452,8 +452,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 51294,
-      "stored_after": 51296
+      "stored_before": 53013,
+      "stored_after": 53016
     },
     {
       "app_key": "motionbank",
@@ -496,8 +496,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 51296,
-      "stored_after": 51296
+      "stored_before": 53016,
+      "stored_after": 53017
     },
     {
       "app_key": "mybca",
@@ -540,8 +540,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 51296,
-      "stored_after": 51335
+      "stored_before": 53017,
+      "stored_after": 53055
     },
     {
       "app_key": "bca_mobile",
@@ -584,8 +584,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 51335,
-      "stored_after": 51369
+      "stored_before": 53055,
+      "stored_after": 53112
     },
     {
       "app_key": "livin_mandiri",
@@ -628,8 +628,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 51369,
-      "stored_after": 51482
+      "stored_before": 53112,
+      "stored_after": 53319
     },
     {
       "app_key": "brimo",
@@ -672,8 +672,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 51482,
-      "stored_after": 51689
+      "stored_before": 53319,
+      "stored_after": 53475
     },
     {
       "app_key": "wondr_bni",
@@ -716,8 +716,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 51689,
-      "stored_after": 51900
+      "stored_before": 53475,
+      "stored_after": 53619
     },
     {
       "app_key": "octo_mobile",
@@ -760,8 +760,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 51900,
-      "stored_after": 51914
+      "stored_before": 53619,
+      "stored_after": 53632
     },
     {
       "app_key": "permatabank",
@@ -772,7 +772,7 @@
         "discovery": {
           "status": "failed",
           "method": null,
-          "candidate_count": 16,
+          "candidate_count": 18,
           "selected": null,
           "score": 0,
           "reason": "all_candidates_failed_validation",
@@ -783,9 +783,9 @@
             "metadata": {
               "title": "Permata ME",
               "developer": "PT Bank Permata Tbk",
-              "score": 2.519585,
-              "ratings": 145622,
-              "reviews": 92787,
+              "score": 2.5189085,
+              "ratings": 145632,
+              "reviews": 92793,
               "installs": "5.000.000+",
               "updated": 1792601408,
               "url": "https://play.google.com/store/apps/details?id=net.myinfosys.PermataMobileX&hl=id&gl=id"
@@ -793,8 +793,8 @@
           }
         }
       },
-      "stored_before": 51914,
-      "stored_after": 51914
+      "stored_before": 53632,
+      "stored_after": 53632
     },
     {
       "app_key": "dbank_pro",
@@ -837,8 +837,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 51914,
-      "stored_after": 51919
+      "stored_before": 53632,
+      "stored_after": 53638
     },
     {
       "app_key": "ocbc_mobile",
@@ -881,8 +881,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 51919,
-      "stored_after": 51919
+      "stored_before": 53638,
+      "stored_after": 53642
     },
     {
       "app_key": "gopay",
@@ -925,8 +925,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 51919,
-      "stored_after": 52139
+      "stored_before": 53642,
+      "stored_after": 53861
     },
     {
       "app_key": "ovo",
@@ -969,8 +969,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 52139,
-      "stored_after": 52186
+      "stored_before": 53861,
+      "stored_after": 53907
     },
     {
       "app_key": "dana",
@@ -1013,8 +1013,8 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 52186,
-      "stored_after": 52398
+      "stored_before": 53907,
+      "stored_after": 54114
     },
     {
       "app_key": "shopeepay",
@@ -1025,7 +1025,7 @@
         "discovery": {
           "status": "failed",
           "method": null,
-          "candidate_count": 21,
+          "candidate_count": 22,
           "selected": null,
           "score": 0,
           "reason": "all_candidates_failed_validation",
@@ -1036,18 +1036,18 @@
             "metadata": {
               "title": "Shopee Indonesia",
               "developer": "Shopee Indonesia",
-              "score": 4.5204153,
-              "ratings": 19009213,
-              "reviews": 5928458,
+              "score": 4.5195284,
+              "ratings": 19013566,
+              "reviews": 5928913,
               "installs": "100.000.000+",
-              "updated": 1793689450,
+              "updated": 1794542408,
               "url": "https://play.google.com/store/apps/details?id=com.shopee.id&hl=id&gl=id"
             }
           }
         }
       },
-      "stored_before": 52398,
-      "stored_after": 52398
+      "stored_before": 54114,
+      "stored_after": 54114
     },
     {
       "app_key": "linkaja",
@@ -1090,11 +1090,11 @@
           "reason": "sort_not_supported:HELPFUL"
         }
       },
-      "stored_before": 52398,
-      "stored_after": 52414
+      "stored_before": 54114,
+      "stored_after": 54128
     }
   ],
-  "finished_at": "2026-11-15T04:44:59.296277+00:00",
-  "final_unique_review_count": 52414,
-  "stored_google_play_reviews": 52414
+  "finished_at": "2026-11-16T04:42:21.770229+00:00",
+  "final_unique_review_count": 54128,
+  "stored_google_play_reviews": 54128
 }
