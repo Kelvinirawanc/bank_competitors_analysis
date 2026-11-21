@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T05:41:21.736747+00:00",
+  "generated_at": "2026-11-21T05:34:17.682931+00:00",
   "source": "Google Play",
   "snapshots": [
     {
@@ -4140,6 +4140,236 @@
       "store_rating": 3.7783058,
       "store_ratings": 822255,
       "store_reviews": 489163,
+      "installs": "10.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "allo_bank",
+      "app_name": "Allo Bank",
+      "industry": "Digital Banks",
+      "store_rating": 4.04805,
+      "store_ratings": 70771,
+      "store_reviews": 46723,
+      "installs": "10.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "bank_jago",
+      "app_name": "Jago",
+      "industry": "Digital Banks",
+      "store_rating": 4.725756,
+      "store_ratings": 293935,
+      "store_reviews": 84647,
+      "installs": "10.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "seabank",
+      "app_name": "SeaBank Indonesia",
+      "industry": "Digital Banks",
+      "store_rating": 4.863333,
+      "store_ratings": 4493510,
+      "store_reviews": 494179,
+      "installs": "50.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "blu_bca",
+      "app_name": "blu by BCA Digital",
+      "industry": "Digital Banks",
+      "store_rating": 4.7803288,
+      "store_ratings": 148445,
+      "store_reviews": 36988,
+      "installs": "5.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "neobank",
+      "app_name": "neobank",
+      "industry": "Digital Banks",
+      "store_rating": 4.8139677,
+      "store_ratings": 380506,
+      "store_reviews": 186435,
+      "installs": "10.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "bank_aladin",
+      "app_name": "Bank Aladin Syariah",
+      "industry": "Digital Banks",
+      "store_rating": 4.0060935,
+      "store_ratings": 44172,
+      "store_reviews": 33529,
+      "installs": "5.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "superbank",
+      "app_name": "Superbank",
+      "industry": "Digital Banks",
+      "store_rating": 4.6548233,
+      "store_ratings": 92179,
+      "store_reviews": 63351,
+      "installs": "5.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "krom_bank",
+      "app_name": "Krom Bank",
+      "industry": "Digital Banks",
+      "store_rating": 4.8656616,
+      "store_ratings": 74323,
+      "store_reviews": 18940,
+      "installs": "1.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "hibank",
+      "app_name": "hi by hibank",
+      "industry": "Digital Banks",
+      "store_rating": 4.5648313,
+      "store_ratings": 5616,
+      "store_reviews": 4978,
+      "installs": "100.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "bank_raya",
+      "app_name": "Bank Raya",
+      "industry": "Digital Banks",
+      "store_rating": 4.07202,
+      "store_ratings": 12212,
+      "store_reviews": 8218,
+      "installs": "1.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "motionbank",
+      "app_name": "MotionBank",
+      "industry": "Digital Banks",
+      "store_rating": 3.1115537,
+      "store_ratings": 12643,
+      "store_reviews": 9058,
+      "installs": "1.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "mybca",
+      "app_name": "myBCA",
+      "industry": "Conventional Banking Apps",
+      "store_rating": 4.0883307,
+      "store_ratings": 110507,
+      "store_reviews": 47887,
+      "installs": "10.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "bca_mobile",
+      "app_name": "BCA mobile",
+      "industry": "Conventional Banking Apps",
+      "store_rating": 3.9846678,
+      "store_ratings": 1386395,
+      "store_reviews": 568280,
+      "installs": "50.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "livin_mandiri",
+      "app_name": "Livin' by Mandiri",
+      "industry": "Conventional Banking Apps",
+      "store_rating": 2.7980201,
+      "store_ratings": 786265,
+      "store_reviews": 338105,
+      "installs": "50.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "brimo",
+      "app_name": "BRImo",
+      "industry": "Conventional Banking Apps",
+      "store_rating": 4.602716,
+      "store_ratings": 2283611,
+      "store_reviews": 935966,
+      "installs": "100.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "wondr_bni",
+      "app_name": "wondr by BNI",
+      "industry": "Conventional Banking Apps",
+      "store_rating": 4.8098125,
+      "store_ratings": 1505489,
+      "store_reviews": 124914,
+      "installs": "10.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "octo_mobile",
+      "app_name": "OCTO Mobile",
+      "industry": "Conventional Banking Apps",
+      "store_rating": 4.519909,
+      "store_ratings": 361485,
+      "store_reviews": 174186,
+      "installs": "10.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "dbank_pro",
+      "app_name": "D-Bank PRO",
+      "industry": "Conventional Banking Apps",
+      "store_rating": 3.874607,
+      "store_ratings": 28938,
+      "store_reviews": 15781,
+      "installs": "1.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "ocbc_mobile",
+      "app_name": "OCBC Mobile",
+      "industry": "Conventional Banking Apps",
+      "store_rating": 3.6805995,
+      "store_ratings": 51142,
+      "store_reviews": 23977,
+      "installs": "1.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "gopay",
+      "app_name": "GoPay",
+      "industry": "Non-bank Fintech",
+      "store_rating": 4.691788,
+      "store_ratings": 2168579,
+      "store_reviews": 514607,
+      "installs": "100.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "ovo",
+      "app_name": "OVO",
+      "industry": "Non-bank Fintech",
+      "store_rating": 3.3819673,
+      "store_ratings": 1204667,
+      "store_reviews": 577976,
+      "installs": "50.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "dana",
+      "app_name": "DANA",
+      "industry": "Non-bank Fintech",
+      "store_rating": 4.641076,
+      "store_ratings": 11066520,
+      "store_reviews": 2424354,
+      "installs": "100.000.000+"
+    },
+    {
+      "snapshot_at": "2026-11-21T05:34:17.682931+00:00",
+      "app_key": "linkaja",
+      "app_name": "LinkAja",
+      "industry": "Non-bank Fintech",
+      "store_rating": 3.7779796,
+      "store_ratings": 822257,
+      "store_reviews": 489171,
       "installs": "10.000.000+"
     }
   ]

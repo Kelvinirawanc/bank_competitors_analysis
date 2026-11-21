@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-20T05:41:21.500553+00:00",
+  "generated_at": "2026-11-21T05:34:17.349848+00:00",
   "source": "Google Play",
   "is_demo": false,
   "overall": {
-    "review_count": 62271,
-    "avg_rating_from_reviews": 4.0,
-    "positive_pct": 74.5,
+    "review_count": 64450,
+    "avg_rating_from_reviews": 4.01,
+    "positive_pct": 74.7,
     "neutral_pct": 1.4,
-    "negative_pct": 24.1,
-    "one_star_pct": 20.4,
+    "negative_pct": 23.9,
+    "one_star_pct": 20.2,
     "two_star_pct": 2.9,
-    "three_star_pct": 2.9,
+    "three_star_pct": 3.0,
     "four_star_pct": 3.6,
-    "five_star_pct": 70.2,
-    "actionable_review_pct": 81.6
+    "five_star_pct": 70.4,
+    "actionable_review_pct": 81.5
   },
   "digital_bank_allo_rank": 9,
   "apps": [
@@ -25,21 +25,21 @@
       "role": "Main",
       "google_play_id": "com.alloapp.yump",
       "google_play_url": "https://play.google.com/store/apps/details?id=com.alloapp.yump&hl=id&gl=id",
-      "store_rating": 4.0517097,
-      "store_ratings": 70777,
-      "store_reviews": 46719,
+      "store_rating": 4.04805,
+      "store_ratings": 70771,
+      "store_reviews": 46723,
       "installs": "10.000.000+",
       "store_updated": 1793094039,
-      "review_count": 2109,
+      "review_count": 2146,
       "avg_rating_from_reviews": 4.17,
       "positive_pct": 78.8,
       "neutral_pct": 0.5,
-      "negative_pct": 20.8,
+      "negative_pct": 20.7,
       "one_star_pct": 17.8,
-      "two_star_pct": 2.6,
+      "two_star_pct": 2.5,
       "three_star_pct": 1.1,
       "four_star_pct": 2.0,
-      "five_star_pct": 76.4,
+      "five_star_pct": 76.5,
       "actionable_review_pct": 96.8
     },
     {
@@ -50,22 +50,22 @@
       "role": "Peer",
       "google_play_id": "com.jago.digitalBanking",
       "google_play_url": "https://play.google.com/store/apps/details?id=com.jago.digitalBanking&hl=id&gl=id",
-      "store_rating": 4.724421,
-      "store_ratings": 293667,
-      "store_reviews": 84615,
+      "store_rating": 4.725756,
+      "store_ratings": 293935,
+      "store_reviews": 84647,
       "installs": "10.000.000+",
       "store_updated": 1794306139,
-      "review_count": 2020,
-      "avg_rating_from_reviews": 4.03,
+      "review_count": 2060,
+      "avg_rating_from_reviews": 4.02,
       "positive_pct": 75.0,
-      "neutral_pct": 1.3,
-      "negative_pct": 23.7,
+      "neutral_pct": 1.4,
+      "negative_pct": 23.6,
       "one_star_pct": 19.7,
-      "two_star_pct": 3.0,
-      "three_star_pct": 2.9,
+      "two_star_pct": 2.9,
+      "three_star_pct": 3.1,
       "four_star_pct": 3.9,
-      "five_star_pct": 70.5,
-      "actionable_review_pct": 82.8
+      "five_star_pct": 70.4,
+      "actionable_review_pct": 82.5
     },
     {
       "app_key": "seabank",
@@ -75,12 +75,12 @@
       "role": "Peer",
       "google_play_id": "id.co.bankbkemobile.digitalbank",
       "google_play_url": "https://play.google.com/store/apps/details?id=id.co.bankbkemobile.digitalbank&hl=id&gl=id",
-      "store_rating": 4.8634787,
-      "store_ratings": 4487209,
-      "store_reviews": 493651,
+      "store_rating": 4.863333,
+      "store_ratings": 4493510,
+      "store_reviews": 494179,
       "installs": "50.000.000+",
       "store_updated": 1794537310,
-      "review_count": 4813,
+      "review_count": 5045,
       "avg_rating_from_reviews": 4.68,
       "positive_pct": 93.0,
       "neutral_pct": 1.0,
@@ -90,7 +90,7 @@
       "three_star_pct": 2.1,
       "four_star_pct": 5.5,
       "five_star_pct": 86.6,
-      "actionable_review_pct": 65.4
+      "actionable_review_pct": 65.3
     },
     {
       "app_key": "blu_bca",
@@ -100,22 +100,22 @@
       "role": "Peer",
       "google_play_id": "com.bcadigital.blu",
       "google_play_url": "https://play.google.com/store/apps/details?id=com.bcadigital.blu&hl=id&gl=id",
-      "store_rating": 4.781498,
-      "store_ratings": 148355,
-      "store_reviews": 36981,
+      "store_rating": 4.7803288,
+      "store_ratings": 148445,
+      "store_reviews": 36988,
       "installs": "5.000.000+",
       "store_updated": 1793963355,
-      "review_count": 1538,
-      "avg_rating_from_reviews": 4.17,
-      "positive_pct": 78.9,
+      "review_count": 1558,
+      "avg_rating_from_reviews": 4.16,
+      "positive_pct": 78.7,
       "neutral_pct": 1.2,
-      "negative_pct": 19.9,
-      "one_star_pct": 15.9,
-      "two_star_pct": 3.2,
+      "negative_pct": 20.1,
+      "one_star_pct": 16.0,
+      "two_star_pct": 3.1,
       "three_star_pct": 3.1,
-      "four_star_pct": 3.9,
-      "five_star_pct": 74.0,
-      "actionable_review_pct": 84.0
+      "four_star_pct": 4.0,
+      "five_star_pct": 73.7,
+      "actionable_review_pct": 83.9
     },
     {
       "app_key": "neobank",
@@ -125,22 +125,22 @@
       "role": "Peer",
       "google_play_id": "com.bnc.finance",
       "google_play_url": "https://play.google.com/store/apps/details?id=com.bnc.finance&hl=id&gl=id",
-      "store_rating": 4.814899,
-      "store_ratings": 380442,
-      "store_reviews": 186699,
+      "store_rating": 4.8139677,
+      "store_ratings": 380506,
+      "store_reviews": 186435,
       "installs": "10.000.000+",
       "store_updated": 1794365639,
-      "review_count": 4465,
+      "review_count": 4708,
       "avg_rating_from_reviews": 4.87,
       "positive_pct": 96.8,
       "neutral_pct": 0.2,
       "negative_pct": 3.0,
       "one_star_pct": 2.5,
-      "two_star_pct": 0.3,
+      "two_star_pct": 0.4,
       "three_star_pct": 0.5,
       "four_star_pct": 1.2,
       "five_star_pct": 95.5,
-      "actionable_review_pct": 95.8
+      "actionable_review_pct": 95.6
     },
     {
       "app_key": "bank_aladin",
@@ -150,17 +150,17 @@
       "role": "Peer",
       "google_play_id": "id.aladinbank.mobile",
       "google_play_url": "https://play.google.com/store/apps/details?id=id.aladinbank.mobile&hl=id&gl=id",
-      "store_rating": 4.007461,
-      "store_ratings": 44165,
-      "store_reviews": 33527,
+      "store_rating": 4.0060935,
+      "store_ratings": 44172,
+      "store_reviews": 33529,
       "installs": "5.000.000+",
       "store_updated": 1792745054,
-      "review_count": 1052,
-      "avg_rating_from_reviews": 3.85,
+      "review_count": 1061,
+      "avg_rating_from_reviews": 3.84,
       "positive_pct": 69.6,
       "neutral_pct": 2.0,
-      "negative_pct": 28.4,
-      "one_star_pct": 24.2,
+      "negative_pct": 28.5,
+      "one_star_pct": 24.3,
       "two_star_pct": 3.1,
       "three_star_pct": 3.6,
       "four_star_pct": 1.8,
@@ -175,22 +175,22 @@
       "role": "Peer",
       "google_play_id": "id.co.bankfama.android",
       "google_play_url": "https://play.google.com/store/apps/details?id=id.co.bankfama.android&hl=id&gl=id",
-      "store_rating": 4.652636,
-      "store_ratings": 92072,
-      "store_reviews": 63288,
+      "store_rating": 4.6548233,
+      "store_ratings": 92179,
+      "store_reviews": 63351,
       "installs": "5.000.000+",
       "store_updated": 1794016869,
-      "review_count": 2721,
-      "avg_rating_from_reviews": 4.56,
-      "positive_pct": 89.2,
+      "review_count": 2776,
+      "avg_rating_from_reviews": 4.55,
+      "positive_pct": 89.1,
       "neutral_pct": 0.6,
-      "negative_pct": 10.2,
-      "one_star_pct": 8.7,
+      "negative_pct": 10.3,
+      "one_star_pct": 8.9,
       "two_star_pct": 1.1,
       "three_star_pct": 1.4,
       "four_star_pct": 2.8,
-      "five_star_pct": 85.9,
-      "actionable_review_pct": 84.2
+      "five_star_pct": 85.8,
+      "actionable_review_pct": 84.3
     },
     {
       "app_key": "krom_bank",
@@ -200,14 +200,14 @@
       "role": "Peer",
       "google_play_id": "com.krom.android",
       "google_play_url": "https://play.google.com/store/apps/details?id=com.krom.android&hl=id&gl=id",
-      "store_rating": 4.8662643,
-      "store_ratings": 74203,
-      "store_reviews": 18922,
+      "store_rating": 4.8656616,
+      "store_ratings": 74323,
+      "store_reviews": 18940,
       "installs": "1.000.000+",
       "store_updated": 1794275947,
-      "review_count": 1907,
+      "review_count": 1945,
       "avg_rating_from_reviews": 4.72,
-      "positive_pct": 93.0,
+      "positive_pct": 93.1,
       "neutral_pct": 1.0,
       "negative_pct": 5.9,
       "one_star_pct": 4.9,
@@ -215,7 +215,7 @@
       "three_star_pct": 1.7,
       "four_star_pct": 2.4,
       "five_star_pct": 90.3,
-      "actionable_review_pct": 78.3
+      "actionable_review_pct": 78.4
     },
     {
       "app_key": "hibank",
@@ -225,21 +225,21 @@
       "role": "Peer",
       "google_play_id": "com.hibank.mobile",
       "google_play_url": "https://play.google.com/store/apps/details?id=com.hibank.mobile&hl=id&gl=id",
-      "store_rating": 4.564057,
-      "store_ratings": 5615,
+      "store_rating": 4.5648313,
+      "store_ratings": 5616,
       "store_reviews": 4978,
       "installs": "100.000+",
       "store_updated": 1794579055,
-      "review_count": 755,
+      "review_count": 759,
       "avg_rating_from_reviews": 4.62,
       "positive_pct": 90.1,
       "neutral_pct": 0.7,
-      "negative_pct": 9.3,
+      "negative_pct": 9.2,
       "one_star_pct": 7.5,
       "two_star_pct": 1.1,
-      "three_star_pct": 1.9,
+      "three_star_pct": 1.8,
       "four_star_pct": 0.9,
-      "five_star_pct": 88.6,
+      "five_star_pct": 88.7,
       "actionable_review_pct": 96.4
     },
     {
@@ -250,12 +250,12 @@
       "role": "Closest peer",
       "google_play_id": "id.co.bankraya.apps",
       "google_play_url": "https://play.google.com/store/apps/details?id=id.co.bankraya.apps&hl=id&gl=id",
-      "store_rating": 4.070248,
-      "store_ratings": 12211,
-      "store_reviews": 8217,
+      "store_rating": 4.07202,
+      "store_ratings": 12212,
+      "store_reviews": 8218,
       "installs": "1.000.000+",
       "store_updated": 1790473866,
-      "review_count": 1106,
+      "review_count": 1107,
       "avg_rating_from_reviews": 4.26,
       "positive_pct": 80.5,
       "neutral_pct": 1.5,
@@ -275,9 +275,9 @@
       "role": "Closest peer",
       "google_play_id": "com.mnc.mbanking",
       "google_play_url": "https://play.google.com/store/apps/details?id=com.mnc.mbanking&hl=id&gl=id",
-      "store_rating": 3.1083665,
-      "store_ratings": 12645,
-      "store_reviews": 9060,
+      "store_rating": 3.1115537,
+      "store_ratings": 12643,
+      "store_reviews": 9058,
       "installs": "1.000.000+",
       "store_updated": 1793358135,
       "review_count": 1080,
@@ -300,22 +300,22 @@
       "role": "Large-bank comparator",
       "google_play_id": "com.bca.mybca.omni.android",
       "google_play_url": "https://play.google.com/store/apps/details?id=com.bca.mybca.omni.android&hl=id&gl=id",
-      "store_rating": 4.0830913,
-      "store_ratings": 110431,
-      "store_reviews": 47856,
+      "store_rating": 4.0883307,
+      "store_ratings": 110507,
+      "store_reviews": 47887,
       "installs": "10.000.000+",
-      "store_updated": 1792143365,
-      "review_count": 1954,
+      "store_updated": 1795089745,
+      "review_count": 1982,
       "avg_rating_from_reviews": 3.35,
-      "positive_pct": 56.1,
-      "neutral_pct": 3.0,
-      "negative_pct": 40.9,
+      "positive_pct": 56.3,
+      "neutral_pct": 2.9,
+      "negative_pct": 40.8,
       "one_star_pct": 33.0,
-      "two_star_pct": 6.0,
+      "two_star_pct": 5.9,
       "three_star_pct": 5.9,
-      "four_star_pct": 3.7,
+      "four_star_pct": 3.8,
       "five_star_pct": 51.4,
-      "actionable_review_pct": 90.6
+      "actionable_review_pct": 90.5
     },
     {
       "app_key": "bca_mobile",
@@ -325,22 +325,22 @@
       "role": "Large-bank comparator",
       "google_play_id": "com.bca",
       "google_play_url": "https://play.google.com/store/apps/details?id=com.bca&hl=id&gl=id",
-      "store_rating": 3.985032,
-      "store_ratings": 1386329,
-      "store_reviews": 568278,
+      "store_rating": 3.9846678,
+      "store_ratings": 1386395,
+      "store_reviews": 568280,
       "installs": "50.000.000+",
       "store_updated": 1794827663,
-      "review_count": 1942,
-      "avg_rating_from_reviews": 3.36,
-      "positive_pct": 57.1,
+      "review_count": 2032,
+      "avg_rating_from_reviews": 3.39,
+      "positive_pct": 57.9,
       "neutral_pct": 2.4,
-      "negative_pct": 40.6,
-      "one_star_pct": 33.2,
-      "two_star_pct": 5.6,
+      "negative_pct": 39.7,
+      "one_star_pct": 32.5,
+      "two_star_pct": 5.5,
       "three_star_pct": 5.2,
-      "four_star_pct": 3.7,
-      "five_star_pct": 52.3,
-      "actionable_review_pct": 89.6
+      "four_star_pct": 3.6,
+      "five_star_pct": 53.2,
+      "actionable_review_pct": 89.8
     },
     {
       "app_key": "livin_mandiri",
@@ -350,21 +350,21 @@
       "role": "Large-bank comparator",
       "google_play_id": "id.bmri.livin",
       "google_play_url": "https://play.google.com/store/apps/details?id=id.bmri.livin&hl=id&gl=id",
-      "store_rating": 2.7916136,
-      "store_ratings": 785210,
-      "store_reviews": 337907,
+      "store_rating": 2.7980201,
+      "store_ratings": 786265,
+      "store_reviews": 338105,
       "installs": "50.000.000+",
       "store_updated": 1793928917,
-      "review_count": 3546,
-      "avg_rating_from_reviews": 3.22,
-      "positive_pct": 54.1,
-      "neutral_pct": 1.8,
-      "negative_pct": 44.1,
-      "one_star_pct": 38.4,
+      "review_count": 3784,
+      "avg_rating_from_reviews": 3.24,
+      "positive_pct": 54.5,
+      "neutral_pct": 1.9,
+      "negative_pct": 43.6,
+      "one_star_pct": 37.8,
       "two_star_pct": 4.7,
-      "three_star_pct": 3.4,
-      "four_star_pct": 3.0,
-      "five_star_pct": 50.5,
+      "three_star_pct": 3.6,
+      "four_star_pct": 3.1,
+      "five_star_pct": 50.7,
       "actionable_review_pct": 83.4
     },
     {
@@ -375,22 +375,22 @@
       "role": "Large-bank comparator",
       "google_play_id": "id.co.bri.brimo",
       "google_play_url": "https://play.google.com/store/apps/details?id=id.co.bri.brimo&hl=id&gl=id",
-      "store_rating": 4.6022215,
-      "store_ratings": 2283006,
-      "store_reviews": 935782,
+      "store_rating": 4.602716,
+      "store_ratings": 2283611,
+      "store_reviews": 935966,
       "installs": "100.000.000+",
       "store_updated": 1793248186,
-      "review_count": 5110,
-      "avg_rating_from_reviews": 3.92,
-      "positive_pct": 72.2,
+      "review_count": 5324,
+      "avg_rating_from_reviews": 3.93,
+      "positive_pct": 72.4,
       "neutral_pct": 1.9,
-      "negative_pct": 25.9,
-      "one_star_pct": 20.5,
+      "negative_pct": 25.7,
+      "one_star_pct": 20.3,
       "two_star_pct": 3.8,
-      "three_star_pct": 4.4,
-      "four_star_pct": 5.5,
-      "five_star_pct": 65.8,
-      "actionable_review_pct": 75.5
+      "three_star_pct": 4.5,
+      "four_star_pct": 5.4,
+      "five_star_pct": 66.0,
+      "actionable_review_pct": 75.3
     },
     {
       "app_key": "wondr_bni",
@@ -400,22 +400,22 @@
       "role": "Large-bank comparator",
       "google_play_id": "id.bni.wondr",
       "google_play_url": "https://play.google.com/store/apps/details?id=id.bni.wondr&hl=id&gl=id",
-      "store_rating": 4.809225,
-      "store_ratings": 1503281,
-      "store_reviews": 124807,
+      "store_rating": 4.8098125,
+      "store_ratings": 1505489,
+      "store_reviews": 124914,
       "installs": "10.000.000+",
       "store_updated": 1792028487,
-      "review_count": 4497,
-      "avg_rating_from_reviews": 3.85,
-      "positive_pct": 70.6,
+      "review_count": 4644,
+      "avg_rating_from_reviews": 3.86,
+      "positive_pct": 70.9,
       "neutral_pct": 2.1,
-      "negative_pct": 27.3,
-      "one_star_pct": 21.5,
+      "negative_pct": 27.0,
+      "one_star_pct": 21.3,
       "two_star_pct": 4.5,
       "three_star_pct": 4.8,
       "four_star_pct": 5.4,
-      "five_star_pct": 63.8,
-      "actionable_review_pct": 70.4
+      "five_star_pct": 64.0,
+      "actionable_review_pct": 70.1
     },
     {
       "app_key": "octo_mobile",
@@ -425,22 +425,22 @@
       "role": "Comparator",
       "google_play_id": "id.co.cimbniaga.mobile.android",
       "google_play_url": "https://play.google.com/store/apps/details?id=id.co.cimbniaga.mobile.android&hl=id&gl=id",
-      "store_rating": 4.519751,
-      "store_ratings": 361463,
-      "store_reviews": 174172,
+      "store_rating": 4.519909,
+      "store_ratings": 361485,
+      "store_reviews": 174186,
       "installs": "10.000.000+",
       "store_updated": 1794797528,
-      "review_count": 1661,
-      "avg_rating_from_reviews": 4.26,
-      "positive_pct": 80.7,
+      "review_count": 1720,
+      "avg_rating_from_reviews": 4.28,
+      "positive_pct": 81.2,
       "neutral_pct": 0.9,
-      "negative_pct": 18.4,
-      "one_star_pct": 14.7,
+      "negative_pct": 17.9,
+      "one_star_pct": 14.3,
       "two_star_pct": 2.6,
       "three_star_pct": 2.2,
-      "four_star_pct": 2.9,
-      "five_star_pct": 77.6,
-      "actionable_review_pct": 84.6
+      "four_star_pct": 2.8,
+      "five_star_pct": 78.1,
+      "actionable_review_pct": 85.2
     },
     {
       "app_key": "permatabank",
@@ -475,9 +475,9 @@
       "role": "Comparator",
       "google_play_id": "com.dbank.mobile",
       "google_play_url": "https://play.google.com/store/apps/details?id=com.dbank.mobile&hl=id&gl=id",
-      "store_rating": 3.8722067,
-      "store_ratings": 28934,
-      "store_reviews": 15772,
+      "store_rating": 3.874607,
+      "store_ratings": 28938,
+      "store_reviews": 15781,
       "installs": "1.000.000+",
       "store_updated": 1792388291,
       "review_count": 1396,
@@ -500,22 +500,22 @@
       "role": "Comparator",
       "google_play_id": "com.ocbcnisp.onemobileapp",
       "google_play_url": "https://play.google.com/store/apps/details?id=com.ocbcnisp.onemobileapp&hl=id&gl=id",
-      "store_rating": 3.6796844,
-      "store_ratings": 51141,
-      "store_reviews": 23979,
+      "store_rating": 3.6805995,
+      "store_ratings": 51142,
+      "store_reviews": 23977,
       "installs": "1.000.000+",
       "store_updated": 1793023935,
-      "review_count": 1170,
-      "avg_rating_from_reviews": 4.23,
-      "positive_pct": 79.7,
-      "neutral_pct": 0.9,
-      "negative_pct": 19.4,
-      "one_star_pct": 15.9,
-      "two_star_pct": 2.6,
+      "review_count": 1180,
+      "avg_rating_from_reviews": 4.24,
+      "positive_pct": 79.9,
+      "neutral_pct": 0.8,
+      "negative_pct": 19.2,
+      "one_star_pct": 15.8,
+      "two_star_pct": 2.5,
       "three_star_pct": 2.1,
       "four_star_pct": 1.2,
-      "five_star_pct": 78.2,
-      "actionable_review_pct": 88.8
+      "five_star_pct": 78.4,
+      "actionable_review_pct": 88.9
     },
     {
       "app_key": "gopay",
@@ -525,22 +525,22 @@
       "role": "Payments comparator",
       "google_play_id": "com.gojek.gopay",
       "google_play_url": "https://play.google.com/store/apps/details?id=com.gojek.gopay&hl=id&gl=id",
-      "store_rating": 4.691193,
-      "store_ratings": 2165410,
-      "store_reviews": 514161,
+      "store_rating": 4.691788,
+      "store_ratings": 2168579,
+      "store_reviews": 514607,
       "installs": "100.000.000+",
       "store_updated": 1794901303,
-      "review_count": 5852,
-      "avg_rating_from_reviews": 4.19,
-      "positive_pct": 80.1,
+      "review_count": 6101,
+      "avg_rating_from_reviews": 4.2,
+      "positive_pct": 80.3,
       "neutral_pct": 1.4,
-      "negative_pct": 18.5,
-      "one_star_pct": 16.1,
+      "negative_pct": 18.3,
+      "one_star_pct": 15.9,
       "two_star_pct": 2.0,
       "three_star_pct": 2.6,
       "four_star_pct": 5.0,
-      "five_star_pct": 74.3,
-      "actionable_review_pct": 71.0
+      "five_star_pct": 74.6,
+      "actionable_review_pct": 71.1
     },
     {
       "app_key": "ovo",
@@ -550,21 +550,21 @@
       "role": "Payments comparator",
       "google_play_id": "ovo.id",
       "google_play_url": "https://play.google.com/store/apps/details?id=ovo.id&hl=id&gl=id",
-      "store_rating": 3.3816354,
-      "store_ratings": 1204620,
-      "store_reviews": 577945,
+      "store_rating": 3.3819673,
+      "store_ratings": 1204667,
+      "store_reviews": 577976,
       "installs": "50.000.000+",
       "store_updated": 1789973232,
-      "review_count": 2375,
-      "avg_rating_from_reviews": 2.8,
-      "positive_pct": 43.5,
+      "review_count": 2438,
+      "avg_rating_from_reviews": 2.82,
+      "positive_pct": 43.8,
       "neutral_pct": 1.6,
-      "negative_pct": 54.9,
-      "one_star_pct": 50.1,
-      "two_star_pct": 3.9,
-      "three_star_pct": 2.9,
+      "negative_pct": 54.6,
+      "one_star_pct": 49.7,
+      "two_star_pct": 3.8,
+      "three_star_pct": 3.0,
       "four_star_pct": 2.1,
-      "five_star_pct": 41.1,
+      "five_star_pct": 41.4,
       "actionable_review_pct": 91.4
     },
     {
@@ -575,21 +575,21 @@
       "role": "Payments comparator",
       "google_play_id": "id.dana",
       "google_play_url": "https://play.google.com/store/apps/details?id=id.dana&hl=id&gl=id",
-      "store_rating": 4.640698,
-      "store_ratings": 11061624,
-      "store_reviews": 2423828,
+      "store_rating": 4.641076,
+      "store_ratings": 11066520,
+      "store_reviews": 2424354,
       "installs": "100.000.000+",
       "store_updated": 1794635922,
-      "review_count": 5733,
-      "avg_rating_from_reviews": 3.51,
-      "positive_pct": 61.5,
+      "review_count": 6004,
+      "avg_rating_from_reviews": 3.53,
+      "positive_pct": 62.1,
       "neutral_pct": 1.7,
-      "negative_pct": 36.8,
-      "one_star_pct": 30.9,
-      "two_star_pct": 4.5,
-      "three_star_pct": 3.9,
+      "negative_pct": 36.1,
+      "one_star_pct": 30.3,
+      "two_star_pct": 4.4,
+      "three_star_pct": 4.0,
       "four_star_pct": 4.5,
-      "five_star_pct": 56.3,
+      "five_star_pct": 56.9,
       "actionable_review_pct": 77.1
     },
     {
@@ -625,394 +625,394 @@
       "role": "Payments comparator",
       "google_play_id": "com.telkom.mwallet",
       "google_play_url": "https://play.google.com/store/apps/details?id=com.telkom.mwallet&hl=id&gl=id",
-      "store_rating": 3.7783058,
-      "store_ratings": 822255,
-      "store_reviews": 489163,
+      "store_rating": 3.7779796,
+      "store_ratings": 822257,
+      "store_reviews": 489171,
       "installs": "10.000.000+",
       "store_updated": 1792542228,
-      "review_count": 1838,
-      "avg_rating_from_reviews": 3.31,
-      "positive_pct": 56.5,
-      "neutral_pct": 1.1,
-      "negative_pct": 42.4,
-      "one_star_pct": 38.5,
-      "two_star_pct": 2.6,
-      "three_star_pct": 2.8,
-      "four_star_pct": 2.0,
-      "five_star_pct": 54.2,
-      "actionable_review_pct": 92.8
+      "review_count": 1969,
+      "avg_rating_from_reviews": 3.39,
+      "positive_pct": 58.7,
+      "neutral_pct": 1.0,
+      "negative_pct": 40.3,
+      "one_star_pct": 36.5,
+      "two_star_pct": 2.5,
+      "three_star_pct": 2.6,
+      "four_star_pct": 1.8,
+      "five_star_pct": 56.5,
+      "actionable_review_pct": 93.2
     }
   ],
   "industry_summary": [
     {
       "industry": "Conventional Banking Apps",
-      "review_count": 21276,
-      "avg_rating_from_reviews": 3.75,
-      "positive_pct": 67.6,
+      "review_count": 22062,
+      "avg_rating_from_reviews": 3.76,
+      "positive_pct": 67.8,
       "neutral_pct": 1.9,
-      "negative_pct": 30.6,
-      "one_star_pct": 25.0,
+      "negative_pct": 30.3,
+      "one_star_pct": 24.8,
       "two_star_pct": 4.2,
       "three_star_pct": 4.1,
       "four_star_pct": 4.0,
-      "five_star_pct": 62.7,
-      "actionable_review_pct": 80.7
+      "five_star_pct": 62.9,
+      "actionable_review_pct": 80.6
     },
     {
       "industry": "Digital Banks",
-      "review_count": 23566,
+      "review_count": 24245,
       "avg_rating_from_reviews": 4.46,
-      "positive_pct": 86.4,
-      "neutral_pct": 0.9,
-      "negative_pct": 12.8,
+      "positive_pct": 86.5,
+      "neutral_pct": 0.8,
+      "negative_pct": 12.6,
       "one_star_pct": 10.7,
-      "two_star_pct": 1.6,
+      "two_star_pct": 1.5,
       "three_star_pct": 1.8,
       "four_star_pct": 2.9,
-      "five_star_pct": 83.0,
-      "actionable_review_pct": 84.9
+      "five_star_pct": 83.1,
+      "actionable_review_pct": 84.7
     },
     {
       "industry": "Non-bank Fintech",
-      "review_count": 17429,
-      "avg_rating_from_reviews": 3.7,
-      "positive_pct": 66.9,
+      "review_count": 18143,
+      "avg_rating_from_reviews": 3.72,
+      "positive_pct": 67.4,
       "neutral_pct": 1.4,
-      "negative_pct": 31.7,
-      "one_star_pct": 27.7,
+      "negative_pct": 31.2,
+      "one_star_pct": 27.2,
       "two_star_pct": 3.1,
       "three_star_pct": 3.1,
       "four_star_pct": 4.0,
-      "five_star_pct": 62.1,
-      "actionable_review_pct": 78.1
+      "five_star_pct": 62.7,
+      "actionable_review_pct": 78.2
     }
   ],
   "sentiment_by_industry": [
     {
       "industry": "Conventional Banking Apps",
-      "positive": 14378,
-      "neutral": 397,
-      "negative": 6501
+      "positive": 14951,
+      "neutral": 419,
+      "negative": 6692
     },
     {
       "industry": "Digital Banks",
-      "positive": 20357,
-      "neutral": 202,
-      "negative": 3007
+      "positive": 20974,
+      "neutral": 205,
+      "negative": 3066
     },
     {
       "industry": "Non-bank Fintech",
-      "positive": 11652,
-      "neutral": 249,
-      "negative": 5528
+      "positive": 12220,
+      "neutral": 262,
+      "negative": 5661
     }
   ],
   "topic_summary": [
     {
       "topic": "General",
-      "count": 30386
+      "count": 31486
     },
     {
       "topic": "Transaction",
-      "count": 12031
+      "count": 12511
     },
     {
       "topic": "UI / UX",
-      "count": 6343
+      "count": 6511
     },
     {
       "topic": "Login & KYC",
-      "count": 4395
+      "count": 4509
     },
     {
       "topic": "Performance & Bugs",
-      "count": 3381
+      "count": 3489
     },
     {
       "topic": "Fees & Limits",
-      "count": 1881
+      "count": 1967
     },
     {
       "topic": "Promo & Benefits",
-      "count": 1691
+      "count": 1747
     },
     {
       "topic": "Security",
-      "count": 1372
+      "count": 1421
     },
     {
       "topic": "Customer Service",
-      "count": 791
+      "count": 809
     }
   ],
   "top_negative_issues": [
     {
       "issue": "General",
-      "count": 8478
+      "count": 8722
     },
     {
       "issue": "Login / OTP",
-      "count": 1489
+      "count": 1519
     },
     {
       "issue": "Balance / refund",
-      "count": 1086
+      "count": 1108
     },
     {
       "issue": "App error / crash",
-      "count": 1028
+      "count": 1046
     },
     {
       "issue": "Top up / payment",
-      "count": 973
+      "count": 991
     },
     {
       "issue": "Fees / charges",
-      "count": 638
+      "count": 666
     },
     {
       "issue": "Customer service response",
-      "count": 603
+      "count": 614
     },
     {
       "issue": "Verification / KYC",
-      "count": 503
+      "count": 512
     },
     {
       "issue": "Transfer failure / pending",
-      "count": 129
+      "count": 131
     },
     {
       "issue": "Promo / cashback",
-      "count": 109
+      "count": 110
     }
   ],
   "trend": [
     {
       "month": "2018-09",
-      "review_count": 6,
+      "review_count": 7,
       "avg_rating": 5.0,
       "negative_count": 0
     },
     {
       "month": "2018-10",
-      "review_count": 13,
+      "review_count": 15,
       "avg_rating": 5.0,
       "negative_count": 0
     },
     {
       "month": "2018-11",
-      "review_count": 36,
+      "review_count": 39,
       "avg_rating": 5.0,
       "negative_count": 0
     },
     {
       "month": "2018-12",
-      "review_count": 24,
+      "review_count": 26,
       "avg_rating": 5.0,
       "negative_count": 0
     },
     {
       "month": "2019-01",
-      "review_count": 23,
+      "review_count": 25,
       "avg_rating": 5.0,
       "negative_count": 0
     },
     {
       "month": "2019-02",
-      "review_count": 51,
+      "review_count": 59,
       "avg_rating": 5.0,
       "negative_count": 0
     },
     {
       "month": "2019-03",
-      "review_count": 65,
+      "review_count": 81,
       "avg_rating": 5.0,
       "negative_count": 0
     },
     {
       "month": "2019-04",
-      "review_count": 69,
+      "review_count": 75,
       "avg_rating": 5.0,
       "negative_count": 0
     },
     {
       "month": "2019-05",
-      "review_count": 50,
+      "review_count": 59,
       "avg_rating": 5.0,
       "negative_count": 0
     },
     {
       "month": "2019-06",
-      "review_count": 44,
+      "review_count": 49,
       "avg_rating": 5.0,
       "negative_count": 0
     },
     {
       "month": "2019-07",
-      "review_count": 51,
+      "review_count": 60,
       "avg_rating": 5.0,
       "negative_count": 0
     },
     {
       "month": "2019-08",
-      "review_count": 40,
+      "review_count": 44,
       "avg_rating": 5.0,
       "negative_count": 0
     },
     {
       "month": "2019-09",
-      "review_count": 58,
-      "avg_rating": 5.0,
-      "negative_count": 0
-    },
-    {
-      "month": "2019-10",
-      "review_count": 57,
-      "avg_rating": 5.0,
-      "negative_count": 0
-    },
-    {
-      "month": "2019-11",
-      "review_count": 110,
-      "avg_rating": 5.0,
-      "negative_count": 0
-    },
-    {
-      "month": "2019-12",
-      "review_count": 40,
-      "avg_rating": 5.0,
-      "negative_count": 0
-    },
-    {
-      "month": "2020-01",
-      "review_count": 41,
-      "avg_rating": 5.0,
-      "negative_count": 0
-    },
-    {
-      "month": "2020-02",
-      "review_count": 37,
-      "avg_rating": 5.0,
-      "negative_count": 0
-    },
-    {
-      "month": "2020-03",
-      "review_count": 42,
-      "avg_rating": 5.0,
-      "negative_count": 0
-    },
-    {
-      "month": "2020-04",
-      "review_count": 41,
-      "avg_rating": 4.9,
-      "negative_count": 1
-    },
-    {
-      "month": "2020-05",
-      "review_count": 105,
-      "avg_rating": 4.96,
-      "negative_count": 1
-    },
-    {
-      "month": "2020-06",
-      "review_count": 79,
-      "avg_rating": 5.0,
-      "negative_count": 0
-    },
-    {
-      "month": "2020-07",
-      "review_count": 140,
-      "avg_rating": 5.0,
-      "negative_count": 0
-    },
-    {
-      "month": "2020-08",
-      "review_count": 80,
-      "avg_rating": 5.0,
-      "negative_count": 0
-    },
-    {
-      "month": "2020-09",
-      "review_count": 123,
-      "avg_rating": 5.0,
-      "negative_count": 0
-    },
-    {
-      "month": "2020-10",
-      "review_count": 63,
-      "avg_rating": 5.0,
-      "negative_count": 0
-    },
-    {
-      "month": "2020-11",
-      "review_count": 131,
-      "avg_rating": 5.0,
-      "negative_count": 0
-    },
-    {
-      "month": "2020-12",
-      "review_count": 78,
-      "avg_rating": 5.0,
-      "negative_count": 0
-    },
-    {
-      "month": "2021-01",
-      "review_count": 20,
-      "avg_rating": 5.0,
-      "negative_count": 0
-    },
-    {
-      "month": "2021-02",
-      "review_count": 68,
-      "avg_rating": 4.97,
-      "negative_count": 0
-    },
-    {
-      "month": "2021-03",
       "review_count": 62,
       "avg_rating": 5.0,
       "negative_count": 0
     },
     {
+      "month": "2019-10",
+      "review_count": 73,
+      "avg_rating": 5.0,
+      "negative_count": 0
+    },
+    {
+      "month": "2019-11",
+      "review_count": 122,
+      "avg_rating": 5.0,
+      "negative_count": 0
+    },
+    {
+      "month": "2019-12",
+      "review_count": 44,
+      "avg_rating": 5.0,
+      "negative_count": 0
+    },
+    {
+      "month": "2020-01",
+      "review_count": 47,
+      "avg_rating": 5.0,
+      "negative_count": 0
+    },
+    {
+      "month": "2020-02",
+      "review_count": 44,
+      "avg_rating": 5.0,
+      "negative_count": 0
+    },
+    {
+      "month": "2020-03",
+      "review_count": 47,
+      "avg_rating": 5.0,
+      "negative_count": 0
+    },
+    {
+      "month": "2020-04",
+      "review_count": 46,
+      "avg_rating": 4.91,
+      "negative_count": 1
+    },
+    {
+      "month": "2020-05",
+      "review_count": 119,
+      "avg_rating": 4.97,
+      "negative_count": 1
+    },
+    {
+      "month": "2020-06",
+      "review_count": 88,
+      "avg_rating": 5.0,
+      "negative_count": 0
+    },
+    {
+      "month": "2020-07",
+      "review_count": 150,
+      "avg_rating": 5.0,
+      "negative_count": 0
+    },
+    {
+      "month": "2020-08",
+      "review_count": 84,
+      "avg_rating": 5.0,
+      "negative_count": 0
+    },
+    {
+      "month": "2020-09",
+      "review_count": 142,
+      "avg_rating": 5.0,
+      "negative_count": 0
+    },
+    {
+      "month": "2020-10",
+      "review_count": 72,
+      "avg_rating": 5.0,
+      "negative_count": 0
+    },
+    {
+      "month": "2020-11",
+      "review_count": 141,
+      "avg_rating": 5.0,
+      "negative_count": 0
+    },
+    {
+      "month": "2020-12",
+      "review_count": 84,
+      "avg_rating": 5.0,
+      "negative_count": 0
+    },
+    {
+      "month": "2021-01",
+      "review_count": 21,
+      "avg_rating": 5.0,
+      "negative_count": 0
+    },
+    {
+      "month": "2021-02",
+      "review_count": 75,
+      "avg_rating": 4.97,
+      "negative_count": 0
+    },
+    {
+      "month": "2021-03",
+      "review_count": 67,
+      "avg_rating": 5.0,
+      "negative_count": 0
+    },
+    {
       "month": "2021-04",
-      "review_count": 60,
+      "review_count": 61,
       "avg_rating": 4.9,
       "negative_count": 1
     },
     {
       "month": "2021-05",
-      "review_count": 53,
+      "review_count": 58,
       "avg_rating": 5.0,
       "negative_count": 0
     },
     {
       "month": "2021-06",
-      "review_count": 54,
+      "review_count": 55,
       "avg_rating": 4.96,
       "negative_count": 1
     },
     {
       "month": "2021-07",
-      "review_count": 69,
+      "review_count": 70,
       "avg_rating": 5.0,
       "negative_count": 0
     },
     {
       "month": "2021-08",
-      "review_count": 207,
+      "review_count": 209,
       "avg_rating": 5.0,
       "negative_count": 0
     },
     {
       "month": "2021-09",
-      "review_count": 184,
+      "review_count": 185,
       "avg_rating": 4.98,
       "negative_count": 1
     },
     {
       "month": "2021-10",
-      "review_count": 181,
+      "review_count": 183,
       "avg_rating": 5.0,
       "negative_count": 0
     },
@@ -1024,31 +1024,31 @@
     },
     {
       "month": "2021-12",
-      "review_count": 76,
+      "review_count": 77,
       "avg_rating": 5.0,
       "negative_count": 0
     },
     {
       "month": "2022-01",
-      "review_count": 79,
+      "review_count": 80,
       "avg_rating": 5.0,
       "negative_count": 0
     },
     {
       "month": "2022-02",
-      "review_count": 113,
+      "review_count": 116,
       "avg_rating": 5.0,
       "negative_count": 0
     },
     {
       "month": "2022-03",
-      "review_count": 146,
+      "review_count": 150,
       "avg_rating": 5.0,
       "negative_count": 0
     },
     {
       "month": "2022-04",
-      "review_count": 94,
+      "review_count": 98,
       "avg_rating": 5.0,
       "negative_count": 0
     },
@@ -1066,32 +1066,32 @@
     },
     {
       "month": "2022-07",
-      "review_count": 155,
+      "review_count": 158,
       "avg_rating": 4.98,
       "negative_count": 1
     },
     {
       "month": "2022-08",
-      "review_count": 222,
+      "review_count": 228,
       "avg_rating": 4.98,
       "negative_count": 1
     },
     {
       "month": "2022-09",
-      "review_count": 153,
+      "review_count": 154,
       "avg_rating": 4.93,
       "negative_count": 3
     },
     {
       "month": "2022-10",
-      "review_count": 129,
+      "review_count": 130,
       "avg_rating": 4.91,
       "negative_count": 3
     },
     {
       "month": "2022-11",
-      "review_count": 119,
-      "avg_rating": 4.87,
+      "review_count": 120,
+      "avg_rating": 4.88,
       "negative_count": 4
     },
     {
@@ -1102,19 +1102,19 @@
     },
     {
       "month": "2023-01",
-      "review_count": 37,
-      "avg_rating": 4.46,
+      "review_count": 39,
+      "avg_rating": 4.49,
       "negative_count": 5
     },
     {
       "month": "2023-02",
-      "review_count": 70,
-      "avg_rating": 4.8,
+      "review_count": 73,
+      "avg_rating": 4.81,
       "negative_count": 3
     },
     {
       "month": "2023-03",
-      "review_count": 70,
+      "review_count": 72,
       "avg_rating": 4.83,
       "negative_count": 3
     },
@@ -1132,7 +1132,7 @@
     },
     {
       "month": "2023-06",
-      "review_count": 63,
+      "review_count": 65,
       "avg_rating": 4.89,
       "negative_count": 2
     },
@@ -1144,14 +1144,14 @@
     },
     {
       "month": "2023-08",
-      "review_count": 75,
-      "avg_rating": 4.81,
+      "review_count": 78,
+      "avg_rating": 4.82,
       "negative_count": 3
     },
     {
       "month": "2023-09",
-      "review_count": 32,
-      "avg_rating": 4.75,
+      "review_count": 34,
+      "avg_rating": 4.76,
       "negative_count": 2
     },
     {
@@ -1174,26 +1174,26 @@
     },
     {
       "month": "2024-01",
-      "review_count": 47,
+      "review_count": 51,
       "avg_rating": 4.94,
       "negative_count": 1
     },
     {
       "month": "2024-02",
-      "review_count": 66,
+      "review_count": 67,
       "avg_rating": 4.73,
       "negative_count": 4
     },
     {
       "month": "2024-03",
-      "review_count": 49,
-      "avg_rating": 4.33,
+      "review_count": 50,
+      "avg_rating": 4.34,
       "negative_count": 8
     },
     {
       "month": "2024-04",
-      "review_count": 39,
-      "avg_rating": 4.69,
+      "review_count": 41,
+      "avg_rating": 4.71,
       "negative_count": 3
     },
     {
@@ -1204,13 +1204,13 @@
     },
     {
       "month": "2024-06",
-      "review_count": 93,
+      "review_count": 94,
       "avg_rating": 4.91,
       "negative_count": 2
     },
     {
       "month": "2024-07",
-      "review_count": 65,
+      "review_count": 66,
       "avg_rating": 4.85,
       "negative_count": 2
     },
@@ -1228,7 +1228,7 @@
     },
     {
       "month": "2024-10",
-      "review_count": 94,
+      "review_count": 96,
       "avg_rating": 4.83,
       "negative_count": 4
     },
@@ -1240,19 +1240,19 @@
     },
     {
       "month": "2024-12",
-      "review_count": 75,
+      "review_count": 76,
       "avg_rating": 4.95,
       "negative_count": 1
     },
     {
       "month": "2025-01",
-      "review_count": 68,
+      "review_count": 69,
       "avg_rating": 4.62,
       "negative_count": 6
     },
     {
       "month": "2025-02",
-      "review_count": 76,
+      "review_count": 77,
       "avg_rating": 4.74,
       "negative_count": 5
     },
@@ -1264,14 +1264,14 @@
     },
     {
       "month": "2025-04",
-      "review_count": 78,
-      "avg_rating": 4.4,
+      "review_count": 79,
+      "avg_rating": 4.41,
       "negative_count": 12
     },
     {
       "month": "2025-05",
-      "review_count": 57,
-      "avg_rating": 4.51,
+      "review_count": 58,
+      "avg_rating": 4.52,
       "negative_count": 8
     },
     {
@@ -1282,7 +1282,7 @@
     },
     {
       "month": "2025-07",
-      "review_count": 140,
+      "review_count": 141,
       "avg_rating": 4.68,
       "negative_count": 10
     },
@@ -1300,20 +1300,20 @@
     },
     {
       "month": "2025-10",
-      "review_count": 138,
+      "review_count": 139,
       "avg_rating": 4.51,
       "negative_count": 17
     },
     {
       "month": "2025-11",
-      "review_count": 106,
+      "review_count": 107,
       "avg_rating": 4.25,
       "negative_count": 20
     },
     {
       "month": "2025-12",
-      "review_count": 76,
-      "avg_rating": 3.95,
+      "review_count": 77,
+      "avg_rating": 3.96,
       "negative_count": 20
     },
     {
@@ -1330,8 +1330,8 @@
     },
     {
       "month": "2026-03",
-      "review_count": 171,
-      "avg_rating": 4.19,
+      "review_count": 179,
+      "avg_rating": 4.22,
       "negative_count": 35
     },
     {
@@ -1348,39 +1348,39 @@
     },
     {
       "month": "2026-06",
-      "review_count": 706,
-      "avg_rating": 4.59,
+      "review_count": 720,
+      "avg_rating": 4.6,
       "negative_count": 73
     },
     {
       "month": "2026-07",
-      "review_count": 1807,
-      "avg_rating": 4.52,
+      "review_count": 1811,
+      "avg_rating": 4.53,
       "negative_count": 215
     },
     {
       "month": "2026-08",
-      "review_count": 2826,
+      "review_count": 2828,
       "avg_rating": 4.11,
       "negative_count": 616
     },
     {
       "month": "2026-09",
-      "review_count": 8904,
+      "review_count": 8910,
       "avg_rating": 3.79,
-      "negative_count": 2645
+      "negative_count": 2644
     },
     {
       "month": "2026-10",
-      "review_count": 11104,
-      "avg_rating": 3.71,
+      "review_count": 11121,
+      "avg_rating": 3.72,
       "negative_count": 3504
     },
     {
       "month": "2026-11",
-      "review_count": 28374,
-      "avg_rating": 3.89,
-      "negative_count": 7544
+      "review_count": 30209,
+      "avg_rating": 3.9,
+      "negative_count": 7928
     }
   ]
 }
